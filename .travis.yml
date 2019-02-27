@@ -1,0 +1,20 @@
+language: ruby
+cache:
+  - bundler
+  - npm
+rvm:
+  - 2.5.1
+install:
+  - gem install bundler
+  - npm i npm@latest -g
+  - bundle install
+  - npm install
+script: npm run build:pwa:optim
+deploy:
+  provider: pages
+  skip-cleanup: true
+  local-dir: _site/
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: master
