@@ -55,6 +55,7 @@
     "webpack-pwa-manifest": "^4.0.0"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "popmotion": "^8.6.3"
   }
 }
