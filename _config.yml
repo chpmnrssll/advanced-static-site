@@ -3,12 +3,12 @@
 # This config file contains the config of your webpages
 # You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
 
-title: Jekyll-Webpack Boilerplate
+title: Advanced Static Site
 email: chpmnrssll@gmail.com
-description: An extremely optimized Jekyll-Webpack website
+description: Advanced static site made with Jekyll and Webpack
 
 # baseurl must match publicPath in webpack.prod.js
-baseurl: /jekyll-webpack # the subpath of your site, e.g. /blog
+baseurl: /advanced-static-site # the subpath of your site, e.g. /blog
 url: https://chpmnrssll.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 theme_color: '#0d5173'

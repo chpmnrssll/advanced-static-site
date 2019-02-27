@@ -12,7 +12,7 @@ module.exports = Merge(ProdConfig, {
       description: 'A super website made with love',
       orientation: 'portrait',
       display: 'standalone',
-      start_url: '/jekyll-webpack/',  // start_url must match publicPath in webpack.prod.js
+      start_url: '/advanced-static-site/',  // start_url must match publicPath in webpack.prod.js
       theme_color: '#c0ffee',
       background_color: '#ffffff',
       icons: [
