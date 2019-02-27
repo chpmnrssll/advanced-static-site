@@ -31,7 +31,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['env'],
+            presets: ['@babel/preset-env'],
           },
         },
       },
@@ -40,14 +40,15 @@ module.exports = {
         use: [
           MiniCSSExtractPlugin.loader,
           { loader: 'css-loader', options: { importLoaders: 2, sourceMap: true } },
-          { loader: 'postcss-loader',
+          {
+            loader: 'postcss-loader',
             options: {
               config: {
                 path: 'config/postcss.config.js',
-              }
-            }
+              },
+            },
           },
-          { loader: 'sass-loader', options: { sourceMap: true } }
+          { loader: 'sass-loader', options: { sourceMap: true } },
         ],
       },
       {
