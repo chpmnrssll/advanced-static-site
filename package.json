@@ -57,6 +57,7 @@
   "dependencies": {
     "normalize.css": "^8.0.1",
     "page": "^1.11.4",
-    "popmotion": "^8.6.3"
+    "popmotion": "^8.6.3",
+    "text-split": "0.0.1"
   }
 }
