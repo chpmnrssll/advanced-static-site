@@ -48,7 +48,7 @@ a {
   font-size: $font-sm;
 
   &:hover {
-    color: $primary-color;
+    color: lighten($primary-color, 20%);
   }
 }
 
