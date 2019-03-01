@@ -1,9 +1,9 @@
 home:
   header:
-    headline: Your beautiful headline
+    headline: 'Russell&nbsp;Chapman'
     call_to_action:
       title: Check out our blog
       link: /blog
 
 footer:
-  love: 'Made with <span class="accent">❤</span>'
+  tagline: 'Made with'

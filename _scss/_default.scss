@@ -1,14 +1,14 @@
 // Variables
 
-$container-width: 1200px;
+// $container-width: 1200px;
 $container-padding: 30px;
 
-$primary-color: #C8385A;
-$text-color: #333;
-$link-color: #595959;
+$primary-color: #208cdf;
+$text-color: #eee;
+$link-color: #68abde;
 
-$font-xl: 58px;
-$font-md: 22px;
+$font-xl: 64px;
+$font-md: 24px;
 $font-sm: 18px;
 $font-xs: 16px;
 
@@ -20,7 +20,7 @@ $primary-font-family: $system-font-family;
 // Mixin
 
 @mixin container($padding) {
-  max-width: $container-width;
+  // max-width: $container-width;
   padding: 0 $padding;
   margin: auto;
 }
@@ -34,7 +34,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 main {
@@ -90,7 +90,7 @@ a {
   margin-top: 10px;
 
   padding-bottom: 10px;
-  border-bottom: 1px solid lighten($link-color, 40%);
+  // border-bottom: 1px solid lighten($link-color, 40%);
 
   &__branding {
       display: flex;
@@ -146,13 +146,11 @@ a {
 
   &__headline {
     font-size: $font-xl;
+    span {
+      display: inline-block;
+      text-shadow: 2px 3px 4px #000000;
+    }
   }
-
-  &__logo-img {
-    margin: 0 .5rem;
-    width: 20vw;
-  }
-
 }
 
 
@@ -247,13 +245,19 @@ a {
 
 
 .footer {
-  border-top: 1px solid lighten($link-color, 40%);
+  // border-top: 1px solid lighten($link-color, 40%);
   padding: 30px 0;
   margin-top: 80px;
 
   &__container {
     @include container($container-padding);
     color: $link-color;
+  }
+
+  &__logo-img {
+    margin: 0 1rem;
+    width: 128px;
+    filter: drop-shadow(2px 3px 4px #000000);
   }
 
 }
