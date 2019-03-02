@@ -152,6 +152,7 @@ a {
 
   &__headline {
     color: saturate(lighten(complement($primary-color), 15%), 25%);
+    font-display: swap;
     font-family: 'Ranchers';
     font-size: $font-xl;
     letter-spacing: 4px;
