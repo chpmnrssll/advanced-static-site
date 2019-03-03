@@ -1,5 +1,4 @@
 // Variables
-
 // $container-width: 1200px;
 $container-padding: 30px;
 
@@ -12,35 +11,31 @@ $font-md: 24px;
 $font-sm: 18px;
 $font-xs: 16px;
 
-$system-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+$system-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 $primary-font-family: $system-font-family;
 
 @font-face {
   font-family: 'Ranchers';
   font-style: normal;
   font-weight: 400;
-  src: local('Ranchers'), local('Ranchers-Regular'), url(https://fonts.gstatic.com/s/ranchers/v6/zrfm0H3Lx-P2Xvs2ArDfBi8.woff2) format('woff2');
+  src: local('Ranchers'), local('Ranchers-Regular'), url("https://fonts.gstatic.com/s/ranchers/v6/zrfm0H3Lx-P2Xvs2ArDfBi8.woff2") format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 // Mixin
-
 @mixin container($padding) {
-  // max-width: $container-width;
-  padding: 0 $padding;
   margin: auto;
+  padding: 0 $padding;
 }
 
-
 // Global
-
 body {
-  font-family: $primary-font-family;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   color: $text-color;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
-  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  font-family: $primary-font-family;
+  min-height: 100vh;
 }
 
 main {
@@ -50,23 +45,21 @@ main {
 
 a {
   color: $link-color;
-  text-decoration: none;
   font-size: $font-sm;
+  text-decoration: none;
 
   &:hover {
     color: lighten($primary-color, 20%);
   }
 }
 
-
 // Shared
-
 .button {
-  display: inline-block;
   border: 1px solid lighten($link-color, 40%);
   border-radius: 50px;
-  padding: 15px 30px;
+  display: inline-block;
   font-weight: 300;
+  padding: 15px 30px;
 
   &:hover {
     background-color: lighten($link-color, 49%);
@@ -78,36 +71,36 @@ a {
   display: inline-block;
 }
 
-
 // Components & pages
-
 .navigation {
-
   @include container($container-padding);
-  flex: 1;
-  width: 100%;
-  padding: 0;
-
+  align-items: center;
   display: flex;
+  flex: 1;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-
   margin-top: 10px;
-
+  padding: 0;
   padding-bottom: 10px;
-  // border-bottom: 1px solid lighten($link-color, 40%);
+  width: 100%;
 
   &__branding {
-      display: flex;
-      align-items: center;
-      padding-left: $container-padding;
+    align-items: center;
+    display: flex;
+    padding-left: $container-padding;
   }
 
   &__title {
-    color: $text-color !important;
+    color: $text-color;
+    // color: saturate(lighten(complement($primary-color), 15%), 25%);
+    font-display: swap;
+    font-family: 'Ranchers';
     font-size: $font-md;
     font-weight: 500;
+
+    span {
+      text-shadow: 2px 3px 6px #000000;
+    }
   }
 
   &__logo {
@@ -126,25 +119,21 @@ a {
   }
 
   &__link {
-    margin-left: 30px;
     font-size: $font-xs;
+    margin-left: 30px;
 
     &--active {
       color: $primary-color;
     }
   }
-
 }
 
 .home {
-
   @include container($container-padding);
-
-  height: 65vh;
   display: flex;
   flex-direction: column;
+  height: 65vh;
   justify-content: center;
-
 
   &__headline-container {
     padding: 0 $container-padding;
@@ -156,23 +145,27 @@ a {
     font-family: 'Ranchers';
     font-size: $font-xl;
     letter-spacing: 4px;
+
     span {
-      display: inline-block;
       text-shadow: 2px 3px 4px #000000, 3px 4px 16px #000000;
     }
   }
 }
 
+.animated-headline {
+  span {
+    display: inline-block;
+    min-width: .5rem;
+  }
+}
 
 .page {
-
   @include container($container-padding);
   margin-top: 60px;
 
   &__header {
     padding: 0 $container-padding;
   }
-
 
   &__content {
     padding: 0 $container-padding;
@@ -181,17 +174,14 @@ a {
 
 .blog {
   @include container($container-padding);
-  margin-top: 60px;
-
 
   &__post {
-
-    padding: 0 $container-padding;
+    border-bottom: 1px solid lighten($link-color, 40%);
     display: flex;
     flex-direction: row;
+    padding: 0 $container-padding;
     padding-top: 50px;
     padding-bottom: 50px;
-    border-bottom: 1px solid lighten($link-color, 40%);
 
     @media (max-width: 900px) {
       flex-direction: column;
@@ -207,15 +197,17 @@ a {
   }
 
   &__date {
-    padding-top: 15px;
-    width: 30%;
     color: $link-color;
+    width: 30%;
+
+    p {
+      margin: 0;
+    }
   }
 
   &__content {
     width: 100%;
   }
-
 
   &__link {
     &:hover {
@@ -226,6 +218,7 @@ a {
   &__title {
     color: $text-color;
     font-size: $font-md;
+    margin-bottom: 0;
     padding-top: 0;
   }
 
@@ -234,30 +227,26 @@ a {
   }
 }
 
-
 .post {
-
   @include container($container-padding);
-  margin-top: 80px;
-
 
   &__container {
     padding: 0 $container-padding;
   }
 
   &__meta {
-    padding-bottom: 40px;
-    margin-bottom: 40px;
-    border-bottom: 1px solid lighten($link-color, 40%);
+    margin-bottom: 1rem;
+    margin-top: 0;
   }
 
+  &__title {
+    margin: 0;
+  }
 }
 
-
 .footer {
-  // border-top: 1px solid lighten($link-color, 40%);
-  padding: 30px 0;
   margin-top: 80px;
+  padding: 30px 0;
 
   &__container {
     @include container($container-padding);
@@ -265,9 +254,8 @@ a {
   }
 
   &__logo-img {
+    filter: drop-shadow(2px 3px 4px #000000);
     margin: 0 1rem;
     width: 128px;
-    filter: drop-shadow(2px 3px 4px #000000);
   }
-
 }
