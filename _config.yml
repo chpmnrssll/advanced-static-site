@@ -3,7 +3,7 @@
 # This config file contains the config of your webpages
 # You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
 
-title: Advanced Static Site
+title: Russell Chapman
 email: chpmnrssll@gmail.com
 description: Advanced static site made with Jekyll and Webpack
 
@@ -15,7 +15,7 @@ theme_color: '#0d5173'
 twitter_username: chpmnrssll
 github_username:  chpmnrssll
 author: Russell Chapman
-logo: assets/images/original-logo.png
+logo: assets/images/pixelavatar.png
 twitter:
   username: chpmnrssll
 social:
