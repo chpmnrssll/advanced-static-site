@@ -25,11 +25,17 @@ export default function () {
   const letterStagger = 24;
 
   if (headlines) {
-    headlines.forEach((headline, index) => {
+    headlines.forEach((headline, headlineIndex) => {
       if (headline) {
-        const letters = splitter(headline);
+        const letters = splitter(headline, {
+          delimeter: 'word',
+          each: (node) => {
+            node.getRootNode().style.marginRight = '8px';
+          },
+        });
+        // const letters = splitter(headline);
         const elementStylers = Array.from(letters).map(styler);
-        const preCalc = index * elementStagger;
+        const preCalc = headlineIndex * elementStagger;
 
         elementStylers.forEach((thisStyler, i) => {
           const stagger = (i * letterStagger) + preCalc;

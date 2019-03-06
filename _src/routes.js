@@ -8,7 +8,7 @@ import { fitTextElements, fitTextFatElements } from './featured';
 page('*', (context) => {
   // Initial page load
   if (context.init) {
-    fitTextElements(24, 128);
+    fitTextElements(32, 128);
     fitTextFatElements(64, 128, 0.7);
     animateHeadlines();
     animateFooter();

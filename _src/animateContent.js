@@ -12,11 +12,13 @@ function animateContentIn(newContent) {
     from: {
       opacity: 0,
       rotateX: 30,
+      scaleY: 0,
       z: -1024,
     },
     to: {
       opacity: 1,
       rotateX: 0,
+      scaleY: 1,
       z: 0,
     },
     ease: easing.easeInOut,
@@ -36,11 +38,13 @@ function animateContentOut() {
       from: {
         opacity: 1,
         rotateX: 0,
+        scaleY: 1,
         z: 0,
       },
       to: {
         opacity: 0,
         rotateX: 30,
+        scaleY: 0,
         z: -1024,
       },
       ease: easing.easeInOut,
@@ -49,7 +53,10 @@ function animateContentOut() {
 
     elementAnimation.start({
       update: v => elementStyler.set(v),
-      complete: () => resolve(),
+      complete: () => {
+        window.scroll(0, 0);
+        resolve();
+      },
     });
   });
 }
