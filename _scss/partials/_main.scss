@@ -3,7 +3,7 @@
 html {
   /// https://aykevl.nl/2014/09/fix-jumping-scrollbar
   // increase margin-right by negative scrollbar width
-  margin-right: calc(-calc(100vw - 100%) + 1rem);
+  margin-right: calc(0 - calc(100vw - 100%) + 1rem);
 }
 
 body {
