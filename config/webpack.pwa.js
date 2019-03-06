@@ -1,23 +1,23 @@
 /* eslint-disable import/no-extraneous-dependencies */
-const Merge = require('webpack-merge');
-const ProdConfig = require('./webpack.prod.js');
 const path = require('path');
+const Merge = require('webpack-merge');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
+const ProdConfig = require('./webpack.prod.js');
 
 module.exports = Merge(ProdConfig, {
   plugins: [
     new WebpackPwaManifest({
-      name: 'Super-website',
+      name: 'Advanced Static Site',
       short_name: 'Super PWA',
-      description: 'A super website made with love',
+      description: 'Russell Chapmans\' Portfolio',
       orientation: 'portrait',
       display: 'standalone',
-      start_url: '/advanced-static-site/',  // start_url must match publicPath in webpack.prod.js
-      theme_color: '#c0ffee',
+      start_url: '/advanced-static-site/', // start_url must match publicPath in webpack.prod.js
+      theme_color: '#537895',
       background_color: '#ffffff',
       icons: [
         {
-          src: path.resolve('icon.png'),
+          src: path.resolve('original-icon.png'),
           sizes: [96, 128, 192, 256, 384, 512],
         },
       ],
