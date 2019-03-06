@@ -1,0 +1,13 @@
+---
+layout: post
+image: /assets/images/backgrounds/roadBlueSky.svg
+header-image: /assets/images/backgrounds/roadBlueSky.svg
+title: Development History
+subtitle: Old School
+date: 2018-10-28T00:00:00.000Z
+tags: Featured Programming Professional Portfolio
+category: [ About ]
+---
+{% for work in site.data.history %}
+  {% include work-item.html data=work%}
+{% endfor %}

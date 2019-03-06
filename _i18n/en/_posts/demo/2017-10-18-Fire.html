@@ -1,0 +1,37 @@
+---
+layout: post
+image: /assets/images/about/Fire.png
+title: Fire
+subtitle: Demo Effect
+date: 2017-10-18T02:00:00.000Z
+tags: HTML5 Javascript Canvas Demo Effect
+category: [ Demo ]
+comments: true
+---
+<p>
+  <canvas class="canvasDemo mid" src="{{ site.baseurl }}/assets/javascript/canvasDemo/fire.js"></canvas>
+  This is an HTML5 Canvas version of the 2D fire effect used in many old-school
+  coding demos. Normally it's done using an 8-bit indexed color graphics mode,
+  but I chose to do it a little differently here using a 32-bit color canvas.
+  The Effect looks pretty much the same.
+</p>
+<p>
+  There's a few Canvas specific optimization techniques in the code. Double
+  buffering to smooth out the rendering, pre-calculating the y offset values of
+  each line, and manipulating the pixels directly in the main loop rather than
+  calling a putpixel function all help to make it run as fast and smooth as
+  possible (Well over 100fps on my dual-core laptop).
+</p>
+<p>
+  Adapted from original post created on <time>2012-11-04</time>.
+</p>
+<pre class="highlight">
+	//Get context, precalc some variables, and create screen buffer
+	//Precalc y*width values for each horizontal line
+	//Precalc random turbulence values
+	//Fill bottom line of buffer with random fire colors
+	//Loop through buffer averaging pixels left, right, and below current
+			//Average pixels, add turbulence, & write to buffer
+	//Move turbulence index a random amount each frame
+	//Flip buffer to canvas
+</pre>

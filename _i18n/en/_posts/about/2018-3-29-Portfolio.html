@@ -1,0 +1,13 @@
+---
+layout: post
+image: /assets/images/backgrounds/filesOnAShelf.svg
+header-image: /assets/images/backgrounds/filesOnAShelf.svg
+title: Development Portfolio
+subtitle: Professional Experience Points
+date: 2018-3-29T00:00:00.000Z
+tags: Featured Programming Professional Portfolio
+category: [ About ]
+---
+{% for work in site.data.portfolio %}
+  {% include work-item.html data=work%}
+{% endfor %}
