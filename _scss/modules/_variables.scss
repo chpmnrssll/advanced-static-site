@@ -1,0 +1,58 @@
+// Variables
+// $container-width: 1200px;
+$container-padding: 30px;
+
+$font-xl: 96px;
+$font-md: 24px;
+$font-sm: 18px;
+$font-xs: 16px;
+
+$system-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$primary-font-family: $system-font-family;
+
+// $primary-color: #208cdf;
+$primary-color-hue: 200;
+$primary-color-saturation: 70%;
+$primary-color-lightness: 50%;
+$primary-color: hsl($primary-color-hue, $primary-color-saturation, $primary-color-lightness);
+$secondary-color-hue: 20;
+$secondary-color-saturation: 60%;
+$secondary-color-lightness: 40%;
+$secondary-color: hsl($secondary-color-hue, $secondary-color-saturation, $secondary-color-lightness);
+
+$text-color: #eee;
+$link-color: #68abde;
+
+:root {
+  --text-color: #eee;
+  --link-color: #68abde;
+
+  --animation-speed: 250ms;
+  --nav-width: 10rem;
+
+  // --primary-color: #208cdf;
+  --primary-color-hue: 200;
+  --primary-color-saturation: 70%;
+  --primary-color-lightness: 50%;
+  --primary-color: hsl(var(--primary-color-hue), var(--primary-color-saturation), var(--primary-color-lightness));
+  --primary-color-dark: hsl(var(--primary-color-hue), calc(var(--primary-color-saturation) + 10%), calc(var(--primary-color-lightness) - 25%));
+  --primary-color-darker: hsl(var(--primary-color-hue), calc(var(--primary-color-saturation) + 20%), calc(var(--primary-color-lightness) - 30%));
+  --primary-color-darkest: hsl(var(--primary-color-hue), calc(var(--primary-color-saturation) + 30%), calc(var(--primary-color-lightness) - 40%));
+  --primary-color-light: hsl(var(--primary-color-hue), calc(var(--primary-color-saturation) - 5%), calc(var(--primary-color-lightness) + 10%));
+  --primary-color-lighter: hsl(var(--primary-color-hue), calc(var(--primary-color-saturation) - 10%), calc(var(--primary-color-lightness) + 35%));
+  --primary-color-lightest: hsl(var(--primary-color-hue), calc(var(--primary-color-saturation) - 15%), calc(var(--primary-color-lightness) + 48%));
+
+  --secondary-color-hue: 20;
+  --secondary-color-saturation: 60%;
+  --secondary-color-lightness: 40%;
+  --secondary-color: hsl(var(--secondary-color-hue), var(--secondary-color-saturation), var(--secondary-color-lightness));
+  --secondary-color-dark: hsl(var(--secondary-color-hue), calc(var(--secondary-color-saturation) + 10%), calc(var(--secondary-color-lightness) - 25%));
+  --secondary-color-darker: hsl(var(--secondary-color-hue), calc(var(--secondary-color-saturation) + 20%), calc(var(--secondary-color-lightness) - 30%));
+  --secondary-color-darkest: hsl(var(--secondary-color-hue), calc(var(--secondary-color-saturation) + 30%), calc(var(--secondary-color-lightness) - 40%));
+  --secondary-color-light: hsl(var(--secondary-color-hue), calc(var(--secondary-color-saturation) - 5%), calc(var(--secondary-color-lightness) + 20%));
+  --secondary-color-lighter: hsl(var(--secondary-color-hue), calc(var(--secondary-color-saturation) - 10%), calc(var(--secondary-color-lightness) + 30%));
+  --secondary-color-lightest: hsl(var(--secondary-color-hue), calc(var(--secondary-color-saturation) - 15%), calc(var(--secondary-color-lightness) + 45%));
+
+  --color-gradient-start: hsla(var(--primary-color-hue), calc(var(--primary-color-saturation) + 30%), calc(var(--primary-color-lightness) - 40%), .75);
+  --color-gradient-end: rgba(0, 0, 0, 0);
+}

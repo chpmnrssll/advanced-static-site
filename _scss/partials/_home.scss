@@ -1,0 +1,23 @@
+.home {
+  @include container($container-padding);
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  justify-content: center;
+
+  &__headline-container {
+    padding: 0 $container-padding;
+  }
+
+  &__headline {
+    color: saturate(lighten(complement($primary-color), 15%), 25%);
+    font-display: swap;
+    font-family: 'Ranchers';
+    font-size: $font-xl;
+    letter-spacing: 4px;
+
+    span {
+      text-shadow: 2px 3px 4px #000000, 3px 4px 16px #000000;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.gradient-overlay {
+  &::after {
+    background: radial-gradient(circle at center, var(--color-gradient-end), var(--primary-color-darkest));
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: .75;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+  }
+}
+
+.gradient-overlay--alt {
+  @extend .gradient-overlay;
+
+  &::before {
+    background: linear-gradient(180deg, var(--color-gradient-end) 75%, var(--primary-color-dark) 125%);
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+}

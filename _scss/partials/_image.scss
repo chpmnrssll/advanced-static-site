@@ -1,0 +1,45 @@
+.image {
+  // height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  // width: 100%;
+  z-index: -2;
+
+  @at-root #{&}__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @at-root #{&}__thumb {
+    background: var(--primary-color-dark, darken($primary-color, 30%));
+    box-shadow: .25rem .25rem 1rem var(--primary-color-darkest, darken($primary-color, 40%));
+    height: 3rem;
+    margin: .1rem;
+    padding: .1rem;
+    position: relative;
+    width: 3rem;
+  }
+
+  @at-root #{&}__thumb--alt {
+    background: var(--primary-color-lightest, lighten($primary-color, 48%));
+    box-shadow: .25rem .25rem 1rem var(--primary-color-darkest, darken($primary-color, 40%));
+    height: 3rem;
+    margin: .1rem;
+    padding: .1rem;
+    position: relative;
+    width: 3rem;
+  }
+
+  @at-root #{&}__thumb-alt {
+    background: var(--primary-color-lightest, lighten($primary-color, 48%));
+    box-shadow: .25rem .25rem 1rem var(--primary-color-darkest, darken($primary-color, 40%));
+    height: 3rem;
+    margin: .1rem;
+    padding: .1rem;
+    width: 3rem;
+  }
+}

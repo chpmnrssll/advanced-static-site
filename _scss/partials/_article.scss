@@ -1,0 +1,100 @@
+.article {
+  // https://medium.freecodecamp.org/how-to-recreate-mediums-article-layout-with-css-grid-b4608792bad1
+  // @include media-query('laptop-s') { grid-template-columns: 1rem 1rem 1fr 1rem 1rem; }
+
+  display: grid;
+  grid-template-columns: 2rem 1fr 2rem;
+
+  * {
+    // @include media-query('laptop-s') { grid-column: 3; }
+    grid-column: 2;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 1rem;
+  }
+
+  blockquote {
+    background-color: var(--primary-color-darker, darken($primary-color, 30%));
+    border-left: .4vw solid var(--primary-color, $primary-color);
+    box-shadow: .25rem .25rem 1rem var(--primary-color-darkest, darken($primary-color, 40%));
+    margin: 1rem 0;
+    padding: 1rem;
+    text-shadow: 1px 1px 2px var(--primary-color-darkest, darken($primary-color, 40%));
+  }
+
+  cite {
+    display: block;
+  }
+
+  &__image {
+    grid-column: 1 / -1;
+    height: calc(9rem + 9vw);
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+  }
+
+  &__header {
+    grid-column-start: 2;
+    height: calc(9rem + 9vw);
+    position: relative;
+  }
+
+  &__meta {
+    margin-top: 0;
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  .canvasDemo {
+    box-shadow: .25rem .25rem 1rem var(--primary-color-darkest, darken($primary-color, 40%));
+    height: 56.25vw;
+    image-rendering: pixelated;
+  }
+
+  .controls {
+    margin: auto;
+    width: 75%;
+
+    thead {
+      border-bottom: 1px solid var(--secondary-color, $secondary-color);
+      color: var(--primary-color-light, lighten($primary-color, 10%));
+    }
+
+    tbody {
+      color: var(--primary-color-lighter, lighten($primary-color, 35%));
+      font-size: .75rem;
+    }
+
+    tr {
+      &:nth-child(even) {
+        background-color: var(--primary-color-darker, darken($primary-color, 30%));
+      }
+    }
+
+    th {
+      // padding-right: .5rem;
+      // text-align: right;
+      text-align: center;
+      width: 50%;
+    }
+
+    td {
+      // padding-left: .5rem;
+      // text-align: left;
+      text-align: center;
+      width: 50%;
+    }
+  }
+
+}

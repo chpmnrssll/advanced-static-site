@@ -1,0 +1,77 @@
+// Global
+
+html {
+  /// https://aykevl.nl/2014/09/fix-jumping-scrollbar
+  // increase margin-right by negative scrollbar width
+  margin-right: calc(-calc(100vw - 100%) + 1rem);
+}
+
+body {
+  // background: var(--primary-color-dark);
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  color: var(--text-color, $text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  // overflow-x: hidden;
+  // perspective: 50vw;
+  // transform-style: preserve-3d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color-lightest, lighten($primary-color, 48%));
+  text-shadow: 2px 2px 2px var(--primary-color-darkest, darken($primary-color, 40%));
+}
+
+main {
+  flex: 1;
+  min-height: 75vh;
+  perspective: 100vw;
+  width: 100%;
+  // overflow: hidden;
+  // perspective: 50vw;
+  // transform-style: preserve-3d;
+}
+
+a {
+  color: var(--link-color, $link-color);
+  font-size: var(--font-sm, $font-sm);
+  text-decoration: none;
+  // color: var(--primary-color-light);
+  text-shadow: 2px 2px 2px var(--primary-color-darkest, darken($primary-color, 40%));
+
+  &.disabled {
+    color: var(--primary-color-darker, darken($primary-color, 30%));
+    cursor: default;
+    pointer-events: none;
+    text-shadow: 0 0 8px var(--primary-color-darkest, darken($primary-color, 40%)), 2px 2px 2px var(--primary-color-darkest, darken($primary-color, 40%));
+  }
+
+  &:active,
+  &:hover {
+    color: var(--primary-color-lighter, lighten($primary-color, 35%));
+    text-shadow: 0 0 8px var(--primary-color-light, lighten($primary-color, 10%)), 2px 2px 2px var(--primary-color-darkest, darken($primary-color, 40%));
+  }
+}
+
+// Shared
+.button {
+  border: 1px solid var(--primary-color-lightest, lighten($primary-color, 48%));
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 300;
+  padding: 15px 30px;
+
+  &:hover {
+    background-color: var(--primary-color-lightest, lighten($link-color, 48%));
+  }
+}
+
+.content {
+  transform-style: preserve-3d;
+}

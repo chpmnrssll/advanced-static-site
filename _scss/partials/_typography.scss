@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Sarpanch';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sarpanch Regular'), local('Sarpanch-Regular'), url('https://fonts.gstatic.com/s/sarpanch/v3/hESy6Xt4NCpRuk6Pzi2HTos.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Sarpanch Black'), local('Sarpanch-Black'), url('https://fonts.gstatic.com/s/sarpanch/v3/hES16Xt4NCpRuk6PziUEaZ7Y3nA.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url('https://fonts.gstatic.com/s/sharetechmono/v7/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Teko Regular'), local('Teko-Regular'), url('https://fonts.gstatic.com/s/teko/v7/LYjNdG7kmE0gfaN9pQ.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Ranchers';
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local('Ranchers'), local('Ranchers-Regular'), url("https://fonts.gstatic.com/s/ranchers/v6/zrfm0H3Lx-P2Xvs2ArDfBi8.woff2") format('woff2');
+}
+
+:root {
+  // Responsive font-size https://olivermak.es/2017/02/fluid-typography/
+  font-size: calc(.5rem + .5vw);
+  @include media-query('mobile-s') { font-size: calc(.6rem + .6vw); }
+  @include media-query('mobile-m') { font-size: calc(.7rem + .7vw); }
+  @include media-query('mobile-l') { font-size: calc(.8rem + .8vw); }
+  @include media-query('tablet') { font-size: calc(.9rem + .9vw); }
+  @include media-query('laptop-s') { font-size: calc(1rem + 1vw); }
+  @include media-query('laptop-m') { font-size: calc(1.1rem + 1.1vw); }
+  @include media-query('laptop-l') { font-size: calc(1.2rem + 1.2vw); }
+  @include media-query('4k') { font-size: calc(1.3rem + 1.3vw); }
+}
+
+body {
+  font-family: 'Teko';
+  font-family: var(--primary-font-family, $primary-font-family);
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Sarpanch';
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+h3 {
+  font-size: .9rem;
+  line-height: .9rem;
+}
+
+h4 {
+  font-size: .8rem;
+  line-height: .8rem;
+}
+
+h5 {
+  font-size: .7rem;
+  line-height: .7rem;
+}
+
+h6 {
+  font-size: .6rem;
+  line-height: .6rem;
+}
+
+time {
+  font-size: .6rem;
+  line-height: .6rem;
+}
+
+p {
+  font-size: .7rem;
+  line-height: 1rem;
+
+  &::first-letter {
+    font-size: 1rem;
+    margin-left: .25rem;
+  }
+}
+
+blockquote {
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+}
+
+cite {
+  font-size: .75rem;
+  margin-top: .5rem;
+  text-align: right;
+}

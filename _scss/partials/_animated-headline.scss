@@ -1,0 +1,10 @@
+.animated-headline {
+  perspective: 100vw;
+
+  span {
+    transform-origin: bottom center;
+    transform-style: preserve-3d;
+    display: inline-block;
+    min-width: .5rem;
+  }
+}

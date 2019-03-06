@@ -1,0 +1,43 @@
+// Mixins
+
+$breakpoints: (
+  'mobile-s': 320px,
+  'mobile-m': 375px,
+  'mobile-l': 425px,
+  'tablet': 768px,
+  'laptop-s': 1024px,
+  'laptop-m': 1280px,
+  'laptop-l': 1440px,
+  '4k': 2560px
+);
+
+@mixin container($padding) {
+  margin: auto;
+  padding: 0 $padding;
+}
+
+@mixin media-query($width, $type: min) {
+  @if map_has_key($breakpoints, $width) {
+    $width: map_get($breakpoints, $width);
+    @if $type == max {
+      $width: $width - 1px;
+    }
+    @media only screen and (#{$type}-width: $width) {
+      @content;
+    }
+  }
+}
+
+/// Prefix several properties at once
+/// @param {Map} $declarations - Declarations to prefix
+/// @param {List} $prefixes (()) - List of prefixes to print
+// @mixin prefix($declarations, $prefixes: ()) {
+//   @each $property, $value in $declarations {
+//     @each $prefix in $prefixes {
+//       #{'-' + $prefix + '-' + $property}: $value;
+//     }
+//
+//     // Output standard non-prefixed declaration too
+//     #{$property}: $value;
+//   }
+// }

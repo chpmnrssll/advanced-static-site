@@ -1,0 +1,84 @@
+.hidden {
+  opacity: 0;
+}
+
+.output {
+  display: flex;
+  flex-direction: column-reverse;
+
+  canvas {
+    // flex-grow: 1;
+    height: 9rem;
+    width: 16rem;
+  }
+
+  pre {
+    font-size: .5rem;
+    letter-spacing: .1rem;
+    line-height: .5rem;
+  }
+}
+
+#disqus_thread {
+  margin-top: 25vh;
+}
+
+.about {
+  @include media-query('mobile-m') { grid-template-columns: repeat(3, 1fr); }
+  @include media-query('tablet') { grid-template-columns: repeat(5, 1fr); }
+  @include media-query('laptop-m') { grid-template-columns: repeat(7, 1fr); }
+
+  align-items: center;
+  display: grid;
+  grid-gap: calc(1rem + 1vw);
+
+  // Responsive grid
+  grid-template-columns: repeat(2, 1fr);  // mobile-s
+
+  @at-root #{&}__book {
+    height: 0;
+    padding-top: 56.25%;
+  }
+}
+
+.code-stats {
+  margin: auto;
+  text-align: right;
+  width: 90%;
+
+  table {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  thead {
+    border-bottom: 1px solid var(--color-secondary);
+    color: var(--color-primary-light);
+    font-size: .6rem;
+  }
+
+  tbody {
+    color: var(--color-primary-lighter);
+    font-style: italic;
+  }
+
+  tfoot {
+    border-top: 1px solid var(--color-secondary);
+    color: var(--color-primary-lightest);
+    font-weight: bold;
+  }
+
+  tr {
+    &:nth-child(even) {
+      background-color: var(--color-primary-darker);
+    }
+  }
+
+  td {
+    width: 4rem;
+
+    &:nth-child(1) {
+      width: 6rem;
+    }
+  }
+}

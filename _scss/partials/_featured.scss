@@ -1,0 +1,32 @@
+.featured {
+  @include media-query('mobile-s') { grid-template-columns: repeat(1, 1fr); }
+  @include media-query('mobile-m') { grid-template-columns: repeat(1, 1fr); }
+  @include media-query('mobile-l') { grid-template-columns: repeat(2, 1fr); }
+  @include media-query('tablet') { grid-template-columns: repeat(2, 1fr); }
+  @include media-query('laptop-s') { grid-template-columns: repeat(3, 1fr); }
+  @include media-query('laptop-m') { grid-template-columns: repeat(3, 1fr); }
+  @include media-query('laptop-l') { grid-template-columns: repeat(3, 1fr); }
+  @include media-query('4k') { grid-template-columns: repeat(4, 1fr); }
+
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 2rem;
+
+  @at-root #{&}__item {
+    @include media-query('mobile-s') { height: calc(6rem + 6vw); }
+    @include media-query('mobile-m') { height: calc(7rem + 7vw); }
+    @include media-query('mobile-l') { height: calc(5rem + 5vw); }
+    @include media-query('tablet') { height: calc(6rem + 6vw); }
+    @include media-query('laptop-s') { height: calc(5rem + 5vw); }
+    @include media-query('laptop-m') { height: calc(6rem + 6vw); }
+    @include media-query('laptop-l') { height: calc(7rem + 7vw); }
+    @include media-query('4k') { height: calc(5rem + 5vw); }
+
+    background-size: cover;
+    box-shadow: .25rem .25rem 1rem var(--color-primary-darkest);
+    height: calc(5rem + 5vw);
+    position: relative;
+    text-decoration: none;
+  }
+}
