@@ -1,46 +1,43 @@
 import splitter from 'text-split';
 import { keyframes, styler } from 'popmotion';
 
-function shuffleLetters(thisStyler, stagger) {
-  const r = Math.random();
-  const angle = (r - 0.5) * 15;
+function animateLetters(thisStyler, stagger) {
   const animation = keyframes({
     values: [
       { z: 0, rotateX: 0 },
-      { z: 50, rotateX: -15 },
-      { z: 0, rotateX: 0, rotate: angle * 0.25 },
-      { z: 10, rotateX: -5, rotate: angle * 0.5 },
-      { z: 0, rotateX: 0, rotate: angle },
+      { z: 40, rotateX: -40 },
+      { z: 0, rotateX: 0 },
+      { z: 5, rotateX: -10 },
+      { z: 0, rotateX: 0 },
     ],
     duration: 768,
     times: [0, 0.65, 0.75, 0.85, 1],
   });
 
   setTimeout(() => {
-    animation.start({
-      update: v => thisStyler.set(v),
-      complete: () => {
-        thisStyler.set({ rotate: angle });
-      },
-    });
+    animation.start(v => thisStyler.set(v));
   }, stagger);
 }
 
 export default function () {
   const headlines = document.querySelectorAll('.animated-headline');
+  const elementStagger = 48;
+  const letterStagger = 24;
 
   if (headlines) {
-    headlines.forEach((headline) => {
+    headlines.forEach((headline, index) => {
       if (headline) {
         const letters = splitter(headline);
         const elementStylers = Array.from(letters).map(styler);
+        const preCalc = index * elementStagger;
 
         elementStylers.forEach((thisStyler, i) => {
-          shuffleLetters(thisStyler, i * 12);
+          const stagger = (i * letterStagger) + preCalc;
+          animateLetters(thisStyler, stagger);
 
           const interval = setInterval(() => {
             try {
-              shuffleLetters(thisStyler, i * 12);
+              animateLetters(thisStyler, stagger);
             } catch (e) {
               clearInterval(interval);
             }
