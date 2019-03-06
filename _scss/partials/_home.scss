@@ -1,20 +1,15 @@
 .home {
-  @include container($container-padding);
   display: flex;
   flex-direction: column;
-  height: 65vh;
+  height: 50vh;
   justify-content: center;
-
-  &__headline-container {
-    padding: 0 $container-padding;
-  }
+  padding: 0 1rem;
 
   &__headline {
-    color: saturate(lighten(complement($primary-color), 15%), 25%);
-    font-display: swap;
-    font-family: 'Ranchers';
-    font-size: $font-xl;
-    letter-spacing: 4px;
+    color: saturate(lighten(complement($primary-color), 20%), 25%);
+    font-family: 'Sarpanch';
+    margin-left: auto;
+    margin-right: auto;
 
     span {
       text-shadow: 2px 3px 4px #000000, 3px 4px 16px #000000;

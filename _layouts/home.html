@@ -2,12 +2,10 @@
 layout: default
 ---
 <div class="home">
-  <header class="home__headline-container">
-    <h1 class="home__headline animated-headline">{% t home.header.headline %}</h1>
-    <!-- <a class="button home__cta" href="{{ site.baseurl }}{% t home.header.call_to_action.link %}/">
-      {% t home.header.call_to_action.title %}
-    </a> -->
-  </header>
+  <h1 class="home__headline animated-headline fit__text--fat"
+    style="font-size: 8vw">
+    {% t home.header.headline %}
+  </h1>
 </div>
 
 <section class="featured">
@@ -16,18 +14,16 @@ layout: default
       {% if tag == "Featured" %}
         <a class="featured__item" href="{{ post.url | relative_url }}"
           style="background-image: url({{ site.baseurl }}{{ post.image }})">
-          <h2 class="blog__title animated-headline">{{ post.title | escape }}</h2>
-          <h3 class="blog__subtitle animated-headline">{{ post.subtitle | escape }}</h3>
-          <div class="blog__date">
-            {% if post.layout == "post" %}
-              {% assign date_format = "%b %d, %Y" %}
-              <time class="header__date" datetime="{{ post.date | date: date_format }}">
-                {{ post.date | date: date_format }}
-              </time>
-            {% else %}
-              <time class="header__date">Category</time>
-            {% endif %}
-          </div>
+          <h2 class="featured__item--title animated-headline fit__text">{{ post.title | escape }}</h2>
+          <h3 class="featured__item--subtitle animated-headline">{{ post.subtitle | escape }}</h3>
+          {% if post.layout == "post" %}
+          {% assign date_format = "%b %d, %Y" %}
+          <time class="featured__item--date header__date" datetime="{{ post.date | date: date_format }}">
+            {{ post.date | date: date_format }}
+          </time>
+          {% else %}
+          <time class="featured__item--date header__date">Category</time>
+          {% endif %}
         </a>
       {% endif %}
     {% endfor %}

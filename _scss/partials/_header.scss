@@ -23,7 +23,7 @@
   }
 
   @at-root #{&}__title--sub {
-    color: var(--secondary-color-light, lighten($secondary-color, 10%));
+    color: saturate(lighten(complement($primary-color), 20%), 25%);
     font-family: 'Teko';
     font-style: italic;
     font-weight: lighter;
@@ -32,6 +32,6 @@
 
   @at-root #{&}__date {
     color: var(--primary-color-lighter, lighten($primary-color, 35%));
-    text-shadow: 0 0 0 var(--primary-color-darkest, darken($primary-color, 40%)), 1px 1px 1px var(--primary-color-darkest, darken($primary-color, 40%));
+    text-shadow: 0 0 1px var(--primary-color-darkest, darken($primary-color, 40%)), 1px 2px 3px var(--primary-color-darkest, darken($primary-color, 40%));
   }
 }

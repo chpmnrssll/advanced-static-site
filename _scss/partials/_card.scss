@@ -1,17 +1,17 @@
 .card {
-  @include media-query('mobile-l') { flex-direction: row; }
+  @include media-query('tablet') { flex-direction: row; }
 
   display: flex;
   flex-direction: column;
   margin: 2rem 0;
 
   h3 {
-    color: var(--color-primary-lighest);
+    color: var(--primary-color-ligher);
     margin: .5rem .5rem 0;
   }
 
   h4 {
-    color: var(--color-secondary-light);
+    color: var(--secondary-color-lighter);
     font-family: 'Teko';
     font-size: .65rem;
     font-weight: lighter;
@@ -19,28 +19,28 @@
   }
 
   @at-root #{&}--alt {
-    @include media-query('mobile-l') { flex-direction: row-reverse; }
+    @include media-query('tablet') { flex-direction: row-reverse; }
 
     .card__header {
       h3,
       h4 {
-        @include media-query('mobile-l') { text-align: right; }
+        @include media-query('tablet') { text-align: right; }
         text-align: left;
       }
     }
   }
 
   @at-root #{&}__header {
-    @include media-query('mobile-l') { width: 50%; }
+    @include media-query('tablet') { width: 50%; }
 
-    box-shadow: .2rem .2rem 1rem var(--color-primary-darkest);
-    min-height: 9rem;
+    box-shadow: .25rem .25rem 1rem var(--primary-color-darkest, darken($primary-color, 40%));
+    height: calc(10rem + 10vw);
+    overflow: hidden;
     position: relative;
-    width: 100%;
   }
 
   @at-root #{&}__body {
-    @include media-query('mobile-l') { width: 50%; }
+    @include media-query('tablet') { width: 50%; }
     padding: 1rem;
     width: 100%;
 
@@ -52,5 +52,8 @@
       font-size: .75rem;
       margin-top: 0;
     }
+  }
+
+  @at-root #{&}__quote {
   }
 }

@@ -1,10 +1,8 @@
 .image {
-  // height: 100%;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
-  // width: 100%;
   z-index: -2;
 
   @at-root #{&}__list {
@@ -41,5 +39,8 @@
     margin: .1rem;
     padding: .1rem;
     width: 3rem;
+  }
+  @at-root #{&}__blur {
+    filter: blur(4px);
   }
 }

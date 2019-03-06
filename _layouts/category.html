@@ -6,9 +6,9 @@ layout: default
     {%- for post in site.categories[category] -%}
       <a class="featured__item" href="{{ post.url | relative_url }}"
         style="background-image: url({{ site.baseurl }}{{ post.image }})">
-        <h2 class="blog__title animated-headline">{{ post.title | escape }}</h2>
-        <h3 class="blog__subtitle animated-headline">{{ post.subtitle | escape }}</h3>
-        <div class="blog__date">
+        <h2 class="featured__item--title animated-headline">{{ post.title | escape }}</h2>
+        <h3 class="featured__item--subtitle animated-headline">{{ post.subtitle | escape }}</h3>
+        <div class="featured__item--date">
           {% assign date_format = "%b %d, %Y" %}
           <time class="header__date" datetime="{{ post.date | date: date_format }}">
             {{ post.date | date: date_format }}

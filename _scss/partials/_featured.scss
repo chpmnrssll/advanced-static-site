@@ -11,22 +11,32 @@
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(1, 1fr);
-  padding: 2rem;
+  padding: 1rem;
 
   @at-root #{&}__item {
-    @include media-query('mobile-s') { height: calc(6rem + 6vw); }
-    @include media-query('mobile-m') { height: calc(7rem + 7vw); }
-    @include media-query('mobile-l') { height: calc(5rem + 5vw); }
-    @include media-query('tablet') { height: calc(6rem + 6vw); }
-    @include media-query('laptop-s') { height: calc(5rem + 5vw); }
-    @include media-query('laptop-m') { height: calc(6rem + 6vw); }
-    @include media-query('laptop-l') { height: calc(7rem + 7vw); }
-    @include media-query('4k') { height: calc(5rem + 5vw); }
-
     background-size: cover;
     box-shadow: .25rem .25rem 1rem var(--color-primary-darkest);
-    height: calc(5rem + 5vw);
+    display: flex;
+    flex-direction: column;
+    min-height: calc(8rem + 8vw);
+    overflow: hidden;
+    padding: .5rem;
     position: relative;
     text-decoration: none;
+  }
+  @at-root #{&}__item--title {
+    justify-content: flex-start;
+  }
+  @at-root #{&}__item--subtitle {
+    color: saturate(lighten(complement($primary-color), 15%), 25%);
+    font-family: "Teko";
+    font-weight: 100;
+    justify-content: flex-start;
+  }
+  @at-root #{&}__item--date {
+    align-self: flex-end;
+    justify-content: space-between;
+    margin-top: auto;
+    // text-shadow: 2px 3px 4px #000000;
   }
 }

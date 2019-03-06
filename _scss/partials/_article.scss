@@ -3,7 +3,7 @@
   // @include media-query('laptop-s') { grid-template-columns: 1rem 1rem 1fr 1rem 1rem; }
 
   display: grid;
-  grid-template-columns: 2rem 1fr 2rem;
+  grid-template-columns: 1rem 1fr 1rem;
 
   * {
     // @include media-query('laptop-s') { grid-column: 3; }
@@ -46,6 +46,11 @@
     grid-column-start: 2;
     height: calc(9rem + 9vw);
     position: relative;
+    max-width: 96vw;
+  }
+
+  &__content {
+    max-width: 96vw;
   }
 
   &__meta {

@@ -25,7 +25,8 @@ h4,
 h5,
 h6 {
   color: var(--primary-color-lightest, lighten($primary-color, 48%));
-  text-shadow: 2px 2px 2px var(--primary-color-darkest, darken($primary-color, 40%));
+  text-shadow: 1px 1px 1px var(--primary-color-darkest, darken($primary-color, 40%)),
+               2px 3px 8px var(--primary-color-darkest, darken($primary-color, 40%));
 }
 
 main {
