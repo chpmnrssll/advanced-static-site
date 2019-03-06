@@ -1,5 +1,5 @@
-- title: "MVC CMS App"
-  description: "A Multi-user content management system single page app. Client app coded in RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API coded in PHP/Slim/MongoDB and hosted on OpenShift."
+- title: "Multi-user content management system"
+  description: "A Multi-user content management system. Client app made with RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API using PHP/Slim/MongoDB and hosted on OpenShift."
   tags: ["PHP/SLIM", "MongoDB", "JavaScript", "HTML5", "CSS3"]
   date: "Sep, 2012"
   links:
