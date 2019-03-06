@@ -2,11 +2,14 @@ import page from 'page';
 import animateHeadlines from './animateHeadlines';
 import animateFooter from './animateFooter';
 import { animateContentIn, animateContentOut } from './animateContent';
+import { fitTextElements, fitTextFatElements } from './featured';
 
 // Lazy load and animate in new content
 page('*', (context) => {
   // Initial page load
   if (context.init) {
+    fitTextElements(24, 128);
+    fitTextFatElements(64, 128, 0.7);
     animateHeadlines();
     animateFooter();
     return;
@@ -23,7 +26,10 @@ page('*', (context) => {
     const newContent = newDocument.querySelector('.content');
 
     animateContentIn(newContent);
+    fitTextElements(24, 128);
+    fitTextFatElements(64, 128, 0.7);
     animateHeadlines();
+    animateFooter();
   };
 
   request.open('GET', `${context.path}`, true);
