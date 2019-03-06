@@ -1,20 +1,25 @@
-<nav class="navigation" role="navigation">
-  {% assign default_paths = site.pages | map: "path" %}
-  {% assign page_paths = site.navigation_pages | default: default_paths %}
-  <a class="navigation__branding" href="{{ "/" | relative_url }}">
-    <span class="navigation__logo"><img src="{{ "/assets/images/pixelavatar.png" | relative_url }}" class="navigation__logo-img" alt=""></span>
-    <span class="navigation__title">{{ site.title | escape }}</span>
-  </a>
-  <div class="navigation__links">
-    {% if page_paths %}
-      {% for path in page_paths %}
-        {% assign my_page = site.pages | where: "path", path | first %}
-        {% if my_page.title %}
-          {% unless my_page.url contains site.ampdir %}
-            <a class="navigation__link{% if my_page.url == page.url %} navigation__link--active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {% endunless %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  </div>
+<nav class="navigation navigation--hidden" role="navigation">
+  <button class="navigation__button navigation__button--close" aria-label="Close Navigation">
+    <i class="fa fa-times">X</i>
+  </button>
+  <section class="navigation__categories">
+    <h4>Categories</h4>
+    <a class="navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <a class="navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/about/">Articles</a>
+    <a class="navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/demo/">Demos</a>
+    <a class="navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/news/">News</a>
+    <a class="navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/about/">About</a>
+  </section>
+</nav>
+
+<nav class="navigation__overlay">
+  <button class="navigation__button navigation__button--open" aria-label="Open Navigation">
+    <i class="fa fa-bars">=</i>
+  </button>
+  <button class="navigation__button navigation__button--update navigation--hidden" aria-label="Updates Available">
+    <i class="fa fa-refresh"></i>
+  </button>
+  <button class="navigation__button navigation__button--top" aria-label="Scroll to top">
+    <i class="fa fa-chevron-up"></i>
+  </button>
 </nav>

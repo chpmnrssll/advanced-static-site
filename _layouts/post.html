@@ -1,28 +1,36 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="post__container">
-    <header class="post__header">
-      <h1 class="post__title" itemprop="name headline">{{ page.title | escape }}</h1>
-      <p class="post__meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          {{ page.date | date: date_format }}
-        </time>
-        {% if page.author %}
-          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-        {% endif %}</p>
-    </header>
-
-    <div class="post__content" itemprop="articleBody">
-      {{ content }}
+<article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+  {% if page.header-image %}
+  <div class="article__image gradient-overlay--alt">
+    <!-- <img class="image image--lazyload full" itemprop="image" data-src="{{ site.baseurl }}/public/assets/{{ page.header-image }}" alt="alt"> -->
+    <img class="article__image" itemprop="image" src="{{ site.baseurl }}{{ page.header-image }}" alt="alt">
+  </div>
+  {% endif %}
+  <header class="article__header">
+    <h1 class="article__title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <div class="article__meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %d, %Y" %}
+        {{ page.date | date: date_format }}
+      </time>
+      {% if page.author %}
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      {% endif %}
     </div>
+  </header>
 
-    <div class="post__comments">
-    {% if site.disqus.shortname %}
-      {% include disqus_comments.html %}
+  <div class="article__content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <div class="article__comments">
+    {% if page.comments %}
+    {% include comments.html %}
     {% endif %}
-    </div>
+    {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+    {% endif %}
   </div>
 </article>

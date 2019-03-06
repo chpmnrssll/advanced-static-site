@@ -3,7 +3,33 @@ layout: default
 ---
 <div class="home">
   <header class="home__headline-container">
-    <h1 class="home__headline">{% t home.header.headline %}</h1>
-    <a class="button home__cta" href="{{ site.baseurl }}{% t home.header.call_to_action.link %}/">{% t home.header.call_to_action.title %}</a>
+    <h1 class="home__headline animated-headline">{% t home.header.headline %}</h1>
+    <!-- <a class="button home__cta" href="{{ site.baseurl }}{% t home.header.call_to_action.link %}/">
+      {% t home.header.call_to_action.title %}
+    </a> -->
   </header>
 </div>
+
+<section class="featured">
+  {% for post in site.posts %}
+    {% for tag in post.tags %}
+      {% if tag == "Featured" %}
+        <a class="featured__item" href="{{ post.url | relative_url }}"
+          style="background-image: url({{ site.baseurl }}{{ post.image }})">
+          <h2 class="blog__title animated-headline">{{ post.title | escape }}</h2>
+          <h3 class="blog__subtitle animated-headline">{{ post.subtitle | escape }}</h3>
+          <div class="blog__date">
+            {% if post.layout == "post" %}
+              {% assign date_format = "%b %d, %Y" %}
+              <time class="header__date" datetime="{{ post.date | date: date_format }}">
+                {{ post.date | date: date_format }}
+              </time>
+            {% else %}
+              <time class="header__date">Category</time>
+            {% endif %}
+          </div>
+        </a>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</section>

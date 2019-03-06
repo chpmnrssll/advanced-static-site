@@ -1,0 +1,87 @@
+- title: "MVC CMS App"
+  description: "A Multi-user content management system single page app. Client app coded in RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API coded in PHP/Slim/MongoDB and hosted on OpenShift."
+  tags: ["PHP/SLIM", "MongoDB", "JavaScript", "HTML5", "CSS3"]
+  date: "Sep, 2012"
+  links:
+    - name: "GitHub"
+      url: "https://github.com/chpmnrssll/multi-CMS"
+  images:
+    - src: "/assets/images/professional/MVC2.png"
+      alt: "MVC CMS"
+
+- title: "Content Management System"
+  description: "Custom content management system built with PHP using vanilla MVC architecture."
+  tags: ["PHP", "SQL", "Activerecord", "JavaScript", "jQuery", "HTML5", "CSS3"]
+  date: "Sep, 2013"
+  links:
+    - name: "More Info"
+      url: "/posts/about/MVC"
+  images:
+    - src: "/assets/images/professional/MVCSite.png"
+      alt: "Content Management System"
+
+- title: "Colorado Casket Company"
+  description: "Advertising, product, and info site. Content management system, product catalog db, image resizing and caching on the server."
+  tags: ["PHP", "SQL", "ImageMagic", "HTML5", "CSS3"]
+  date: "Jun 20, 2012"
+  links:
+    - name: "www.coloradocasketcompany.com"
+      url: "http://www.coloradocasketcompany.com/"
+  images:
+    - src: "/assets/images/professional/casket.png"
+      alt: "CCC"
+
+- title: "Mr Tom's Critters"
+  description: "Content management system and design for animal resuce and adoption site."
+  tags: ["PHP", "SQL", "HTML5", "CSS3"]
+  date: "Oct 2, 2012"
+  links:
+    - name: ""
+      url: ""
+  images:
+    - src: "/assets/images/professional/critter.png"
+      alt: "Critters"
+
+- title: "Photo Gallery"
+  description: "Content management system and design for a photography portfolio."
+  tags: ["PHP", "SQL", "HTML5", "CSS3", "JavaScript", "jQuery"]
+  date: "Aug 14, 2012"
+  links:
+    - name: ""
+      url: ""
+  images:
+    - src: "/assets/images/professional/gallery.png"
+      alt: "Gallery"
+
+- title: "GrowMall"
+  description: "One of my first clients. Organic and hydropodic growing supply site, forums, and chat (Java applet)."
+  tags: ["SHTML (Server side includes)", "JavaScript", "CSS"]
+  date: "2000"
+  links:
+    - name: "Wayback Machine"
+      url: "https://web.archive.org/web/20010720131045/http://growmall.com:80/"
+  images:
+    - src: "/assets/images/professional/growmall.com.png"
+      alt: "Growmall"
+
+- title: "Static Design"
+  description: "My first web development consulting site."
+  tags: ["SHTML (Server side includes!)", "JavaScript", "CSS"]
+  date: "1999-2000"
+  links:
+    - name: "Wayback Machine"
+      url: "https://web.archive.org/web/20021216145203/http://static.virtualave.net:80/index.shtml"
+  images:
+    - src: "/assets/images/professional/static.virtualave.net.index.png"
+      alt: "Static Design"
+
+# - title: ""
+#   description: ""
+#   tags: [""]
+#   date: ""
+#   links:
+#     - name: ""
+#       url: ""
+#   images:
+#     - src: ""
+#       alt: ""

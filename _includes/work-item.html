@@ -1,0 +1,24 @@
+<section class="card {% cycle '', 'card--alt' %}" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="card__header" style="background-image: url({{ site.baseurl }}{{ include.data.images[0].src }})">>
+    <h3 itemprop="name headline">{{ include.data.title | escape }}</h3>
+    <h4>{{ include.data.date }}</h4>
+  </header>
+  <section class="card__body">
+    <p>{{ include.data.description }}</p>
+    <br/>
+    <ul>
+      {% for tag in include.data.tags %}
+        <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+    <section class="image__list">
+      {% for image in include.data.image %}
+        <img class="image image__thumb image--lazyload" src="{{ site.baseurl }}{{ image.src }}" alt="{{ image.alt }}">
+      {% endfor %}
+    </section>
+    <blockquote>
+      <div>{{ include.data.quote }}</div>
+      <cite>&mdash; <a href="{{ link.url }}">{{ link.name }}</a></cite>
+    </blockquote>
+  </section>
+</section>

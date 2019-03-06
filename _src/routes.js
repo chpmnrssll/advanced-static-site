@@ -1,5 +1,5 @@
 import page from 'page';
-import animateHeadline from './animateHeadline';
+import animateHeadlines from './animateHeadlines';
 import animateFooter from './animateFooter';
 import { animateContentIn, animateContentOut } from './animateContent';
 
@@ -7,7 +7,7 @@ import { animateContentIn, animateContentOut } from './animateContent';
 page('*', (context) => {
   // Initial page load
   if (context.init) {
-    animateHeadline();
+    animateHeadlines();
     animateFooter();
     return;
   }
@@ -23,7 +23,7 @@ page('*', (context) => {
     const newContent = newDocument.querySelector('.content');
 
     animateContentIn(newContent);
-    animateHeadline();
+    animateHeadlines();
   };
 
   request.open('GET', `${context.path}`, true);
