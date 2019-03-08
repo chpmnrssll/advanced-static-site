@@ -3,7 +3,7 @@ const path = require('path');
 const webpack = require('webpack');
 const Merge = require('webpack-merge');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const ImageminPlugin = require('imagemin-webpack-plugin').default;
+// const ImageminPlugin = require('imagemin-webpack-plugin').default;
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const CommonConfig = require('./webpack.common.js');
 
@@ -20,7 +20,7 @@ module.exports = Merge(CommonConfig, {
       minimize: true,
       debug: false,
     }),
-    new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }),
+    // new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }),
   ],
   optimization: {
     minimizer: [
