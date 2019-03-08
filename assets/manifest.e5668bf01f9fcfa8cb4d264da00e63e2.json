@@ -1,0 +1,42 @@
+{
+  "icons": [
+    {
+      "src": "/advanced-static-site/assets/icon_512x512.8e38b7a66e2ca4f6903af2a6bd3ecdca.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/advanced-static-site/assets/icon_384x384.ae9b7254a3aa56ec5348943b4d8e59cb.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/advanced-static-site/assets/icon_256x256.e1e662603db0733eea6bee311f298b88.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/advanced-static-site/assets/icon_192x192.752738b74dc48ebfc0b46e2fe42cd9ea.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/advanced-static-site/assets/icon_128x128.bc86101e41b556d5e3e38a3563d3abb7.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/advanced-static-site/assets/icon_96x96.83b12d51547639e72b789573dbdf181d.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Advanced Static Site",
+  "short_name": "Super PWA",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/advanced-static-site/",
+  "description": "Russell Chapmans' Portfolio",
+  "theme_color": "#537895",
+  "background_color": "#ffffff"
+}
