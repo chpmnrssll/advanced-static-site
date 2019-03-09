@@ -26,7 +26,7 @@ export default function () {
 
   if (headlines) {
     headlines.forEach((headline, headlineIndex) => {
-      if (headline) {
+      if (headline && headline.innerText !== '') {
         const letters = splitter(headline, {
           delimeter: 'word',
           each: (node) => {
