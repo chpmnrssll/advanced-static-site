@@ -3,6 +3,7 @@ import animateHeadlines from './animateHeadlines';
 import animateFooter from './animateFooter';
 import { animateContentIn, animateContentOut } from './animateContent';
 import { fitTextElements, fitTextFatElements } from './featured';
+import runDemos from './canvasDemos';
 
 // Lazy load and animate in new content
 page('*', (context) => {
@@ -12,6 +13,7 @@ page('*', (context) => {
     fitTextFatElements(64, 128, 0.7);
     animateHeadlines();
     animateFooter();
+    runDemos(context);
     return;
   }
 
@@ -30,6 +32,7 @@ page('*', (context) => {
     fitTextFatElements(64, 128, 0.7);
     animateHeadlines();
     animateFooter();
+    runDemos(context);
   };
 
   request.open('GET', `${context.path}`, true);
@@ -37,7 +40,11 @@ page('*', (context) => {
 });
 
 page.exit('*', (context, next) => {
-  animateContentOut().then(next);
+  animateContentOut().then(() => {
+    if (window.demo && window.demo.stop) {
+      window.demo.stop();
+    }
+  }).then(next);
 });
 
 page();
