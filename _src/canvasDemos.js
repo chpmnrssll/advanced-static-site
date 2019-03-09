@@ -1,5 +1,6 @@
 import Ascii from './canvasDemo/ascii';
 import Fire from './canvasDemo/fire';
+import Game from './platformer/game';
 import Heightmap from './canvasDemo/isometric';
 import NormalMap from './canvasDemo/normalMap';
 import Plasma from './canvasDemo/plasma';
@@ -7,6 +8,10 @@ import Static from './canvasDemo/static';
 
 export default function runDemos({ pathname }) {
   switch (pathname) {
+    case '/demo/2018/03/27/Platformer.html':
+      window.demo = new Game(1000, 1000, document.querySelector('.canvasDemo'),
+        { width: 640, height: 480 });
+      break;
     case '/demo/2017/10/13/Ascii-Demo.html':
       document.querySelectorAll('.canvasDemo').forEach((canvasDemo) => {
         const fontFamily = canvasDemo.getAttribute('fontfamily');

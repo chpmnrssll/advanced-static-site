@@ -55,8 +55,11 @@
     "webpack-pwa-manifest": "^4.0.0"
   },
   "dependencies": {
+    "matter-js": "^0.14.2",
     "normalize.css": "^8.0.1",
     "page": "^1.11.4",
+    "pathseg": "^1.2.0",
+    "poly-decomp": "^0.3.0",
     "popmotion": "^8.6.3",
     "text-split": "0.0.1"
   }
