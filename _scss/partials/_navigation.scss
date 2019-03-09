@@ -8,7 +8,8 @@
   justify-content: flex-start;
   position: fixed;
   top: 0;
-  width: calc(100vw + var(--nav-width));
+  // width: calc(100vw + var(--nav-width));
+  width: 100%;
   z-index: 100;
 
   @at-root #{&}__button {
@@ -71,6 +72,7 @@
     @include media-query('tablet') { line-height: 1.5rem; }
 
     display: flex;
+    font-family: 'Sarpanch';
     font-size: 1.5rem;
     font-weight: bold;
     justify-content: flex-start;
@@ -78,7 +80,6 @@
     margin: .5rem;
     text-decoration: none;
     text-shadow: 0 0 8px var(--color-primary-darker);
-    width: var(--nav-width);
 
     span {
       line-height: 1em;
@@ -91,7 +92,7 @@
     height: 100vh;
     pointer-events: none;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     z-index: 99;
   }
 

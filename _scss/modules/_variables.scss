@@ -53,6 +53,6 @@ $link-color: #68abde;
   --secondary-color-lighter: hsl(var(--secondary-color-hue), calc(var(--secondary-color-saturation) - 10%), calc(var(--secondary-color-lightness) + 30%));
   --secondary-color-lightest: hsl(var(--secondary-color-hue), calc(var(--secondary-color-saturation) - 15%), calc(var(--secondary-color-lightness) + 45%));
 
-  --color-gradient-start: hsla(var(--primary-color-hue), calc(var(--primary-color-saturation) + 30%), calc(var(--primary-color-lightness) - 40%), .75);
+  --color-gradient-start: hsla(var(--primary-color-hue), calc(var(--primary-color-saturation) + 30%), calc(var(--primary-color-lightness) - 40%), 1);
   --color-gradient-end: rgba(0, 0, 0, 0);
 }
