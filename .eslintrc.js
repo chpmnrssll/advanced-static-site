@@ -10,6 +10,7 @@ const config = {
   "rules": {
     "no-param-reassign": 0,
     "no-plusplus": 0,
+    "no-bitwise": 0,
   },
 };
 
