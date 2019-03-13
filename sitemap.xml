@@ -13,10 +13,6 @@
 <lastmod>2017-01-01T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://chpmnrssll.github.io/advanced-static-site/about/2017/08/16/Site.html</loc>
-<lastmod>2017-08-16T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://chpmnrssll.github.io/advanced-static-site/ipsum/2017/08/28/Space.html</loc>
 <lastmod>2017-08-28T00:00:00+00:00</lastmod>
 </url>
@@ -121,6 +117,10 @@
 <lastmod>2019-03-04T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html</loc>
+<lastmod>2019-03-13T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>https://chpmnrssll.github.io/advanced-static-site/</loc>
 </url>
 <url>
@@ -134,9 +134,6 @@
 </url>
 <url>
 <loc>https://chpmnrssll.github.io/advanced-static-site/amp/News</loc>
-</url>
-<url>
-<loc>https://chpmnrssll.github.io/advanced-static-site/amp/about/2017/08/16/Site</loc>
 </url>
 <url>
 <loc>https://chpmnrssll.github.io/advanced-static-site/amp/ipsum/2017/08/28/Space</loc>
@@ -217,7 +214,10 @@
 <loc>https://chpmnrssll.github.io/advanced-static-site/amp/Ipsum</loc>
 </url>
 <url>
+<loc>https://chpmnrssll.github.io/advanced-static-site/amp/about/2019/03/13/Site</loc>
+</url>
+<url>
 <loc>https://chpmnrssll.github.io/advanced-static-site/dist/</loc>
-<lastmod>2019-03-09T08:35:29+00:00</lastmod>
+<lastmod>2019-03-13T07:39:36+00:00</lastmod>
 </url>
 </urlset>
