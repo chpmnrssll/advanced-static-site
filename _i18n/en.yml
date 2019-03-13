@@ -1,9 +1,0 @@
-home:
-  header:
-    headline: 'Russell&nbsp;Chapman'
-    call_to_action:
-      title: Check out our blog
-      link: /blog
-
-footer:
-  tagline: 'Made with'
