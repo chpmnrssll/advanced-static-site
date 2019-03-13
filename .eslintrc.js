@@ -12,6 +12,12 @@ const config = {
     "no-plusplus": 0,
     "no-bitwise": 0,
   },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    "codeFrame": true
+  },
 };
 
 module.exports = config;

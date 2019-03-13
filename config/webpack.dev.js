@@ -9,6 +9,7 @@ module.exports = Merge(CommonConfig, {
   mode: 'development',
   output: {
     filename: '[name].bundle.js',
+    chunkFilename: '[name].bundle.js',
     path: path.resolve('assets'),
     publicPath: '/assets/',
   },

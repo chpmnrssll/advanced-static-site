@@ -9,11 +9,29 @@ module.exports = {
   entry: {
     app: './_src/index.js',
   },
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        vendors: {
+          priority: -10,
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          enforce: true,
+        },
+      },
+      // concatenateModules: false,
+      chunks: 'all',
+      minChunks: 1,
+      minSize: 0,
+      name: true,
+    },
+  },
   plugins: [
     new FaviconsWebpackPlugin({
       logo: './original-icon.png',
     }),
     new HtmlWebpackPlugin({
+      chunks: ['vendors', 'app'],
       template: './_src/template/default.html',
       filename: '../_layouts/default.html',
     }),
@@ -32,6 +50,7 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
+            plugins: ['@babel/syntax-dynamic-import'],
           },
         },
       },
