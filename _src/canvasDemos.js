@@ -1,6 +1,8 @@
+const baseurl = '/advanced-static-site/';
+
 export default function runDemos({ pathname }) {
   switch (pathname) {
-    case '/demo/2018/03/27/Platformer.html':
+    case `${baseurl}/demo/2018/03/27/Platformer.html`:
       import(/* webpackChunkName: "Game" */ './platformer/game')
         .then(({ default: Game }) => {
           window.demo = new Game(
@@ -11,7 +13,7 @@ export default function runDemos({ pathname }) {
           );
         });
       break;
-    case '/demo/2017/10/13/Ascii-Demo.html':
+    case `${baseurl}/demo/2017/10/13/Ascii-Demo.html`:
       import(/* webpackChunkName: "Ascii" */ './canvasDemo/ascii')
         .then(({ default: Ascii }) => {
           document.querySelectorAll('.canvasDemo').forEach((canvasDemo) => {
@@ -24,31 +26,31 @@ export default function runDemos({ pathname }) {
           });
         }).catch(() => 'An error occurred while loading the component');
       break;
-    case '/demo/2017/10/18/Fire.html':
+    case `${baseurl}/demo/2017/10/18/Fire.html`:
       import(/* webpackChunkName: "Fire" */ './canvasDemo/fire')
         .then(({ default: Fire }) => {
           window.demo = new Fire(320, 180);
         });
       break;
-    case '/demo/2018/03/26/NormalMapping.html':
+    case `${baseurl}/demo/2018/03/26/NormalMapping.html`:
       import(/* webpackChunkName: "NormalMap" */ './canvasDemo/normalMap')
         .then(({ default: NormalMap }) => {
           window.demo = new NormalMap(320, 180);
         });
       break;
-    case '/demo/2017/10/19/Plasma.html':
+    case `${baseurl}/demo/2017/10/19/Plasma.html`:
       import(/* webpackChunkName: "Plasma" */ './canvasDemo/plasma')
         .then(({ default: Plasma }) => {
           window.demo = new Plasma(320, 180);
         });
       break;
-    case '/demo/2017/10/17/Static.html':
+    case `${baseurl}/demo/2017/10/17/Static.html`:
       import(/* webpackChunkName: "Static" */ './canvasDemo/static')
         .then(({ default: Static }) => {
           window.demo = new Static(320, 180);
         });
       break;
-    case '/demo/2017/10/21/Isometric.html':
+    case `${baseurl}/demo/2017/10/21/Isometric.html`:
       import(/* webpackChunkName: "Heightmap" */ './canvasDemo/isometric')
         .then(({ default: Heightmap }) => {
           window.demo = new Heightmap(512, 256);
