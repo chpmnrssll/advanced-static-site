@@ -1,5 +1,5 @@
 // const baseurl = 'https://chpmnrssll.github.io/advanced-static-site/';
-const baseurl = '';
+const baseurl = '/advanced-static-site';
 
 export default function runDemos({ pathname }) {
   switch (pathname) {
