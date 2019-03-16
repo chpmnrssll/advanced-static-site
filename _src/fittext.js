@@ -4,7 +4,7 @@ export default class FitText {
     this.context = this.canvas.getContext('2d');
     this.compressor = compressor || 1;
     this.maxFontSize = 128;
-    this.minFontSize = 16;
+    this.minFontSize = 8;
   }
 
   getTextWidth(element) {
