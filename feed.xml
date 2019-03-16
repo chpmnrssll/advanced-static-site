@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-16T07:48:57+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Development Portfolio</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html" rel="alternate" type="text/html" title="Development Portfolio" /><published>2019-03-15T00:00:00+00:00</published><updated>2019-03-15T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-16T08:21:07+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Development Portfolio</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html" rel="alternate" type="text/html" title="Development Portfolio" /><published>2019-03-15T00:00:00+00:00</published><updated>2019-03-15T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/paulhershey.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Jekyll Portfolio Site&lt;/h3&gt;
@@ -1256,15 +1256,9 @@
   &lt;canvas class=&quot;canvasDemo mid&quot;&gt;&lt;/canvas&gt;
 &lt;/p&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;Demo&quot;]" /><category term="HTML5" /><category term="Javascript" /><category term="Canvas" /><category term="Game" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/about/NormalMapping.png" /></entry><entry><title type="html">MCRA Membership Directory</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2018/01/28/MCRA.html" rel="alternate" type="text/html" title="MCRA Membership Directory" /><published>2018-01-28T00:00:00+00:00</published><updated>2018-01-28T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2018/01/28/MCRA</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2018/01/28/MCRA.html">&lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image--lazyload&quot; src=&quot;/advanced-static-site/assets/images/professional/MCRA/PublicDirectorySearchChanges.png&quot;/&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/MCRA/PublicDirectorySearchChanges.png&quot;/&gt;
     &lt;h3&gt;Overview&lt;/h3&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;
-      Custom built wordpress membership directory plug-in replacement for the default user system. Member accounts, profile management, public member directory, multiple user level restrictions, customized profile w/ajax image upload, uses wpdb &amp; wp_list_table for default wordpress feel, searchable/filterable member listings, and payment/fees tracking.
-    &lt;/p&gt;
-    &lt;a href=&quot;http://mscra.com/attorneys/mcra-public-directory/&quot;&gt;Link&lt;/a&gt;
-    &lt;section class=&quot;image__list&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       &lt;img class=&quot;image image__thumb image--lazyload&quot; src=&quot;/advanced-static-site/assets/images/logo/logoHTML5.png&quot; alt=&quot;HTML5&quot;/&gt;
       &lt;img class=&quot;image image__thumb image--lazyload&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJavascript.png&quot; alt=&quot;JavaScript&quot;/&gt;
       &lt;img class=&quot;image image__thumb image--lazyload&quot; src=&quot;/advanced-static-site/assets/images/logo/logoCSS3.png&quot; alt=&quot;CSS3&quot;/&gt;
@@ -1273,6 +1267,12 @@
       &lt;img class=&quot;image image__thumb--alt image--lazyload&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMySQL.png&quot; alt=&quot;MySQL&quot;/&gt;
       &lt;img class=&quot;image image__thumb image--lazyload&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPHP.png&quot; alt=&quot;PHP&quot;/&gt;
     &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;
+      Custom built wordpress membership directory plug-in replacement for the default user system. Member accounts, profile management, public member directory, multiple user level restrictions, customized profile w/ajax image upload, uses wpdb &amp; wp_list_table for default wordpress feel, searchable/filterable member listings, and payment/fees tracking.
+    &lt;/p&gt;
+    &lt;a href=&quot;https://mscra.com/attorneys/mcra-public-directory/&quot;&gt;mscra.com&lt;/a&gt;
   &lt;/section&gt;
 &lt;/section&gt;
 
@@ -1336,4 +1336,4 @@
       &lt;img class=&quot;image image__thumb image--lazyload&quot; src=&quot;/advanced-static-site/assets/images/professional/MCRA/lmd_home_animation.gif&quot; alt=&quot;&quot;/&gt;
     &lt;/section&gt;
   &lt;/section&gt;
-&lt;/section&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Overview Custom built wordpress membership directory plug-in replacement for the default user system. Member accounts, profile management, public member directory, multiple user level restrictions, customized profile w/ajax image upload, uses wpdb &amp; wp_list_table for default wordpress feel, searchable/filterable member listings, and payment/fees tracking. Link</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/professional/MCRA/MCRAHome.jpg" /></entry></feed>
+&lt;/section&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Overview Custom built wordpress membership directory plug-in replacement for the default user system. Member accounts, profile management, public member directory, multiple user level restrictions, customized profile w/ajax image upload, uses wpdb &amp; wp_list_table for default wordpress feel, searchable/filterable member listings, and payment/fees tracking. mscra.com</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/professional/MCRA/MCRAHome.jpg" /></entry></feed>
