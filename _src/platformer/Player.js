@@ -58,7 +58,7 @@ export default class Player {
       density: 1.0,
       render: {
         sprite: {
-          texture: '/assets/images/sprite.png',
+          texture: '/advanced-static-site/assets/images/sprite.png',
         },
       },
     });

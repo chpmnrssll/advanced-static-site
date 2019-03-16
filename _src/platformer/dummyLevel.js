@@ -97,7 +97,7 @@ function randomRectLogo(x, y, scale) {
       height: 64,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoGrunt.png',
+      url: '/advanced-static-site/assets/images/logo/logoGrunt.png',
     },
     {
       type: 'rectangle',
@@ -106,7 +106,7 @@ function randomRectLogo(x, y, scale) {
       height: 64,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoGulp.png',
+      url: '/advanced-static-site/assets/images/logo/logoGulp.png',
     },
     {
       type: 'rectangle',
@@ -115,7 +115,7 @@ function randomRectLogo(x, y, scale) {
       height: 64,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoHTML5.png',
+      url: '/advanced-static-site/assets/images/logo/logoHTML5.png',
     },
     {
       type: 'rectangle',
@@ -124,7 +124,7 @@ function randomRectLogo(x, y, scale) {
       height: 50,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoJavascript.png',
+      url: '/advanced-static-site/assets/images/logo/logoJavascript.png',
     },
     {
       type: 'rectangle',
@@ -133,7 +133,7 @@ function randomRectLogo(x, y, scale) {
       height: 22,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoJekyll.png',
+      url: '/advanced-static-site/assets/images/logo/logoJekyll.png',
     },
     {
       type: 'rectangle',
@@ -142,7 +142,7 @@ function randomRectLogo(x, y, scale) {
       height: 52,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoMarionette.png',
+      url: '/advanced-static-site/assets/images/logo/logoMarionette.png',
     },
     {
       type: 'rectangle',
@@ -151,7 +151,7 @@ function randomRectLogo(x, y, scale) {
       height: 18,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoMongoDB.png',
+      url: '/advanced-static-site/assets/images/logo/logoMongoDB.png',
     },
     {
       type: 'rectangle',
@@ -160,7 +160,7 @@ function randomRectLogo(x, y, scale) {
       height: 32,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoMySQL.png',
+      url: '/advanced-static-site/assets/images/logo/logoMySQL.png',
     },
     {
       type: 'rectangle',
@@ -169,7 +169,7 @@ function randomRectLogo(x, y, scale) {
       height: 32,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoNodeJS.png',
+      url: '/advanced-static-site/assets/images/logo/logoNodeJS.png',
     },
     {
       type: 'rectangle',
@@ -178,7 +178,7 @@ function randomRectLogo(x, y, scale) {
       height: 21,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoNpm.png',
+      url: '/advanced-static-site/assets/images/logo/logoNpm.png',
     },
     {
       type: 'rectangle',
@@ -187,7 +187,7 @@ function randomRectLogo(x, y, scale) {
       height: 32,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoPHP.png',
+      url: '/advanced-static-site/assets/images/logo/logoPHP.png',
     },
     {
       type: 'rectangle',
@@ -196,7 +196,7 @@ function randomRectLogo(x, y, scale) {
       height: 62,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoRubyOnRails.png',
+      url: '/advanced-static-site/assets/images/logo/logoRubyOnRails.png',
     },
     {
       type: 'rectangle',
@@ -205,7 +205,7 @@ function randomRectLogo(x, y, scale) {
       height: 48,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoSass.png',
+      url: '/advanced-static-site/assets/images/logo/logoSass.png',
     },
   ];
 
@@ -236,7 +236,7 @@ function randomCircleLogo(x, y, scale) {
       radius: 30,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoAMP.png',
+      url: '/advanced-static-site/assets/images/logo/logoAMP.png',
     },
     {
       type: 'circle',
@@ -244,7 +244,7 @@ function randomCircleLogo(x, y, scale) {
       radius: 30,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoAtom.png',
+      url: '/advanced-static-site/assets/images/logo/logoAtom.png',
     },
     {
       type: 'circle',
@@ -252,7 +252,7 @@ function randomCircleLogo(x, y, scale) {
       radius: 31,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoBower.png',
+      url: '/advanced-static-site/assets/images/logo/logoBower.png',
     },
     {
       type: 'circle',
@@ -260,7 +260,7 @@ function randomCircleLogo(x, y, scale) {
       radius: 29,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoChrome.png',
+      url: '/advanced-static-site/assets/images/logo/logoChrome.png',
     },
     {
       type: 'circle',
@@ -268,7 +268,7 @@ function randomCircleLogo(x, y, scale) {
       radius: 24,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoWordpress.png',
+      url: '/advanced-static-site/assets/images/logo/logoWordpress.png',
     },
     {
       type: 'circle',
@@ -276,7 +276,7 @@ function randomCircleLogo(x, y, scale) {
       radius: 28,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/assets/images/logo/logoYeoman.png',
+      url: '/advanced-static-site/assets/images/logo/logoYeoman.png',
     },
   ];
 
