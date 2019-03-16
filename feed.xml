@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-16T07:04:34+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Development Portfolio</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html" rel="alternate" type="text/html" title="Development Portfolio" /><published>2019-03-15T00:00:00+00:00</published><updated>2019-03-15T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-16T07:26:21+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Development Portfolio</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html" rel="alternate" type="text/html" title="Development Portfolio" /><published>2019-03-15T00:00:00+00:00</published><updated>2019-03-15T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/paulhershey.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Jekyll Portfolio Site&lt;/h3&gt;
@@ -31,7 +31,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://www.paulhershey.com/&quot;&gt;www.paulhershey.com&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttps://www.paulhershey.com/&quot;&gt;www.paulhershey.com&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -66,7 +66,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;http://www.g-widgets.com/&quot;&gt;www.g-widgets.com&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttp://www.g-widgets.com/&quot;&gt;www.g-widgets.com&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -101,7 +101,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/article/2018/08/27/Multithread.html&quot;&gt;More Info&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-site/article/2018/08/27/Multithread.html&quot;&gt;More Info&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -142,7 +142,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://fin.afterdawn.com/uutiset/artikkeli.cfm/2018/06/01/canon-lopetti-viimeisenkin-filmikameran-myymisen&quot;&gt;afterdawn.com&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttps://fin.afterdawn.com/uutiset/artikkeli.cfm/2018/06/01/canon-lopetti-viimeisenkin-filmikameran-myymisen&quot;&gt;afterdawn.com&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -181,7 +181,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://github.com/chpmnrssll/identity-jekyll-theme&quot;&gt;GitHub repo&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttps://github.com/chpmnrssll/identity-jekyll-theme&quot;&gt;GitHub repo&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -226,11 +226,11 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://mscra.com/attorneys/mcra-public-directory/&quot;&gt;mscra.com&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttps://mscra.com/attorneys/mcra-public-directory/&quot;&gt;mscra.com&lt;/a&gt;
       &lt;/div&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/about/2018/01/28/MCRA.html&quot;&gt;More Info&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-site/about/2018/01/28/MCRA.html&quot;&gt;More Info&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -269,7 +269,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://www.bluebridgedev.com/&quot;&gt;Blue Bridge Development&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttps://www.bluebridgedev.com/&quot;&gt;Blue Bridge Development&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -304,11 +304,11 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://web.archive.org/web/20121130100618/http://honeystinger.com/hive.html&quot;&gt;Wayback Machine Link&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttps://web.archive.org/web/20121130100618/http://honeystinger.com/hive.html&quot;&gt;Wayback Machine Link&lt;/a&gt;
       &lt;/div&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://smithwooddrive.com/&quot;&gt;Smithwood Drive&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttps://smithwooddrive.com/&quot;&gt;Smithwood Drive&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -347,11 +347,11 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://web.archive.org/web/20150217153638/https://www.revclaims.com/patient/index.php&quot;&gt;Wayback Machine Link&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttps://web.archive.org/web/20150217153638/https://www.revclaims.com/patient/index.php&quot;&gt;Wayback Machine Link&lt;/a&gt;
       &lt;/div&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;http://www.likemindsdesigns.com/&quot;&gt;Like Minds Design&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttp://www.likemindsdesigns.com/&quot;&gt;Like Minds Design&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -394,7 +394,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;http://starmazy.com/&quot;&gt;Xtreme Technologies&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttp://starmazy.com/&quot;&gt;Xtreme Technologies&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -433,11 +433,11 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/about/2018/01/20/MVC.html&quot;&gt;More info&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-site/about/2018/01/20/MVC.html&quot;&gt;More info&lt;/a&gt;
       &lt;/div&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://github.com/chpmnrssll/multi-CMS&quot;&gt;GitHub&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttps://github.com/chpmnrssll/multi-CMS&quot;&gt;GitHub&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -482,7 +482,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://github.com/chpmnrssll/old/tree/master/php&quot;&gt;GitHub&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttps://github.com/chpmnrssll/old/tree/master/php&quot;&gt;GitHub&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -519,7 +519,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;http://www.coloradocasketcompany.com/&quot;&gt;Wyback Machine link&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttp://www.coloradocasketcompany.com/&quot;&gt;Wyback Machine link&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -554,7 +554,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-site&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -593,7 +593,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-site&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -630,7 +630,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://web.archive.org/web/20010720131045/http://growmall.com:80/&quot;&gt;Wayback Machine link&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttps://web.archive.org/web/20010720131045/http://growmall.com:80/&quot;&gt;Wayback Machine link&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -667,7 +667,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://web.archive.org/web/20021216145203/http://static.virtualave.net:80/index.shtml&quot;&gt;Wayback Machine link&lt;/a&gt;
+        &lt;a href=&quot;/advanced-static-sitehttps://web.archive.org/web/20021216145203/http://static.virtualave.net:80/index.shtml&quot;&gt;Wayback Machine link&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
