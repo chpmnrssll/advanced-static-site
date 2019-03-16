@@ -68,7 +68,7 @@ export default class Heightmap {
     document.addEventListener('keyup', this.keyupHandler.bind(this));
 
     this.heightmap = new window.Image();
-    this.heightmap.src = '/assets/images/about/map4.png';
+    this.heightmap.src = '/advanced-static-site/assets/images/about/map4.png';
     this.heightmap.addEventListener('load', this.loadHandler.bind(this));
   }
 
