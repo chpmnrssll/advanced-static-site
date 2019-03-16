@@ -4,7 +4,7 @@ layout: default
 <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
   {% if page.header-image %}
   <div class="article__image gradient-overlay--alt">
-    <img class="article__image" itemprop="image" src="{{ site.baseurl }}{{ page.header-image }}" alt="alt">
+    <img class="article__image{% if page.blur-header %} image__blur{% endif %}" itemprop="image" src="{{ site.baseurl }}{{ page.header-image }}" alt="alt">
   </div>
   {% endif %}
   <header class="article__header{%- if page.header == 'plain' -%}--plain{%- endif -%}">

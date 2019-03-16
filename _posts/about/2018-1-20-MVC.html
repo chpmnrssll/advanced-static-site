@@ -2,6 +2,7 @@
 layout: post
 image: /assets/images/professional/MVCSite.png
 header-image: /assets/images/professional/MVCSite.png
+blur-header: true
 title: Content Management System
 subtitle: CMS in PHP/MySQL/Activerecord
 date: 2018-1-20T00:00:00.000Z
@@ -11,15 +12,10 @@ comments: true
 ---
 <section class="card">
   <header class="card__header gradient-overlay">
-    <img class="image image--lazyload" src="{{ site.baseurl }}/assets/images/professional/MVCSite.png"/>
+    <img class="image  image__blur" src="{{ site.baseurl }}/assets/images/professional/MVCSite.png"/>
     <h3>Overview</h3>
     <h4>Sep, 2013</h4>
-  </header>
-  <section class="card__body">
-    <p>
-      Custom content management system built with PHP using vanilla MVC architecture.
-    </p>
-    <section class="image__list">
+    <section class="image__list--fixed-left">
       <img class="image image__thumb image--lazyload" src="{{ site.baseurl }}/assets/images/logo/logoHTML5.png" alt="HTML5"/>
       <img class="image image__thumb image--lazyload" src="{{ site.baseurl }}/assets/images/logo/logoCSS3.png" alt="CSS3"/>
       <img class="image image__thumb image--lazyload" src="{{ site.baseurl }}/assets/images/logo/logoJavascript.png" alt="JavaScript"/>
@@ -27,6 +23,11 @@ comments: true
       <img class="image image__thumb--alt image--lazyload" src="{{ site.baseurl }}/assets/images/logo/logoMySQL.png" alt="MySQL"/>
       <img class="image image__thumb image--lazyload" src="{{ site.baseurl }}/assets/images/logo/logoPHP.png" alt="PHP"/>
     </section>
+  </header>
+  <section class="card__body">
+    <p>
+      Custom content management system built with PHP using vanilla MVC architecture.
+    </p>
   </section>
 </section>
 
