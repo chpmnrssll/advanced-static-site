@@ -2,12 +2,12 @@
   &::after {
     background: radial-gradient(circle at center, var(--color-gradient-end), var(--primary-color-darkest));
     content: '';
-    height: 100%;
+    height: 101%;
     left: 0;
     opacity: .75;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 101%;
     z-index: -2;
   }
 }
@@ -18,11 +18,11 @@
   &::before {
     background: linear-gradient(180deg, var(--color-gradient-end) 75%, var(--primary-color-dark) 125%);
     content: '';
-    height: 100%;
+    height: 101%;
     left: 0;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 101%;
     z-index: -1;
   }
 }

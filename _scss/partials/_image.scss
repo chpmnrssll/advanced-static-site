@@ -1,5 +1,6 @@
 .image {
   left: 0;
+  max-width: 150%;
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -10,6 +11,23 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+
+    &--fixed {
+      &-left {
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        right: auto;
+        z-index: 1;
+      }
+      &-right {
+        position: absolute;
+        bottom: 1rem;
+        left: auto;
+        right: 1rem;
+        z-index: 1;
+      }
+    }
   }
 
   @at-root #{&}__thumb {

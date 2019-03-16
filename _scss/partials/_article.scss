@@ -24,9 +24,12 @@
     background-color: var(--primary-color-darker, darken($primary-color, 30%));
     border-left: .4vw solid var(--primary-color, $primary-color);
     box-shadow: .25rem .25rem 1rem var(--primary-color-darkest, darken($primary-color, 40%));
-    margin: 1rem 0;
+    margin: 2rem 4rem;
     padding: 1rem;
     text-shadow: 1px 1px 2px var(--primary-color-darkest, darken($primary-color, 40%));
+    @include media-query('laptop-s') {
+      margin: 0 0 2rem;
+    }
   }
 
   cite {

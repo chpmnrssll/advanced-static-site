@@ -110,12 +110,15 @@ p {
 }
 
 blockquote {
-  font-size: 1.1rem;
-  line-height: 1.1rem;
+  font-size: .65rem;
+  line-height: .85rem;
 }
 
 cite {
   font-size: .75rem;
-  margin-top: .5rem;
   text-align: right;
+}
+
+ul {
+  font-size: .65rem;
 }
