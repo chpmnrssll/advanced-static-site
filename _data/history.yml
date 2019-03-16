@@ -3,9 +3,13 @@
   tags: ["PHP/SLIM", "MongoDB", "JavaScript", "HTML5", "CSS3"]
   date: "Sep, 2012"
   links:
+    - name: "More info"
+      url: "/about/2018/01/20/MVC.html"
     - name: "GitHub"
       url: "https://github.com/chpmnrssll/multi-CMS"
   images:
+    - src: "/assets/images/professional/MVC1.png"
+      alt: "MVC CMS"
     - src: "/assets/images/professional/MVC2.png"
       alt: "MVC CMS"
 
@@ -14,10 +18,14 @@
   tags: ["PHP", "SQL", "Activerecord", "JavaScript", "jQuery", "HTML5", "CSS3"]
   date: "Sep, 2013"
   links:
-    - name: "More Info"
-      url: "/posts/about/MVC"
+    - name: "GitHub"
+      url: "https://github.com/chpmnrssll/old/tree/master/php"
   images:
     - src: "/assets/images/professional/MVCSite.png"
+      alt: "Content Management System"
+    - src: "/assets/images/professional/MVCProjects.png"
+      alt: "Content Management System"
+    - src: "/assets/images/professional/MVCCode.png"
       alt: "Content Management System"
 
 - title: "Colorado Casket Company"
@@ -25,13 +33,13 @@
   tags: ["PHP", "SQL", "ImageMagic", "HTML5", "CSS3"]
   date: "Jun 20, 2012"
   links:
-    - name: "www.coloradocasketcompany.com"
+    - name: "Wyback Machine link"
       url: "http://www.coloradocasketcompany.com/"
   images:
     - src: "/assets/images/professional/casket.png"
       alt: "CCC"
 
-- title: "Mr Tom's Critters"
+- title: "Mr. Tom's Critters"
   description: "Content management system and design for animal resuce and adoption site."
   tags: ["PHP", "SQL", "HTML5", "CSS3"]
   date: "Oct 2, 2012"
@@ -55,25 +63,29 @@
 
 - title: "GrowMall"
   description: "One of my first clients. Organic and hydropodic growing supply site, forums, and chat (Java applet)."
-  tags: ["SHTML (Server side includes)", "JavaScript", "CSS"]
+  tags: ["SHTML (Server side includes)", "JavaScript", "CSS", "Java Applets"]
   date: "2000"
   links:
-    - name: "Wayback Machine"
+    - name: "Wayback Machine link"
       url: "https://web.archive.org/web/20010720131045/http://growmall.com:80/"
   images:
     - src: "/assets/images/professional/growmall.com.png"
       alt: "Growmall"
+    - src: "/assets/images/professional/growmall.com.forum.png"
+      alt: "Growmall Forum"
 
 - title: "Static Design"
   description: "My first web development consulting site."
-  tags: ["SHTML (Server side includes!)", "JavaScript", "CSS"]
+  tags: ["SHTML (Server side includes!)", "JavaScript", "CSS", "Java Applets"]
   date: "1999-2000"
   links:
-    - name: "Wayback Machine"
+    - name: "Wayback Machine link"
       url: "https://web.archive.org/web/20021216145203/http://static.virtualave.net:80/index.shtml"
   images:
     - src: "/assets/images/professional/static.virtualave.net.index.png"
       alt: "Static Design"
+    - src: "/assets/images/professional/static.virtualave.net.j3d.png"
+      alt: "Static Design Java 3D applet"
 
 # - title: ""
 #   description: ""

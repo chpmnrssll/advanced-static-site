@@ -9,8 +9,8 @@ import runDemos from './canvasDemos';
 page('*', (context) => {
   // Initial page load
   if (context.init) {
-    fitTextElements(32, 128);
-    fitTextFatElements(64, 128, 0.7);
+    fitTextElements(16, 128);
+    fitTextFatElements(16, 128, 1.0);
     animateHeadlines();
     animateFooter();
     runDemos(context);

@@ -1,10 +1,10 @@
 export default class FitText {
   constructor(compressor) {
+    this.canvas = document.createElement('canvas');
+    this.context = this.canvas.getContext('2d');
     this.compressor = compressor || 1;
     this.maxFontSize = 128;
     this.minFontSize = 16;
-    this.canvas = document.createElement('canvas');
-    this.context = this.canvas.getContext('2d');
   }
 
   getTextWidth(element) {
@@ -18,26 +18,27 @@ export default class FitText {
     };
   }
 
-  fit(element, minFontSize = this.minFontSize, maxFontSize = this.maxFontSize, compress = 1) {
+  fit(element, minFontSize, maxFontSize, compressor) {
+    this.minFontSize = minFontSize || this.minFontSize;
+    this.maxFontSize = maxFontSize || this.maxFontSize;
+    this.compressor = compressor || this.compressor;
+    const minPadding = 16;
+
     const resizer = () => {
       const { fontSize, width } = this.getTextWidth(element);
-      this.threshold = fontSize;
-      this.minFontSize = minFontSize;
-      this.maxFontSize = maxFontSize;
       const parentStyle = window.getComputedStyle(element.parentElement);
-      const parentPadding = parseInt(parentStyle.padding, 10) || 0;
-      const parentWidth = (parseInt(parentStyle.width, 10) || 0) - (parentPadding * 4);
-      const diff = (parentWidth * compress) - width;
+      const parentPadding = parseInt(parentStyle.padding, 10) + minPadding || minPadding;
+      const parentWidth = (parseInt(parentStyle.width, 10) - parentPadding) || 0;
+      const diff = (parentWidth * this.compressor) - width;
+      const clampedSize = Math.max(Math.min(fontSize, this.maxFontSize), this.minFontSize);
 
-      if (diff > 0 && diff > this.threshold) {
-        const fS = Math.max(Math.min(fontSize, maxFontSize), minFontSize);
-        const size = `${fS * 1.1}px`;
+      if (diff > fontSize) {
+        const size = `${clampedSize * 1.1}px`;
         element.style.fontSize = size;
         element.style.lineHeight = size;
         window.requestAnimationFrame(resizer);
-      } else if (diff < 0 && -diff > this.threshold) {
-        const fS = Math.max(Math.min(fontSize, this.maxFontSize), this.minFontSize);
-        const size = `${fS * 0.99}px`;
+      } else if (-diff > fontSize) {
+        const size = `${clampedSize * 0.99}px`;
         element.style.fontSize = size;
         element.style.lineHeight = size;
         window.requestAnimationFrame(resizer);

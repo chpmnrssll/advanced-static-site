@@ -7,9 +7,9 @@ export function fitTextElements(minFontSize, maxFontSize, compress = 1) {
   elements.forEach(element => ft.fit(element, minFontSize, maxFontSize, compress));
 }
 
-export function fitTextFatElements(compress = 1) {
+export function fitTextFatElements(minFontSize, maxFontSize, compress = 1) {
   const element = document.querySelector('.fit__text--fat');
   if (element) {
-    ft.fit(element, compress);
+    ft.fit(element, minFontSize, maxFontSize, compress);
   }
 }

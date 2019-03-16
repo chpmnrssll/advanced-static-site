@@ -1,24 +1,25 @@
 - title: "Jekyll Portfolio Site"
-  description: "Improve page speed scores, implemented lazy loading, background videos, and CSS/Design updates on a Jekyll based site."
+  description: "Improved page speed scores, implemented lazy loading, background videos, and CSS/Design updates on a Jekyll based site."
   quote: "Russell is excellent to work with. He always had a positive attitude and was a great communicator. I would highly suggest working with him, he will certainly be one of my go-to people for development needs."
   tags: ["Jekyll", "Sass", "CSS", "Bootstrap 4", "Cloudinary"]
   date: "Oct, 2018"
   links:
-    - name: "Paul Hershey"
+    - name: "www.paulhershey.com"
       url: "https://www.paulhershey.com/"
   images:
     - src: "/assets/images/professional/paulhershey.png"
       alt: "www.paulhershey.com"
     - src: "/assets/images/professional/Persona.png"
       alt: "Persona Element"
+    - src: "/assets/images/professional/Quote.png"
+      alt: "Quote Element"
 
 - title: "WordPress to Jekyll Conversion"
   description: "Converted an existing WordPress/PHP site to a Jekyll static site. Makes use of the Jekyll Archives plugin."
-  quote:
   tags: ["WordPress", "Jekyll"]
   date: "Oct, 2018"
   links:
-    - name: "G-Widgets"
+    - name: "www.g-widgets.com"
       url: "http://www.g-widgets.com/"
   images:
     - src: "/assets/images/professional/g-widgets.png"
@@ -26,15 +27,17 @@
 
 - title: "Multithreaded Downloader"
   description: "A browser based multithreaded downloader implemented in Javascript. Uses HTTP range requests, HTML5 Filesystem API, and Web Streams API to download multiple chunks of a file in parallel. Works with Backblaze-B2 and Google Drive."
-  quote: ""
+  quote: "Russell did an incredible job of taking a very lightly defined project and building it exactly to my expectations. It was a challenging project where it wasn't obvious whether it was even possible. Russell did tons of research and experimented with many different technical approaches. In the end, he solved the problem and did a great job with the solution."
   tags: ["JavaScript", "HTML5 Filesystem", "Web Streams"]
   date: "Jul, 2018"
   links:
     - name: "More Info"
-      url: "/posts/article/Multithread"
+      url: "/article/2018/08/27/Multithread.html"
   images:
     - src: "/assets/images/professional/multiThreadedDownloaderB2.png"
-      alt: "Multithreaded Downloader"
+      alt: "Multithreaded Downloader Backblaze B2"
+    - src: "/assets/images/professional/multiThreadedDownloaderGD.png"
+      alt: "Multithreaded Downloader Google Drive"
 
 - title: "Taboola/Outbrain recommended content clone"
   description: "Lightweight Taboola/Outbrain recommended content clone for embedding in several sites. Uses CSS Grid and vanilla JavaScript for responsive layout, small file size, and compatibility."
@@ -46,7 +49,9 @@
       url: "https://fin.afterdawn.com/uutiset/artikkeli.cfm/2018/06/01/canon-lopetti-viimeisenkin-filmikameran-myymisen"
   images:
     - src: "/assets/images/professional/afterDawnShowcase.png"
-      alt: "Taboola/Outbrain Clone"
+      alt: "Taboola/Outbrain Clone Showcase"
+    - src: "/assets/images/professional/afterDawnDesktop.png"
+      alt: "Taboola/Outbrain Clone Desktop"
 
 - title: "Identity Jekyll Theme"
   description: "Updated Font-Awesome from v4 to v5 and added more social links to _config.yml"
@@ -54,7 +59,7 @@
   tags: ["Jekyll", "Liquid", "CSS", "YML"]
   date: "Apr, 2018"
   links:
-    - name: "Github"
+    - name: "GitHub repo"
       url: "https://github.com/chpmnrssll/identity-jekyll-theme"
   images:
     - src: "/assets/images/professional/identity-jekyll-theme-updates.jpg"
@@ -62,19 +67,21 @@
 
 - title: "Membership Directory Plugin"
   description: "WordPress plug-in to replace the default user system. Member accounts, profile management, public member directory."
-  quote: ""
   tags: ["PHP", "SQL", "HTML5", "CSS3", "JavaScript", "jQuery"]
   date: "Jun, 2013"
   links:
+    - name: "mscra.com"
+      url: "https://mscra.com/attorneys/mcra-public-directory/"
     - name: "More Info"
-      url: "/posts/about/MCRA"
+      url: "/about/2018/01/28/MCRA.html"
   images:
     - src: "/assets/images/professional/MCRA/MCRAHome.jpg"
       alt: "MCRA Home"
+    - src: "/assets/images/professional/MCRA/PublicDirectorySearchChanges.png"
+      alt: "MCRA Public Directory"
 
 - title: "Joomla Extension"
   description: "Joomla extension development, UI"
-  quote: ""
   tags: ["PHP", "Joomla", "Javascript", "MooTools", "HTML5", "CSS3"]
   date: "Mar, 2013"
   links:
@@ -86,17 +93,18 @@
 
 - title: "HoneyStinger"
   description: "Tables to HTML5 layout conversion."
-  quote: ""
   tags: ["HTML5", "CSS3"]
   date: "Nov, 2012"
   links:
+    - name: "Wayback Machine Link"
+      url: "https://web.archive.org/web/20121130100618/http://honeystinger.com/hive.html"
     - name: "Smithwood Drive"
       url: "https://smithwooddrive.com/"
   images:
+    - src: "/assets/images/professional/HoneyStinger.hive.png"
+      alt: "Honey Stinger Hive"
     - src: "/assets/images/professional/HoneyStinger.png"
       alt: "Honey Stinger"
-    - src: "/assets/images/professional/HoneyStingerHome.png"
-      alt: "Honey Stinger Home"
     - src: "/assets/images/professional/HoneyStingerLogo.png"
       alt: "Honey Stinger Logo"
 
@@ -106,10 +114,10 @@
   tags: ["PHP", "JavaScript", "jQuery", "HTML5", "CSS3"]
   date: "Oct, 2012"
   links:
+    - name: "Wayback Machine Link"
+      url: "https://web.archive.org/web/20150217153638/https://www.revclaims.com/patient/index.php"
     - name: "Like Minds Design"
       url: "http://www.likemindsdesigns.com/"
-    - name: "Link"
-      url: "https://www.revclaims.com/patient/"
   images:
     - src: "/assets/images/professional/wizzardForm.png"
       alt: "Wizzard Form"

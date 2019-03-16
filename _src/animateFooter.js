@@ -24,6 +24,7 @@ export default function () {
         duration: 500,
       });
 
+      // pulse every 2-10 seconds
       setInterval(() => {
         pulseAnimation.start(v => thisStyler.set(v));
       }, 2000 + Math.random() * 8000);
