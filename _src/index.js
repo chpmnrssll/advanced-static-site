@@ -1,4 +1,4 @@
-// CSS and SASS files
+import '@babel/polyfill';
 import './index.scss';
 import './routes';
 import Navigation from './navigation';

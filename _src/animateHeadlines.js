@@ -27,10 +27,11 @@ export default function () {
   if (headlines) {
     headlines.forEach((headline, headlineIndex) => {
       if (headline && headline.innerText !== '') {
+        const fontSize = parseFloat(headline.style.fontSize, 10);
         const letters = splitter(headline, {
           delimeter: 'word',
           each: (node) => {
-            node.getRootNode().style.marginRight = '8px';
+            node.getRootNode().style.marginRight = `${fontSize / 6}px`;
           },
         });
         // const letters = splitter(headline);

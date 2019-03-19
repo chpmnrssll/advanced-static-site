@@ -1,15 +1,21 @@
 import FitText from './fittext';
 
-const ft = new FitText();
+const textFitter = new FitText();
 
-export function fitTextElements(minFontSize, maxFontSize, compress = 1) {
+export function fitTextElements(compress) {
   const elements = document.querySelectorAll('.fit__text');
-  elements.forEach(element => ft.fit(element, minFontSize, maxFontSize, compress));
+  elements.forEach((element) => {
+    textFitter.fit(element, compress);
+  });
 }
 
-export function fitTextFatElements(minFontSize, maxFontSize, compress = 1) {
+export function fitTextFatElements(compress) {
   const element = document.querySelector('.fit__text--fat');
   if (element) {
-    ft.fit(element, minFontSize, maxFontSize, compress);
+    textFitter.fit(element, compress);
   }
+}
+
+export function stopFitting() {
+  textFitter.removeAllEventListeners();
 }

@@ -2,15 +2,15 @@ import page from 'page';
 import animateHeadlines from './animateHeadlines';
 import animateFooter from './animateFooter';
 import { animateContentIn, animateContentOut } from './animateContent';
-import { fitTextElements, fitTextFatElements } from './featured';
+import { fitTextElements, fitTextFatElements, stopFitting } from './featured';
 import runDemos from './canvasDemos';
 
 // Lazy load and animate in new content
 page('*', (context) => {
   // Initial page load
   if (context.init) {
-    fitTextElements(16, 128);
-    fitTextFatElements(16, 128, 1.0);
+    fitTextElements();
+    fitTextFatElements();
     animateHeadlines();
     animateFooter();
     runDemos(context);
@@ -28,8 +28,8 @@ page('*', (context) => {
     const newContent = newDocument.querySelector('.content');
 
     animateContentIn(newContent);
-    fitTextElements(24, 128);
-    fitTextFatElements(64, 128, 0.7);
+    fitTextElements();
+    fitTextFatElements();
     animateHeadlines();
     animateFooter();
     runDemos(context);
@@ -41,6 +41,7 @@ page('*', (context) => {
 
 page.exit('*', (context, next) => {
   animateContentOut().then(() => {
+    stopFitting();
     if (window.demo && window.demo.stop) {
       window.demo.stop();
     }
