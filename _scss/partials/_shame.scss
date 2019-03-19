@@ -83,3 +83,12 @@
     }
   }
 }
+
+.fitTextDemo {
+  border: 1px solid #ace;
+  padding: 1rem;
+
+  .fit__text, .fit__text--fat {
+    text-align: center;
+  }
+}
