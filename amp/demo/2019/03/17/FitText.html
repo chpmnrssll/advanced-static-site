@@ -1,2 +1,100 @@
 <!doctype html><html amp lang="en"><head><meta charset="utf-8"><title>Fit Text</title><link rel="canonical" href="https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText.html"/><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"> <style amp-custom>
-    </style><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript> <script async src="https://cdn.ampproject.org/v0.js"></script></head><body><h2 class="post-title"><h1>Russell Chapman</h1><hr></h2> <span> 2019-03-17 03:00:00 +0000 - </span><div class="fitTextDemo"><h2 class="fit__text" style="color: #ea6; font-style: italic;">Font size</h2><p class="fit__text">adjusts to the width of the</p><h3 class="fit__text" style="color: #6ae;">parent</h3><p class="fit__text"> element regardless of existing</p><p class="fit__text" style="color:#ea6;font-style:italic">style or width</p><p class="fit__text" style="font-style:italic">* Some restrictions may apply, see documentation for details. Russell Chapman is not liable for any damages due to implementing this in a production environment.</p></div><p><a href="https://github.com/RobertMenke/JS-Polynomial-Regression">https://github.com/RobertMenke/JS-Polynomial-Regression</a></p></body></html>
+    </style><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript> <script async src="https://cdn.ampproject.org/v0.js"></script></head><body><h2 class="post-title"><h1>Russell Chapman</h1><hr></h2> <span> 2019-03-17 03:00:00 +0000 - </span><div class="fitTextDemo"><h2 class="fit__text" style="color: #ea6; font-style: italic;">Font size</h2><p class="fit__text">adjusts to the width of the</p><h3 class="fit__text" style="color: #6ae;">parent</h3><p class="fit__text"> element regardless of existing</p><p class="fit__text" style="color:#ea6;font-style:italic">style or width</p><p class="fit__text" style="font-style:italic">* Some restrictions may apply, see documentation for details. Russell Chapman is not liable for any damages due to implementing this in a production environment.</p></div><p> Samples several text width / font-size pairs on a hidden Canvas with measureText. Uses <a href="https://github.com/RobertMenke/JS-Polynomial-Regression">JS-Polynomial-Regression</a> to predict the font size for a specified width.</p><p> Font size can be predicted with as few as 3 sample measurements which is insanely fast compared to my first approach of measuring text widths while recursively increasing the font-size until they fit. To avoid stack overflow issues, I had to use a generator function and <a href="https://github.com/corbt/next-frame">next-frame</a> to avoid locking up the browser.</p><pre class="highlight">
+  import PolynomialRegression from '../node_modules/js-polynomial-regression/dist/PolynomialRegression';
+
+  function getParentWidth(element, compress) {
+    const style = window.getComputedStyle(element.parentElement);
+    const paddingLeft = parseFloat(style.paddingLeft, 10) || 0;
+    const paddingRight = parseFloat(style.paddingRight, 10) || 0;
+    const width = parseFloat(style.width, 10) || 0;
+    return width - ((paddingLeft + paddingRight) * compress);
+  }
+
+  function joinFontArray(fontArray, fontSize) {
+    fontArray[4] = `${fontSize}px`;
+    return fontArray.join(' ');
+  }
+
+  function splitFontString(fontString) {
+    const fontArray = fontString.split(' ');
+    fontArray[4] = parseFloat(fontArray[4], 10);
+    return fontArray;
+  }
+
+  export default class FitText {
+    constructor() {
+      this.canvas = document.createElement('canvas');
+      this.context = this.canvas.getContext('2d');
+      this.elements = [];
+    }
+
+    getTextWidth(element, fontString) {
+      this.context.font = fontString;
+      return this.context.measureText(element.innerText).width;
+    }
+
+    // Generator function helps avoid stack overflow issues
+    * getFittedSize(element, fontString, desiredWidth) {
+      const fontArray = splitFontString(fontString);
+      let fontSize = fontArray[4];
+      const width = this.getTextWidth(element, fontString);
+      const difference = desiredWidth - width;
+      const threshold = 1;
+      const stepSize = 1;
+
+      if (difference &gt; threshold) {
+        fontSize += stepSize;
+      } else if (difference &lt; -threshold) {
+        fontSize -= stepSize;
+      }
+
+      yield {
+        difference,
+        fontSize,
+        fontString: joinFontArray(fontArray, fontSize),
+        width,
+      };
+    }
+
+    fit(element, compress = 1.0, minFontSize = 16, maxFontSize = 1024) {
+      const style = window.getComputedStyle(element);
+      let fontString = style.font;
+      const fontArray = splitFontString(fontString);
+      let fontSize = fontArray[4];
+      let width = 0;
+      const data = [];
+
+      const newElement = {
+        element,
+        resizer: async () =&gt; {
+          const desiredWidth = getParentWidth(element, compress);
+
+          for (let i = 0; i &lt; 3; i++) {
+            const { value } = this.getFittedSize(element, fontString, desiredWidth).next();
+            ({ fontString, fontSize, width } = value);
+            data.push({ x: width, y: fontSize });
+          }
+
+          const model = PolynomialRegression.read(data, 2);
+          const terms = model.getTerms();
+          const predictedSize = model.predictY(terms, desiredWidth);
+          const maxSize = Math.min(maxFontSize, predictedSize) - 6;
+          const finalSize = Math.max(minFontSize, maxSize);
+          element.style.fontSize = `${finalSize}px`;
+          element.style.lineHeight = `${finalSize}px`;
+        },
+      };
+
+      newElement.resizer();
+      this.elements.push(newElement);
+      window.addEventListener('resize', newElement.resizer, false);
+      window.addEventListener('orientationchange', newElement.resizer, false);
+    }
+
+    removeAllEventListeners() {
+      this.elements.forEach((element) =&gt; {
+        window.removeEventListener('resize', element.resizer, false);
+        window.removeEventListener('orientationchange', element.resizer, false);
+      });
+    }
+  }</pre></body></html>

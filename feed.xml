@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-19T06:43:10+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Fit Text</title><link href="https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText.html" rel="alternate" type="text/html" title="Fit Text" /><published>2019-03-17T03:00:00+00:00</published><updated>2019-03-17T03:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText.html">&lt;div class=&quot;fitTextDemo&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-20T05:15:01+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Fit Text</title><link href="https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText.html" rel="alternate" type="text/html" title="Fit Text" /><published>2019-03-17T03:00:00+00:00</published><updated>2019-03-17T03:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText.html">&lt;div class=&quot;fitTextDemo&quot;&gt;
   &lt;h2 class=&quot;fit__text&quot; style=&quot;color: #ea6; font-style: italic;&quot;&gt;Font size&lt;/h2&gt;
   &lt;p class=&quot;fit__text&quot;&gt;adjusts to the width of the&lt;/p&gt;
   &lt;h3 class=&quot;fit__text&quot; style=&quot;color: #6ae;&quot;&gt;parent&lt;/h3&gt;
@@ -7,7 +7,115 @@
   &lt;p class=&quot;fit__text&quot; style=&quot;font-style: italic;&quot;&gt;* Some restrictions may apply, see documentation for details. Russell Chapman is not liable for any damages due to implementing this in a production environment.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;a href=&quot;https://github.com/RobertMenke/JS-Polynomial-Regression&quot;&gt;https://github.com/RobertMenke/JS-Polynomial-Regression&lt;/a&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;Demo&quot;]" /><category term="HTML5" /><category term="Javascript" /><category term="Canvas" /><category term="Text" /><summary type="html">Font size adjusts to the width of the parent element regardless of existing style or width * Some restrictions may apply, see documentation for details. Russell Chapman is not liable for any damages due to implementing this in a production environment.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/measurement.jpg" /></entry><entry><title type="html">Development Portfolio</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html" rel="alternate" type="text/html" title="Development Portfolio" /><published>2019-03-15T00:00:00+00:00</published><updated>2019-03-15T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+&lt;p&gt;
+  Samples several text width / font-size pairs on a hidden Canvas with measureText.
+  Uses &lt;a href=&quot;https://github.com/RobertMenke/JS-Polynomial-Regression&quot;&gt;JS-Polynomial-Regression&lt;/a&gt; to predict the font size for a specified width.
+&lt;/p&gt;
+&lt;p&gt;
+  Font size can be predicted with as few as 3 sample measurements which is insanely fast compared to my first approach of measuring text widths while recursively increasing the font-size until they fit.
+  To avoid stack overflow issues, I had to use a generator function and &lt;a href=&quot;https://github.com/corbt/next-frame&quot;&gt;next-frame&lt;/a&gt; to avoid locking up the browser.
+&lt;/p&gt;
+
+&lt;pre class=&quot;highlight&quot;&gt;
+  import PolynomialRegression from '../node_modules/js-polynomial-regression/dist/PolynomialRegression';
+
+  function getParentWidth(element, compress) {
+    const style = window.getComputedStyle(element.parentElement);
+    const paddingLeft = parseFloat(style.paddingLeft, 10) || 0;
+    const paddingRight = parseFloat(style.paddingRight, 10) || 0;
+    const width = parseFloat(style.width, 10) || 0;
+    return width - ((paddingLeft + paddingRight) * compress);
+  }
+
+  function joinFontArray(fontArray, fontSize) {
+    fontArray[4] = `${fontSize}px`;
+    return fontArray.join(' ');
+  }
+
+  function splitFontString(fontString) {
+    const fontArray = fontString.split(' ');
+    fontArray[4] = parseFloat(fontArray[4], 10);
+    return fontArray;
+  }
+
+  export default class FitText {
+    constructor() {
+      this.canvas = document.createElement('canvas');
+      this.context = this.canvas.getContext('2d');
+      this.elements = [];
+    }
+
+    getTextWidth(element, fontString) {
+      this.context.font = fontString;
+      return this.context.measureText(element.innerText).width;
+    }
+
+    // Generator function helps avoid stack overflow issues
+    * getFittedSize(element, fontString, desiredWidth) {
+      const fontArray = splitFontString(fontString);
+      let fontSize = fontArray[4];
+      const width = this.getTextWidth(element, fontString);
+      const difference = desiredWidth - width;
+      const threshold = 1;
+      const stepSize = 1;
+
+      if (difference &gt; threshold) {
+        fontSize += stepSize;
+      } else if (difference &lt; -threshold) {
+        fontSize -= stepSize;
+      }
+
+      yield {
+        difference,
+        fontSize,
+        fontString: joinFontArray(fontArray, fontSize),
+        width,
+      };
+    }
+
+    fit(element, compress = 1.0, minFontSize = 16, maxFontSize = 1024) {
+      const style = window.getComputedStyle(element);
+      let fontString = style.font;
+      const fontArray = splitFontString(fontString);
+      let fontSize = fontArray[4];
+      let width = 0;
+      const data = [];
+
+      const newElement = {
+        element,
+        resizer: async () =&gt; {
+          const desiredWidth = getParentWidth(element, compress);
+
+          for (let i = 0; i &lt; 3; i++) {
+            const { value } = this.getFittedSize(element, fontString, desiredWidth).next();
+            ({ fontString, fontSize, width } = value);
+            data.push({ x: width, y: fontSize });
+          }
+
+          const model = PolynomialRegression.read(data, 2);
+          const terms = model.getTerms();
+          const predictedSize = model.predictY(terms, desiredWidth);
+          const maxSize = Math.min(maxFontSize, predictedSize) - 6;
+          const finalSize = Math.max(minFontSize, maxSize);
+          element.style.fontSize = `${finalSize}px`;
+          element.style.lineHeight = `${finalSize}px`;
+        },
+      };
+
+      newElement.resizer();
+      this.elements.push(newElement);
+      window.addEventListener('resize', newElement.resizer, false);
+      window.addEventListener('orientationchange', newElement.resizer, false);
+    }
+
+    removeAllEventListeners() {
+      this.elements.forEach((element) =&gt; {
+        window.removeEventListener('resize', element.resizer, false);
+        window.removeEventListener('orientationchange', element.resizer, false);
+      });
+    }
+  }
+&lt;/pre&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;Demo&quot;]" /><category term="ES6" /><category term="Javascript" /><category term="HTML5" /><category term="Canvas" /><category term="Fit" /><category term="Text" /><summary type="html">Font size adjusts to the width of the parent element regardless of existing style or width * Some restrictions may apply, see documentation for details. Russell Chapman is not liable for any damages due to implementing this in a production environment.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/measurement.jpg" /></entry><entry><title type="html">Development Portfolio</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html" rel="alternate" type="text/html" title="Development Portfolio" /><published>2019-03-15T00:00:00+00:00</published><updated>2019-03-15T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/paulhershey.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Jekyll Portfolio Site&lt;/h3&gt;
@@ -870,7 +978,7 @@
   &lt;li&gt;&lt;a href=&quot;http://pipes.js.org/&quot;&gt;Pipes.js&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;Article&quot;]" /><category term="Javascript" /><category term="Async" /><category term="WhatWG" /><category term="Streams" /><summary type="html">A browser based multi-threaded downloader implemented in vanilla JavaScript. Fetches parts of a file using the HTTP Range header and downloads those pieces in parallel. When the pieces have all been downloaded, the original file is re-assembled and saved in the browser’s Downloads folder.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/servers.svg" /></entry><entry><title type="html">Articles</title><link href="https://chpmnrssll.github.io/advanced-static-site/article/" rel="alternate" type="text/html" title="Articles" /><published>2018-06-25T00:00:00+00:00</published><updated>2018-06-25T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/Articles</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/article/">&lt;p&gt;#Articles&lt;/p&gt;</content><author><name>Russell Chapman</name></author><summary type="html">#Articles</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/spaceCapsule.svg" /></entry><entry><title type="html">About</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2018/03/28/Russell-Chapman.html" rel="alternate" type="text/html" title="About" /><published>2018-03-28T00:00:00+00:00</published><updated>2018-03-28T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2018/03/28/Russell-Chapman</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2018/03/28/Russell-Chapman.html">&lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image&quot; src=&quot;/advanced-static-site/assets/images/about/primitiveAvatar.gif&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/about/primitiveAvatar.gif&quot;&gt;
     &lt;h3&gt;Russell Chapman&lt;/h3&gt;
     &lt;h4&gt;Full Stack Developer&lt;/h4&gt;
   &lt;/header&gt;
@@ -886,26 +994,26 @@
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/speedometer.svg&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/speedometer.svg&quot;&gt;
     &lt;h3&gt;About&lt;/h3&gt;
     &lt;h4&gt;History&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/music/guitarNeckPick.jpg&quot; alt=&quot;Guitar&quot;/&gt;
+      &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/automotive/wrenches.jpg&quot; alt=&quot;Wrenches&quot;/&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/about/tlif.jpg&quot; alt=&quot;TLIF Fusion&quot;/&gt;
+    &lt;/section&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
     &lt;p&gt;
       When not writing code you'll often find Russell working on a farm truck,
       taking apart an engine, or playing guitar.
     &lt;/p&gt;
-    &lt;section class=&quot;image__list&quot;&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/music/guitarNeckPick.jpg&quot; alt=&quot;Guitar&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/wrenches.jpg&quot; alt=&quot;Wrenches&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/about/tlif.jpg&quot; alt=&quot;TLIF Fusion&quot;/&gt;
-    &lt;/section&gt;
   &lt;/section&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/technician.svg&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/technician.svg&quot;&gt;
     &lt;h3&gt;Skills&lt;/h3&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
@@ -920,116 +1028,48 @@
 &lt;/section&gt;
 
 &lt;section class=&quot;image__list&quot;&gt;
-  &lt;a href=&quot;http://sass-lang.com/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoSass.png&quot; alt=&quot;Sass&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;http://getbem.com/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/bemCSS.svg&quot; alt=&quot;BEM&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://en.wikipedia.org/wiki/Cascading_Style_Sheets&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoCSS3.png&quot; alt=&quot;CSS3&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://nodejs.org/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoNodeJS.png&quot; alt=&quot;Node.js&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://en.wikipedia.org/wiki/HTML&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoHTML5.png&quot; alt=&quot;HTML5&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMongoDB.png&quot; alt=&quot;MongoDB&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://en.wikipedia.org/wiki/JavaScript&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJavascript.png&quot; alt=&quot;JavaScript&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://en.wikipedia.org/wiki/PHP&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPHP.png&quot; alt=&quot;PHP&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://www.mysql.com/&quot;&gt;
-    &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMySQL.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://en.wikipedia.org/wiki/Java_(programming_language)&quot;&gt;
-    &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJava.png&quot; alt=&quot;Java&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://www.python.org/&quot;&gt;
-    &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPython.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;&quot;&gt;
-    &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJQuery.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://en.wikipedia.org/wiki/Perl&quot;&gt;
-    &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPerl.png&quot; alt=&quot;Perl&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWebComponents.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPolymer.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoAMP.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoBackbone.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMarionette.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWebGL.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://www.lua.org/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoLua.png&quot; alt=&quot;Lua&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJekyll.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJoomla.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;&quot;&gt;
-    &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWordpress.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoRubyOnRails.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://bower.io/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoBower.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://gruntjs.com/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGrunt.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://gulpjs.com/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGulp.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://github.com/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGithub.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://www.archlinux.org/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/linuxArch.png&quot; alt=&quot;Arch Linux&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://www.debian.org/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/linuxDebian.png&quot; alt=&quot;Debian Linux&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://www.gnome.org/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/linuxGnome.png&quot; alt=&quot;Gnome&quot;/&gt;
-  &lt;/a&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoSass.png&quot; alt=&quot;Sass&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/bemCSS.svg&quot; alt=&quot;BEM&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoCSS3.png&quot; alt=&quot;CSS3&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoNodeJS.png&quot; alt=&quot;Node.js&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoHTML5.png&quot; alt=&quot;HTML5&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMongoDB.png&quot; alt=&quot;MongoDB&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJavascript.png&quot; alt=&quot;JavaScript&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPHP.png&quot; alt=&quot;PHP&quot;/&gt;
+  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMySQL.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJava.png&quot; alt=&quot;Java&quot;/&gt;
+  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPython.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJQuery.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPerl.png&quot; alt=&quot;Perl&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWebComponents.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPolymer.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoAMP.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoBackbone.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMarionette.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWebGL.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoLua.png&quot; alt=&quot;Lua&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJekyll.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJoomla.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWordpress.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoRubyOnRails.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoBower.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGrunt.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGulp.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGithub.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/linuxArch.png&quot; alt=&quot;Arch Linux&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/linuxDebian.png&quot; alt=&quot;Debian Linux&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/linuxGnome.png&quot; alt=&quot;Gnome&quot;/&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;image__list&quot;&gt;
-  &lt;a href=&quot;https://www.upwork.com/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoUpWork.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://www.elance.com/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoElance.png&quot;/&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://www.upwork.com/&quot;&gt;
-    &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoODesk.png&quot;/&gt;
-  &lt;/a&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoUpWork.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoElance.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoODesk.png&quot;/&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image&quot; src=&quot;/advanced-static-site/assets/images/professional/saasCert.png&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/professional/saasCert.png&quot;&gt;
     &lt;h3&gt;Education&lt;/h3&gt;
     &lt;h4&gt;Computer Science&lt;/h4&gt;
   &lt;/header&gt;
@@ -1050,7 +1090,7 @@
 
 &lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image&quot; src=&quot;/advanced-static-site/assets/images/professional/AICert.png&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/professional/AICert.png&quot;&gt;
     &lt;h3&gt;Education&lt;/h3&gt;
     &lt;h4&gt;Computer Science&lt;/h4&gt;
   &lt;/header&gt;
@@ -1071,9 +1111,14 @@
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPPCC.svg&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPPCC.svg&quot;&gt;
     &lt;h3&gt;Education&lt;/h3&gt;
     &lt;h4&gt;Computer Science&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/books/C++ProgrammingProgramDesignIncludingDataStructures4thEdition.jpg&quot;/&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoNASA.png&quot;/&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/books/TheIllustrated3DStudioQuickReferenceR4.jpg&quot;/&gt;
+    &lt;/section&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
     &lt;h3&gt;PPCC &amp;#8212; 1997~2011&lt;/h3&gt;
@@ -1089,19 +1134,19 @@
       &lt;li&gt;DRT 283 - Advanced Animation&lt;/li&gt;
       &lt;small&gt;* NASA Scholorship program&lt;/small&gt;
     &lt;/ul&gt;
-    &lt;section class=&quot;image__list&quot;&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/books/C++ProgrammingProgramDesignIncludingDataStructures4thEdition.jpg&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoNASA.png&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/books/TheIllustrated3DStudioQuickReferenceR4.jpg&quot;/&gt;
-    &lt;/section&gt;
   &lt;/section&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image&quot; src=&quot;/advanced-static-site/assets/images/logo/logoASE.svg&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/logo/logoASE.svg&quot;&gt;
     &lt;h3&gt;ASE Certifications&lt;/h3&gt;
     &lt;h4&gt;HD-Truck&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/aseT6.jpg&quot;/&gt;
+      &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/automotive/freightliner.gif&quot;/&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/aseT7.jpg&quot;/&gt;
+    &lt;/section&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
     &lt;h3&gt;Travel Centers of America &amp;mdash; 2007&lt;/h3&gt;
@@ -1110,22 +1155,15 @@
       &lt;li&gt;Electrical Systems&lt;/li&gt;
       &lt;li&gt;HVAC Systems&lt;/li&gt;
     &lt;/ul&gt;
-    &lt;section class=&quot;image__list&quot;&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/aseT6.jpg&quot;/&gt;
-      &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/automotive/freightliner.gif&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/aseT7.jpg&quot;/&gt;
-    &lt;/section&gt;
   &lt;/section&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image&quot; src=&quot;/advanced-static-site/assets/images/about/purple_tentacle.gif&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/about/purple_tentacle.gif&quot;&gt;
     &lt;h3&gt;Demoscene&lt;/h3&gt;
     &lt;h4&gt;Purple Tentacle&lt;/h4&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;section class=&quot;image__list&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/pcVGAPalette.jpg&quot; alt=&quot;VGA Palette&quot;/&gt;
       &lt;a href=&quot;https://en.wikipedia.org/wiki/FastTracker_2&quot;&gt;
         &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/pcFastTracker2.jpg&quot; alt=&quot;FastTracker 2&quot;/&gt;
@@ -1134,6 +1172,8 @@
         &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/cakewalkSequencer.jpg&quot; alt=&quot;Cakewalk&quot;/&gt;
       &lt;/a&gt;
     &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
     &lt;section&gt;
       &lt;ul&gt;
         &lt;li&gt;VGA Mode 13h &amp;amp; ModeX (0xA0000)&lt;/li&gt;
