@@ -2,10 +2,10 @@
 layout: default
 ---
 <section class="featured">
-  {%- for category in page.children -%}
-    {%- for post in site.categories[category] -%}
-      <a class="featured__item" href="{{ post.url | relative_url }}"
-        style="background-image: url({{ site.baseurl }}{{ post.image }})">
+  {% for category in page.children %}
+    {% for post in site.categories[category] %}
+      <a class="featured__item" href="{{ post.url | relative_url }}">
+        <img class="featured__item--image{% if post.blur-header %} image__blur{% endif %}" itemprop="image" src="{{ site.baseurl }}{{ post.image }}" alt="alt">
         <h2 class="featured__item--title animated-headline fit__text">{{ post.title | escape }}</h2>
         <h3 class="featured__item--subtitle">{{ post.subtitle | escape }}</h3>
         <div class="featured__item--date">
@@ -15,6 +15,6 @@ layout: default
           </time>
         </div>
       </a>
-    {%- endfor -%}
-  {%- endfor -%}
+    {% endfor %}
+  {% endfor %}
 </section>

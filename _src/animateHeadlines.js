@@ -31,7 +31,8 @@ export default function () {
         const letters = splitter(headline, {
           delimeter: 'word',
           each: (node) => {
-            node.getRootNode().style.marginRight = `${fontSize / 6}px`;
+            // magic number to play with for word spacing
+            node.getRootNode().style.marginRight = `${fontSize / 5}px`;
           },
         });
         // const letters = splitter(headline);

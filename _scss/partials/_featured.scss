@@ -24,6 +24,15 @@
     position: relative;
     text-decoration: none;
   }
+  @at-root #{&}__item--image {
+    height: calc(9rem + 9vw);
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+  }
   @at-root #{&}__item--title {
     justify-content: flex-start;
   }

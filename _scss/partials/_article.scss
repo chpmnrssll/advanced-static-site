@@ -3,7 +3,7 @@
   // @include media-query('laptop-s') { grid-template-columns: 1rem 1rem 1fr 1rem 1rem; }
 
   display: grid;
-  grid-template-columns: 1rem 1fr 1rem;
+  // grid-template-columns: 1rem 1fr 1rem;
 
   * {
     // @include media-query('laptop-s') { grid-column: 3; }

@@ -75,8 +75,8 @@ export default class FitText {
 
         const model = PolynomialRegression.read(data, 2);
         const terms = model.getTerms();
-        const predictedSize = model.predictY(terms, desiredWidth);
-        const maxSize = Math.min(maxFontSize, predictedSize) - 6;
+        const predictedSize = model.predictY(terms, desiredWidth * 0.95);
+        const maxSize = Math.min(maxFontSize, predictedSize);
         const finalSize = Math.max(minFontSize, maxSize);
         element.style.fontSize = `${finalSize}px`;
         element.style.lineHeight = `${finalSize}px`;

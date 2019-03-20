@@ -1,5 +1,5 @@
-const baseurl = '/advanced-static-site';
-// const baseurl = '';
+// const baseurl = '/advanced-static-site';
+const baseurl = '';
 
 export default function runDemos({ pathname }) {
   switch (pathname) {

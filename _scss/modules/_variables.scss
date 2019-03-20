@@ -40,7 +40,7 @@ $link-color: #68abde;
   --primary-color-darkest: hsl(var(--primary-color-hue), calc(var(--primary-color-saturation) + 30%), calc(var(--primary-color-lightness) - 40%));
   --primary-color-light: hsl(var(--primary-color-hue), calc(var(--primary-color-saturation) - 5%), calc(var(--primary-color-lightness) + 10%));
   --primary-color-lighter: hsl(var(--primary-color-hue), calc(var(--primary-color-saturation) - 10%), calc(var(--primary-color-lightness) + 35%));
-  --primary-color-lightest: hsl(var(--primary-color-hue), calc(var(--primary-color-saturation) - 15%), calc(var(--primary-color-lightness) + 48%));
+  --primary-color-lightest: hsl(var(--primary-color-hue), calc(var(--primary-color-saturation) - 15%), calc(var(--primary-color-lightness) + 64%));
 
   --secondary-color-hue: 20;
   --secondary-color-saturation: 60%;

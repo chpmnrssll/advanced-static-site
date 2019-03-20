@@ -35,23 +35,27 @@
     box-shadow: .25rem .25rem 1rem var(--primary-color-darkest, darken($primary-color, 40%));
     height: 3rem;
     margin: .1rem;
+    object-fit: contain;
     padding: .1rem;
     position: relative;
     width: 3rem;
+    z-index: 1;
   }
 
   @at-root #{&}__thumb--alt {
-    background: var(--primary-color-lightest, lighten($primary-color, 48%));
+    background: var(--primary-color-lightest, lighten($primary-color, 64%));
     box-shadow: .25rem .25rem 1rem var(--primary-color-darkest, darken($primary-color, 40%));
     height: 3rem;
     margin: .1rem;
+    object-fit: contain;
     padding: .1rem;
     position: relative;
     width: 3rem;
+    z-index: 1;
   }
 
   @at-root #{&}__thumb-alt {
-    background: var(--primary-color-lightest, lighten($primary-color, 48%));
+    background: var(--primary-color-lightest, lighten($primary-color, 64%));
     box-shadow: .25rem .25rem 1rem var(--primary-color-darkest, darken($primary-color, 40%));
     height: 3rem;
     margin: .1rem;
@@ -60,5 +64,10 @@
   }
   @at-root #{&}__blur {
     filter: blur(4px);
+  }
+  @at-root #{&}__cover {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
   }
 }
