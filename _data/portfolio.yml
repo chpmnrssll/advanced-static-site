@@ -21,6 +21,8 @@
   links:
     - name: "www.g-widgets.com"
       url: "http://www.g-widgets.com/"
+    - name: "GitHub"
+      url: "https://github.com/gwidgets/gwidgets.github.io"
   images:
     - src: "/assets/images/professional/g-widgets.png"
       alt: "G-Widgets"
@@ -32,7 +34,7 @@
   date: "Jul, 2018"
   links:
     - name: "More Info"
-      url: "/article/2018/08/27/Multithread.html"
+      url: "https://chpmnrssll.github.io/advanced-static-site/article/2018/08/27/Multithread.html"
   images:
     - src: "/assets/images/professional/multiThreadedDownloaderB2.png"
       alt: "Multithreaded Downloader Backblaze B2"
@@ -59,7 +61,7 @@
   tags: ["Jekyll", "Liquid", "CSS", "YML"]
   date: "Apr, 2018"
   links:
-    - name: "GitHub repo"
+    - name: "GitHub"
       url: "https://github.com/chpmnrssll/identity-jekyll-theme"
   images:
     - src: "/assets/images/professional/identity-jekyll-theme-updates.jpg"
@@ -73,7 +75,7 @@
     - name: "mscra.com"
       url: "https://mscra.com/attorneys/mcra-public-directory/"
     - name: "More Info"
-      url: "/about/2018/01/28/MCRA.html"
+      url: "https://chpmnrssll.github.io/advanced-static-site/about/2018/01/28/MCRA.html"
   images:
     - src: "/assets/images/professional/MCRA/MCRAHome.jpg"
       alt: "MCRA Home"
@@ -96,7 +98,7 @@
   tags: ["HTML5", "CSS3"]
   date: "Nov, 2012"
   links:
-    - name: "Wayback Machine Link"
+    - name: "Internet Archive Link"
       url: "https://web.archive.org/web/20121130100618/http://honeystinger.com/hive.html"
     - name: "Smithwood Drive"
       url: "https://smithwooddrive.com/"
@@ -114,7 +116,7 @@
   tags: ["PHP", "JavaScript", "jQuery", "HTML5", "CSS3"]
   date: "Oct, 2012"
   links:
-    - name: "Wayback Machine Link"
+    - name: "Internet Archive Link"
       url: "https://web.archive.org/web/20150217153638/https://www.revclaims.com/patient/index.php"
     - name: "Like Minds Design"
       url: "http://www.likemindsdesigns.com/"
