@@ -35,6 +35,8 @@
   links:
     - name: "More Info"
       url: "https://chpmnrssll.github.io/advanced-static-site/article/2018/08/27/Multithread.html"
+    - name: "GitHub"
+      url: "https://github.com/Backblaze-B2-Samples/multithreaded-downloader-js"
   images:
     - src: "/assets/images/professional/multiThreadedDownloaderB2.png"
       alt: "Multithreaded Downloader Backblaze B2"
@@ -132,7 +134,7 @@
   tags: ["JavaScript", "jQuery", "HTML5", "CSS3"]
   date: "Oct, 2012"
   links:
-    - name: "Xtreme Technologies"
+    - name: "StarMazy Games"
       url: "http://starmazy.com/"
   images:
     - src: "/assets/images/professional/starmazy.png"

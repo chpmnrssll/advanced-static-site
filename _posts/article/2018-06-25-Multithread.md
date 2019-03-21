@@ -87,17 +87,15 @@ PromiseQueue provides concurrency by using a queue of promises. It will automati
 ## Demo
 
 <a href="https://backblaze-b2-samples.github.io/multithreaded-downloader-js/examples/backblaze.html">
-  <img class="image image__thumb image--lazyload" src="{{ site.baseurl }}/assets/images/logo/backblazeB2.png" alt="Backblaze B2">
+  Backblaze B2
 </a>
 
 <a href="https://backblaze-b2-samples.github.io/multithreaded-downloader-js/examples/googleDrive.html">
-  <img class="image image__thumb image--lazyload" src="{{ site.baseurl }}/assets/images/logo/googleDrive.jpg" alt="Google Drive">
+  Google Drive
 </a>
 
-## Source
-
 <a href="https://github.com/Backblaze-B2-Samples/multithreaded-downloader-js">
-  <img class="image image__thumb image--lazyload" src="{{ site.baseurl }}/assets/images/logo/logoGithub.png" alt="Github">
+  GitHub
 </a>
 
 
