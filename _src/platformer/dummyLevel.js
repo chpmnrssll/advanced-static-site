@@ -88,7 +88,7 @@ function createPlatforms() {
 const logos = [];
 let lastShape = {};
 
-function randomRectLogo(x, y, scale) {
+function randomRectLogo(x, y, scale, baseurl) {
   const rectangles = [
     {
       type: 'rectangle',
@@ -97,7 +97,7 @@ function randomRectLogo(x, y, scale) {
       height: 64,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoGrunt.png',
+      url: `${baseurl}/assets/images/logo/logoGrunt.png`,
     },
     {
       type: 'rectangle',
@@ -106,7 +106,7 @@ function randomRectLogo(x, y, scale) {
       height: 64,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoGulp.png',
+      url: `${baseurl}/assets/images/logo/logoGulp.png`,
     },
     {
       type: 'rectangle',
@@ -115,7 +115,7 @@ function randomRectLogo(x, y, scale) {
       height: 64,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoHTML5.png',
+      url: `${baseurl}/assets/images/logo/logoHTML5.png`,
     },
     {
       type: 'rectangle',
@@ -124,7 +124,7 @@ function randomRectLogo(x, y, scale) {
       height: 50,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoJavascript.png',
+      url: `${baseurl}/assets/images/logo/logoJavascript.png`,
     },
     {
       type: 'rectangle',
@@ -133,7 +133,7 @@ function randomRectLogo(x, y, scale) {
       height: 22,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoJekyll.png',
+      url: `${baseurl}/assets/images/logo/logoJekyll.png`,
     },
     {
       type: 'rectangle',
@@ -142,7 +142,7 @@ function randomRectLogo(x, y, scale) {
       height: 52,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoMarionette.png',
+      url: `${baseurl}/assets/images/logo/logoMarionette.png`,
     },
     {
       type: 'rectangle',
@@ -151,7 +151,7 @@ function randomRectLogo(x, y, scale) {
       height: 18,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoMongoDB.png',
+      url: `${baseurl}/assets/images/logo/logoMongoDB.png`,
     },
     {
       type: 'rectangle',
@@ -160,7 +160,7 @@ function randomRectLogo(x, y, scale) {
       height: 32,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoMySQL.png',
+      url: `${baseurl}/assets/images/logo/logoMySQL.png`,
     },
     {
       type: 'rectangle',
@@ -169,7 +169,7 @@ function randomRectLogo(x, y, scale) {
       height: 32,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoNodeJS.png',
+      url: `${baseurl}/assets/images/logo/logoNodeJS.png`,
     },
     {
       type: 'rectangle',
@@ -178,7 +178,7 @@ function randomRectLogo(x, y, scale) {
       height: 21,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoNpm.png',
+      url: `${baseurl}/assets/images/logo/logoNpm.png`,
     },
     {
       type: 'rectangle',
@@ -187,7 +187,7 @@ function randomRectLogo(x, y, scale) {
       height: 32,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoPHP.png',
+      url: `${baseurl}/assets/images/logo/logoPHP.png`,
     },
     {
       type: 'rectangle',
@@ -196,7 +196,7 @@ function randomRectLogo(x, y, scale) {
       height: 62,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoRubyOnRails.png',
+      url: `${baseurl}/assets/images/logo/logoRubyOnRails.png`,
     },
     {
       type: 'rectangle',
@@ -205,7 +205,7 @@ function randomRectLogo(x, y, scale) {
       height: 48,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoSass.png',
+      url: `${baseurl}/assets/images/logo/logoSass.png`,
     },
   ];
 
@@ -228,7 +228,7 @@ function randomRectLogo(x, y, scale) {
   });
 }
 
-function randomCircleLogo(x, y, scale) {
+function randomCircleLogo(x, y, scale, baseurl) {
   const circles = [
     {
       type: 'circle',
@@ -236,7 +236,7 @@ function randomCircleLogo(x, y, scale) {
       radius: 30,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoAMP.png',
+      url: `${baseurl}/assets/images/logo/logoAMP.png`,
     },
     {
       type: 'circle',
@@ -244,7 +244,7 @@ function randomCircleLogo(x, y, scale) {
       radius: 30,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoAtom.png',
+      url: `${baseurl}/assets/images/logo/logoAtom.png`,
     },
     {
       type: 'circle',
@@ -252,7 +252,7 @@ function randomCircleLogo(x, y, scale) {
       radius: 31,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoBower.png',
+      url: `${baseurl}/assets/images/logo/logoBower.png`,
     },
     {
       type: 'circle',
@@ -260,7 +260,7 @@ function randomCircleLogo(x, y, scale) {
       radius: 29,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoChrome.png',
+      url: `${baseurl}/assets/images/logo/logoChrome.png`,
     },
     {
       type: 'circle',
@@ -268,7 +268,7 @@ function randomCircleLogo(x, y, scale) {
       radius: 24,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoWordpress.png',
+      url: `${baseurl}/assets/images/logo/logoWordpress.png`,
     },
     {
       type: 'circle',
@@ -276,7 +276,7 @@ function randomCircleLogo(x, y, scale) {
       radius: 28,
       xScale: 0.25,
       yScale: 0.25,
-      url: '/advanced-static-site/assets/images/logo/logoYeoman.png',
+      url: `${baseurl}/assets/images/logo/logoYeoman.png`,
     },
   ];
 
@@ -299,17 +299,17 @@ function randomCircleLogo(x, y, scale) {
   });
 }
 
-function randomLogo(x, y) {
+function randomLogo(x, y, baseurl) {
   if (lastShape.type === 'circle') {
     const scale = Matter.Common.random(0.5, 1.5);
-    return randomRectLogo(x, y, scale);
+    return randomRectLogo(x, y, scale, baseurl);
   }
 
   const scale = Matter.Common.random(0.5, 1.5);
-  return randomCircleLogo(x, y, scale);
+  return randomCircleLogo(x, y, scale, baseurl);
 }
 
-function spawnLogos(world) {
+function spawnLogos(world, baseurl) {
   const positions = [
     { x: 750, y: 600 },
     { x: 600, y: 256 },
@@ -319,7 +319,7 @@ function spawnLogos(world) {
 
   if (logos.length < 20) {
     const randomPosition = parseInt(Math.random() * positions.length, 10);
-    const logo = randomLogo(positions[randomPosition].x, positions[randomPosition].y);
+    const logo = randomLogo(positions[randomPosition].x, positions[randomPosition].y, baseurl);
     const r = Math.random() - 0.5;
     logos.push(logo);
     Matter.World.add(world, logo);
@@ -335,8 +335,9 @@ function spawnLogos(world) {
   setTimeout(spawnLogos, 1000, world);
 }
 
-export default function startLevel(world) {
+export default function startLevel(world, baseurl) {
+  baseurl = baseurl || '';
   Matter.World.add(world, createBounds(1000, 1000, 1000));
   Matter.World.add(world, createPlatforms());
-  spawnLogos(world);
+  spawnLogos(world, baseurl);
 }

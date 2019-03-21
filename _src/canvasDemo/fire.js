@@ -1,6 +1,6 @@
 export default class Fire {
-  constructor(width = 256, height = 256) {
-    this.canvas = document.querySelector('.canvasDemo');
+  constructor(canvas, width = 256, height = 256) {
+    this.canvas = canvas;
     this.canvas.width = width;
     this.canvas.height = height;
     this.canvas.centerX = width / 2;

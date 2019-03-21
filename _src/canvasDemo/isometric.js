@@ -32,7 +32,7 @@ function coordinateToIndex(x, y, width) {
 }
 
 export default class Heightmap {
-  constructor(width, height) {
+  constructor(canvas, width, height, heightmap) {
     this.viewport = {
       angle: 0,
       scale: 1.0,
@@ -41,7 +41,7 @@ export default class Heightmap {
       y: 0,
     };
 
-    this.canvas = document.querySelector('.canvasDemo');
+    this.canvas = canvas;
     this.canvas.width = width;
     this.canvas.height = height;
     this.context2D = this.canvas.getContext('2d');
@@ -68,7 +68,7 @@ export default class Heightmap {
     document.addEventListener('keyup', this.keyupHandler.bind(this));
 
     this.heightmap = new window.Image();
-    this.heightmap.src = '/advanced-static-site/assets/images/about/map4.png';
+    this.heightmap.src = heightmap;
     this.heightmap.addEventListener('load', this.loadHandler.bind(this));
   }
 

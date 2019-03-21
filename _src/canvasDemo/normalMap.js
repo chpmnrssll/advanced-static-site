@@ -42,8 +42,8 @@ function length(x, y, z) {
 }
 
 export default class NormalMap {
-  constructor(width = 256, height = 256) {
-    this.canvas = document.querySelector('.canvasDemo');
+  constructor(canvas, width = 256, height = 256, image, normalMap) {
+    this.canvas = canvas;
     this.canvas.style.imageRendering = 'pixelated';
     this.canvas.width = width;
     this.canvas.height = height;
@@ -61,9 +61,9 @@ export default class NormalMap {
       normalMap: new window.Image(),
     };
 
-    this.texture.image.src = '/advanced-static-site/assets/images/route-66.png';
+    this.texture.image.src = image;
     this.texture.image.onload = this.loadHandler.bind(this);
-    this.texture.normalMap.src = '/advanced-static-site/assets/images/route-66_normals.png';
+    this.texture.normalMap.src = normalMap;
     this.texture.normalMap.onload = this.loadHandler.bind(this);
 
     this.imagesLoaded = 0;

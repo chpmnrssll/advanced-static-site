@@ -8,7 +8,7 @@ import startLevel from './dummyLevel';
 import controls from './controls';
 
 export default class Game {
-  constructor(width, height, canvas, resolution) {
+  constructor(width, height, canvas, resolution, baseurl) {
     this.engine = Matter.Engine.create();
     this.world = this.engine.world;
     this.canvas = canvas;
@@ -37,7 +37,7 @@ export default class Game {
     this.runner = Matter.Runner.create();
     Matter.Runner.run(this.runner, this.engine);
 
-    startLevel(this.world);
+    startLevel(this.world, baseurl);
 
     // window.fetch('/assets/images/level.svg')
     //   .then(response => response.text())
