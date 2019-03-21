@@ -19,7 +19,7 @@ page('*', (context) => {
     fitTextFatElements();
     animateHeadlines();
     animateFooter();
-    runDemos(context);
+    runDemos();
     return;
   }
 
@@ -38,7 +38,7 @@ page('*', (context) => {
     fitTextFatElements();
     animateHeadlines();
     animateFooter();
-    runDemos(context);
+    runDemos();
     zoom.attach('.image__thumb, .image__thumb--alt');
   };
 
