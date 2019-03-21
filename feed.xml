@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-20T05:15:01+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Fit Text</title><link href="https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText.html" rel="alternate" type="text/html" title="Fit Text" /><published>2019-03-17T03:00:00+00:00</published><updated>2019-03-17T03:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText.html">&lt;div class=&quot;fitTextDemo&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-21T05:02:54+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Fit Text</title><link href="https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText.html" rel="alternate" type="text/html" title="Fit Text" /><published>2019-03-17T03:00:00+00:00</published><updated>2019-03-17T03:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/demo/2019/03/17/FitText.html">&lt;div class=&quot;fitTextDemo&quot;&gt;
   &lt;h2 class=&quot;fit__text&quot; style=&quot;color: #ea6; font-style: italic;&quot;&gt;Font size&lt;/h2&gt;
   &lt;p class=&quot;fit__text&quot;&gt;adjusts to the width of the&lt;/p&gt;
   &lt;h3 class=&quot;fit__text&quot; style=&quot;color: #6ae;&quot;&gt;parent&lt;/h3&gt;
@@ -148,7 +148,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttps://www.paulhershey.com/&quot;&gt;www.paulhershey.com&lt;/a&gt;
+        &lt;a href=&quot;https://www.paulhershey.com/&quot;&gt;www.paulhershey.com&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -183,7 +183,11 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttp://www.g-widgets.com/&quot;&gt;www.g-widgets.com&lt;/a&gt;
+        &lt;a href=&quot;http://www.g-widgets.com/&quot;&gt;www.g-widgets.com&lt;/a&gt;
+      &lt;/div&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://github.com/gwidgets/gwidgets.github.io&quot;&gt;GitHub&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -218,7 +222,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-site/article/2018/08/27/Multithread.html&quot;&gt;More Info&lt;/a&gt;
+        &lt;a href=&quot;https://chpmnrssll.github.io/advanced-static-site/article/2018/08/27/Multithread.html&quot;&gt;More Info&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -259,7 +263,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttps://fin.afterdawn.com/uutiset/artikkeli.cfm/2018/06/01/canon-lopetti-viimeisenkin-filmikameran-myymisen&quot;&gt;afterdawn.com&lt;/a&gt;
+        &lt;a href=&quot;https://fin.afterdawn.com/uutiset/artikkeli.cfm/2018/06/01/canon-lopetti-viimeisenkin-filmikameran-myymisen&quot;&gt;afterdawn.com&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -298,7 +302,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttps://github.com/chpmnrssll/identity-jekyll-theme&quot;&gt;GitHub repo&lt;/a&gt;
+        &lt;a href=&quot;https://github.com/chpmnrssll/identity-jekyll-theme&quot;&gt;GitHub&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -343,11 +347,11 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttps://mscra.com/attorneys/mcra-public-directory/&quot;&gt;mscra.com&lt;/a&gt;
+        &lt;a href=&quot;https://mscra.com/attorneys/mcra-public-directory/&quot;&gt;mscra.com&lt;/a&gt;
       &lt;/div&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-site/about/2018/01/28/MCRA.html&quot;&gt;More Info&lt;/a&gt;
+        &lt;a href=&quot;https://chpmnrssll.github.io/advanced-static-site/about/2018/01/28/MCRA.html&quot;&gt;More Info&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -386,7 +390,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttps://www.bluebridgedev.com/&quot;&gt;Blue Bridge Development&lt;/a&gt;
+        &lt;a href=&quot;https://www.bluebridgedev.com/&quot;&gt;Blue Bridge Development&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -421,11 +425,11 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttps://web.archive.org/web/20121130100618/http://honeystinger.com/hive.html&quot;&gt;Wayback Machine Link&lt;/a&gt;
+        &lt;a href=&quot;https://web.archive.org/web/20121130100618/http://honeystinger.com/hive.html&quot;&gt;Internet Archive Link&lt;/a&gt;
       &lt;/div&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttps://smithwooddrive.com/&quot;&gt;Smithwood Drive&lt;/a&gt;
+        &lt;a href=&quot;https://smithwooddrive.com/&quot;&gt;Smithwood Drive&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -464,11 +468,11 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttps://web.archive.org/web/20150217153638/https://www.revclaims.com/patient/index.php&quot;&gt;Wayback Machine Link&lt;/a&gt;
+        &lt;a href=&quot;https://web.archive.org/web/20150217153638/https://www.revclaims.com/patient/index.php&quot;&gt;Internet Archive Link&lt;/a&gt;
       &lt;/div&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttp://www.likemindsdesigns.com/&quot;&gt;Like Minds Design&lt;/a&gt;
+        &lt;a href=&quot;http://www.likemindsdesigns.com/&quot;&gt;Like Minds Design&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -511,7 +515,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttp://starmazy.com/&quot;&gt;Xtreme Technologies&lt;/a&gt;
+        &lt;a href=&quot;http://starmazy.com/&quot;&gt;Xtreme Technologies&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -519,7 +523,7 @@
 
 &lt;blockquote class=&quot;card__quote&quot;&gt;
   Russell was the perfect person for this job. He was very responsive to my queries, completed the project in record time, and the code was also very clean.
-&lt;/blockquote&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Jekyll Portfolio Site Oct, 2018 Improved page speed scores, implemented lazy loading, background videos, and CSS/Design updates on a Jekyll based site. Jekyll Sass CSS Bootstrap 4 Cloudinary www.paulhershey.com Russell is excellent to work with. He always had a positive attitude and was a great communicator. I would highly suggest working with him, he will certainly be one of my go-to people for development needs. WordPress to Jekyll Conversion Oct, 2018 Converted an existing WordPress/PHP site to a Jekyll static site. Makes use of the Jekyll Archives plugin. WordPress Jekyll www.g-widgets.com Multithreaded Downloader Jul, 2018 A browser based multithreaded downloader implemented in Javascript. Uses HTTP range requests, HTML5 Filesystem API, and Web Streams API to download multiple chunks of a file in parallel. Works with Backblaze-B2 and Google Drive. JavaScript HTML5 Filesystem Web Streams More Info Russell did an incredible job of taking a very lightly defined project and building it exactly to my expectations. It was a challenging project where it wasn't obvious whether it was even possible. Russell did tons of research and experimented with many different technical approaches. In the end, he solved the problem and did a great job with the solution. Taboola/Outbrain recommended content clone Jun, 2018 Lightweight Taboola/Outbrain recommended content clone for embedding in several sites. Uses CSS Grid and vanilla JavaScript for responsive layout, small file size, and compatibility. Responsive Javascript Ajax CSS afterdawn.com Excellent professional. Exceeded my expectations for quality of work and adherence to the deadlines. Identity Jekyll Theme Apr, 2018 Updated Font-Awesome from v4 to v5 and added more social links to _config.yml Jekyll Liquid CSS YML GitHub repo Absolutely fantastic experience. Went above and beyond when I forgot to include a request in original statement of work and happily completed the request. Will certainly shortlist for future efforts! Membership Directory Plugin Jun, 2013 WordPress plug-in to replace the default user system. Member accounts, profile management, public member directory. PHP SQL HTML5 CSS3 JavaScript jQuery mscra.com More Info Joomla Extension Mar, 2013 Joomla extension development, UI PHP Joomla Javascript MooTools HTML5 CSS3 Blue Bridge Development HoneyStinger Nov, 2012 Tables to HTML5 layout conversion. HTML5 CSS3 Wayback Machine Link Smithwood Drive RevClaims Oct, 2012 Long patient form conversion to semantic HTML5, multi-page, wizard-type form. E-Mail notifications on submission, monthly CSV reports, client-side form validation, image captcha. PHP JavaScript jQuery HTML5 CSS3 Wayback Machine Link Like Minds Design Russell is knowledgeable, friendly, gives updates on progress, and meets deadlines. Highly recommended!!! Star Mazy Games Oct, 2012 Adobe Flash to HTML5/JavaScript user interface conversion. JavaScript jQuery HTML5 CSS3 Xtreme Technologies Russell was the perfect person for this job. He was very responsive to my queries, completed the project in record time, and the code was also very clean.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/filesOnAShelf.svg" /></entry><entry><title type="html">Development History</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History.html" rel="alternate" type="text/html" title="Development History" /><published>2019-03-14T00:00:00+00:00</published><updated>2019-03-14T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+&lt;/blockquote&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Jekyll Portfolio Site Oct, 2018 Improved page speed scores, implemented lazy loading, background videos, and CSS/Design updates on a Jekyll based site. Jekyll Sass CSS Bootstrap 4 Cloudinary www.paulhershey.com Russell is excellent to work with. He always had a positive attitude and was a great communicator. I would highly suggest working with him, he will certainly be one of my go-to people for development needs. WordPress to Jekyll Conversion Oct, 2018 Converted an existing WordPress/PHP site to a Jekyll static site. Makes use of the Jekyll Archives plugin. WordPress Jekyll www.g-widgets.com GitHub Multithreaded Downloader Jul, 2018 A browser based multithreaded downloader implemented in Javascript. Uses HTTP range requests, HTML5 Filesystem API, and Web Streams API to download multiple chunks of a file in parallel. Works with Backblaze-B2 and Google Drive. JavaScript HTML5 Filesystem Web Streams More Info Russell did an incredible job of taking a very lightly defined project and building it exactly to my expectations. It was a challenging project where it wasn't obvious whether it was even possible. Russell did tons of research and experimented with many different technical approaches. In the end, he solved the problem and did a great job with the solution. Taboola/Outbrain recommended content clone Jun, 2018 Lightweight Taboola/Outbrain recommended content clone for embedding in several sites. Uses CSS Grid and vanilla JavaScript for responsive layout, small file size, and compatibility. Responsive Javascript Ajax CSS afterdawn.com Excellent professional. Exceeded my expectations for quality of work and adherence to the deadlines. Identity Jekyll Theme Apr, 2018 Updated Font-Awesome from v4 to v5 and added more social links to _config.yml Jekyll Liquid CSS YML GitHub Absolutely fantastic experience. Went above and beyond when I forgot to include a request in original statement of work and happily completed the request. Will certainly shortlist for future efforts! Membership Directory Plugin Jun, 2013 WordPress plug-in to replace the default user system. Member accounts, profile management, public member directory. PHP SQL HTML5 CSS3 JavaScript jQuery mscra.com More Info Joomla Extension Mar, 2013 Joomla extension development, UI PHP Joomla Javascript MooTools HTML5 CSS3 Blue Bridge Development HoneyStinger Nov, 2012 Tables to HTML5 layout conversion. HTML5 CSS3 Internet Archive Link Smithwood Drive RevClaims Oct, 2012 Long patient form conversion to semantic HTML5, multi-page, wizard-type form. E-Mail notifications on submission, monthly CSV reports, client-side form validation, image captcha. PHP JavaScript jQuery HTML5 CSS3 Internet Archive Link Like Minds Design Russell is knowledgeable, friendly, gives updates on progress, and meets deadlines. Highly recommended!!! Star Mazy Games Oct, 2012 Adobe Flash to HTML5/JavaScript user interface conversion. JavaScript jQuery HTML5 CSS3 Xtreme Technologies Russell was the perfect person for this job. He was very responsive to my queries, completed the project in record time, and the code was also very clean.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/filesOnAShelf.svg" /></entry><entry><title type="html">Development History</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History.html" rel="alternate" type="text/html" title="Development History" /><published>2019-03-14T00:00:00+00:00</published><updated>2019-03-14T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/MVC1.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Multi-user content management system&lt;/h3&gt;
@@ -550,11 +554,11 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-site/about/2018/01/20/MVC.html&quot;&gt;More info&lt;/a&gt;
+        &lt;a href=&quot;https://chpmnrssll.github.io/advanced-static-site/about/2018/01/20/MVC.html&quot;&gt;More info&lt;/a&gt;
       &lt;/div&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttps://github.com/chpmnrssll/multi-CMS&quot;&gt;GitHub&lt;/a&gt;
+        &lt;a href=&quot;https://github.com/chpmnrssll/multi-CMS&quot;&gt;GitHub&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -599,7 +603,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttps://github.com/chpmnrssll/old/tree/master/php&quot;&gt;GitHub&lt;/a&gt;
+        &lt;a href=&quot;https://github.com/chpmnrssll/old/tree/master/php&quot;&gt;GitHub&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -636,7 +640,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttp://www.coloradocasketcompany.com/&quot;&gt;Wyback Machine link&lt;/a&gt;
+        &lt;a href=&quot;https://web.archive.org/web/20141216221649/http://coloradocasketcompany.com/&quot;&gt;Internet Archive link&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -671,7 +675,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-site&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -710,7 +714,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-site&quot;&gt;&lt;/a&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -747,7 +751,7 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttps://web.archive.org/web/20010720131045/http://growmall.com:80/&quot;&gt;Wayback Machine link&lt;/a&gt;
+        &lt;a href=&quot;https://web.archive.org/web/20010720131045/http://growmall.com:80/&quot;&gt;Internet Archive link&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -784,11 +788,11 @@
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;/advanced-static-sitehttps://web.archive.org/web/20021216145203/http://static.virtualave.net:80/index.shtml&quot;&gt;Wayback Machine link&lt;/a&gt;
+        &lt;a href=&quot;https://web.archive.org/web/20021216145203/http://static.virtualave.net:80/index.shtml&quot;&gt;Internet Archive link&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
-&lt;/section&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Multi-user content management system Sep, 2012 A Multi-user content management system. Client app made with RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API using PHP/Slim/MongoDB and hosted on OpenShift. PHP/SLIM MongoDB JavaScript HTML5 CSS3 More info GitHub Content Management System Sep, 2013 Custom content management system built with PHP using vanilla MVC architecture. PHP SQL Activerecord JavaScript jQuery HTML5 CSS3 GitHub Colorado Casket Company Jun 20, 2012 Advertising, product, and info site. Content management system, product catalog db, image resizing and caching on the server. PHP SQL ImageMagic HTML5 CSS3 Wyback Machine link Mr. Tom&amp;#39;s Critters Oct 2, 2012 Content management system and design for animal resuce and adoption site. PHP SQL HTML5 CSS3 Photo Gallery Aug 14, 2012 Content management system and design for a photography portfolio. PHP SQL HTML5 CSS3 JavaScript jQuery GrowMall 2000 One of my first clients. Organic and hydropodic growing supply site, forums, and chat (Java applet). SHTML (Server side includes) JavaScript CSS Java Applets Wayback Machine link Static Design 1999-2000 My first web development consulting site. SHTML (Server side includes!) JavaScript CSS Java Applets Wayback Machine link</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/roadBlueSky.svg" /></entry><entry><title type="html">About</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html" rel="alternate" type="text/html" title="About" /><published>2019-03-13T00:00:00+00:00</published><updated>2019-03-13T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html">&lt;section class=&quot;code-stats&quot;&gt;
+&lt;/section&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Multi-user content management system Sep, 2012 A Multi-user content management system. Client app made with RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API using PHP/Slim/MongoDB and hosted on OpenShift. PHP/SLIM MongoDB JavaScript HTML5 CSS3 More info GitHub Content Management System Sep, 2013 Custom content management system built with PHP using vanilla MVC architecture. PHP SQL Activerecord JavaScript jQuery HTML5 CSS3 GitHub Colorado Casket Company Jun 20, 2012 Advertising, product, and info site. Content management system, product catalog db, image resizing and caching on the server. PHP SQL ImageMagic HTML5 CSS3 Internet Archive link Mr. Tom&amp;#39;s Critters Oct 2, 2012 Content management system and design for animal resuce and adoption site. PHP SQL HTML5 CSS3 Photo Gallery Aug 14, 2012 Content management system and design for a photography portfolio. PHP SQL HTML5 CSS3 JavaScript jQuery GrowMall 2000 One of my first clients. Organic and hydropodic growing supply site, forums, and chat (Java applet). SHTML (Server side includes) JavaScript CSS Java Applets Internet Archive link Static Design 1999-2000 My first web development consulting site. SHTML (Server side includes!) JavaScript CSS Java Applets Internet Archive link</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/roadBlueSky.svg" /></entry><entry><title type="html">About</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html" rel="alternate" type="text/html" title="About" /><published>2019-03-13T00:00:00+00:00</published><updated>2019-03-13T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html">&lt;section class=&quot;code-stats&quot;&gt;
   &lt;table&gt;
     &lt;thead&gt;
       &lt;tr&gt;
