@@ -316,10 +316,11 @@ function spawnLogos(world, baseurl) {
     { x: 60, y: 127 },
     { x: 600, y: 96 },
   ];
-
+  const url = baseurl === undefined ? '' : baseurl;
   if (logos.length < 20) {
     const randomPosition = parseInt(Math.random() * positions.length, 10);
-    const logo = randomLogo(positions[randomPosition].x, positions[randomPosition].y, baseurl);
+    const logo = randomLogo(positions[randomPosition].x, positions[randomPosition].y, url);
+    console.log(logo.render.sprite.texture);
     const r = Math.random() - 0.5;
     logos.push(logo);
     Matter.World.add(world, logo);
@@ -336,7 +337,6 @@ function spawnLogos(world, baseurl) {
 }
 
 export default function startLevel(world, baseurl) {
-  baseurl = baseurl || '';
   Matter.World.add(world, createBounds(1000, 1000, 1000));
   Matter.World.add(world, createPlatforms());
   spawnLogos(world, baseurl);
