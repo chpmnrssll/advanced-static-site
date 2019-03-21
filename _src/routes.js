@@ -6,16 +6,15 @@ import { animateContentIn, animateContentOut } from './animateContent';
 import { fitTextElements, fitTextFatElements, stopFitting } from './featured';
 import runDemos from './canvasDemos';
 
-let zoom = null;
+const zoom = mediumZoom({
+  background: '#000000aa',
+});
 
 // Lazy load and animate in new content
 page('*', (context) => {
-  zoom = mediumZoom('.image__thumb, .image__thumb--alt', {
-    background: '#000000aa',
-  });
-
   // Initial page load
   if (context.init) {
+    zoom.attach('.image__thumb, .image__thumb--alt');
     fitTextElements();
     fitTextFatElements();
     animateHeadlines();
@@ -40,6 +39,7 @@ page('*', (context) => {
     animateHeadlines();
     animateFooter();
     runDemos(context);
+    zoom.attach('.image__thumb, .image__thumb--alt');
   };
 
   request.open('GET', `${context.path}`, true);
@@ -49,10 +49,10 @@ page('*', (context) => {
 page.exit('*', (context, next) => {
   animateContentOut().then(() => {
     stopFitting();
-    zoom.detach();
     if (window.demo && window.demo.stop) {
       window.demo.stop();
     }
+    zoom.detach();
   }).then(next);
 });
 
