@@ -67,7 +67,7 @@ export default class FitText {
       resizer: async () => {
         const desiredWidth = getParentWidth(element, compress);
 
-        for (let i = 0; i < 3; i++) {
+        for (let i = 0; i < 4; i++) {
           const { value } = this.getFittedSize(element, fontString, desiredWidth).next();
           ({ fontString, fontSize, width } = value);
           data.push({ x: width, y: fontSize });
