@@ -4,6 +4,7 @@ image: /assets/images/backgrounds/cityGlow.svg
 header-image: /assets/images/backgrounds/cityGlow.svg
 title: Corporate
 sub-title: Corporate Ipsum
+permalink: /demo/ipsum/corporate/
 date: 2017-10-10T00:00:00.000Z
 tags: Corporate Ipsum
 category: [ Ipsum ]

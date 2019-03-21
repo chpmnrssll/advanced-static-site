@@ -4,6 +4,7 @@ image: /assets/images/backgrounds/moustacheGlass.svg
 header-image: /assets/images/backgrounds/moustacheGlass.svg
 title: Moustache
 subtitle: Hairy Lipsum
+permalink: /demo/ipsum/hairy/
 date: 2017-10-08T00:00:00.000Z
 tags: Moustache Ipsum
 category: [ Ipsum ]
