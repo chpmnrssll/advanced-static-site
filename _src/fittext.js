@@ -1,98 +1,96 @@
 import PolynomialRegression from '../node_modules/js-polynomial-regression/dist/PolynomialRegression';
-// import nextFrame from './nextFrame';
 
-function getParentWidth(element, compress) {
-  const style = window.getComputedStyle(element.parentElement);
-  const paddingLeft = parseFloat(style.paddingLeft, 10) || 0;
-  const paddingRight = parseFloat(style.paddingRight, 10) || 0;
-  const width = parseFloat(style.width, 10) || 0;
-  return width - ((paddingLeft + paddingRight) * compress);
-}
-
-function joinFontArray(fontArray, fontSize) {
-  fontArray[4] = `${fontSize}px`;
-  return fontArray.join(' ');
-}
-
-function splitFontString(fontString) {
-  const fontArray = fontString.split(' ');
-  fontArray[4] = parseFloat(fontArray[4], 10);
-  return fontArray;
-}
-
-export default class FitText {
+class TextMetrics {
   constructor() {
     this.canvas = document.createElement('canvas');
     this.context = this.canvas.getContext('2d');
+  }
+
+  measureText(element, font) {
+    this.context.font = `${font.style} ${font.variant} ${font.weight} ${font.size}px/${font.lineHeight}px ${font.family}`;
+    return this.context.measureText(element.innerText).width;
+  }
+}
+
+
+class TextElement {
+  constructor(element) {
+    this.element = element;
+    this.font = {};
+    this.parent = {
+      element: element.parentElement,
+      font: {},
+    };
+  }
+
+  getStyles() {
+    this.style = window.getComputedStyle(this.element);
+    this.paddingLeft = parseFloat(this.style.paddingLeft, 10) || 0;
+    this.paddingRight = parseFloat(this.style.paddingRight, 10) || 0;
+    this.font.style = this.style.fontStyle;
+    this.font.variant = this.style.fontVariant;
+    this.font.weight = parseFloat(this.style.fontWeight, 10);
+    this.font.size = parseFloat(this.style.fontSize, 10);
+    this.font.lineHeight = parseFloat(this.style.lineHeight, 10);
+    this.font.family = this.style.fontFamily;
+    this.parent.style = window.getComputedStyle(this.element.parentElement);
+    this.parent.width = parseFloat(this.parent.style.width, 10) || 0;
+    this.parent.paddingLeft = parseFloat(this.parent.style.paddingLeft, 10) || 0;
+    this.parent.paddingRight = parseFloat(this.parent.style.paddingRight, 10) || 0;
+  }
+
+  get desiredWidth() {
+    return this.parent.width - (this.parent.paddingLeft + this.parent.paddingRight);
+  }
+}
+
+const fudgeFactor = 4;
+
+export default class FitText {
+  constructor() {
+    this.textMetrics = new TextMetrics();
     this.elements = [];
   }
 
-  getTextWidth(element, fontString) {
-    this.context.font = fontString;
-    return this.context.measureText(element.innerText).width;
+  predictSize(element, compress = 1.0, minFontSize = 16, maxFontSize = 1024) {
+    const textElement = new TextElement(element, compress, minFontSize, maxFontSize);
+
+    textElement.resizeHandler = () => {
+      textElement.getStyles();
+      textElement.samples = textElement.samples || this.collectSamples(textElement, 3);
+      const model = PolynomialRegression.read(textElement.samples, 2);
+      const predictedSize = model.predictY(model.getTerms(), textElement.desiredWidth);
+      const clampedSize = Math.max(minFontSize, Math.min(maxFontSize, predictedSize));
+
+      textElement.element.style.fontSize = `${clampedSize - fudgeFactor}px`;
+      textElement.element.style.lineHeight = `${clampedSize - fudgeFactor}px`;
+      // textElement.element.style.border = '1px dashed black';
+    };
+
+    textElement.resizeHandler();
+    this.elements.push(textElement);
+    window.addEventListener('resize', textElement.resizeHandler, false);
+    window.addEventListener('orientationchange', textElement.resizeHandler, false);
   }
 
-  * getFittedSize(element, fontString, desiredWidth) {
-    const fontArray = splitFontString(fontString);
-    let fontSize = fontArray[4];
-    const width = this.getTextWidth(element, fontString);
-    const difference = desiredWidth - width;
-    const threshold = 1;
-    const stepSize = 1;
-
-    if (difference > threshold) {
-      fontSize += stepSize;
-    } else if (difference < -threshold) {
-      fontSize -= stepSize;
+  collectSamples(textElement, count) {
+    const samples = [];
+    for (let i = 0; i < count; i++) {
+      const { font } = textElement;
+      font.size += (i * count);
+      samples.push({
+        x: this.textMetrics.measureText(textElement.element, font),
+        y: font.size,
+      });
     }
 
-    yield {
-      difference,
-      fontSize,
-      fontString: joinFontArray(fontArray, fontSize),
-      width,
-    };
-  }
-
-  fit(element, compress = 1.0, minFontSize = 16, maxFontSize = 1024) {
-    const style = window.getComputedStyle(element);
-    let fontString = style.font;
-    const fontArray = splitFontString(fontString);
-    let fontSize = fontArray[4];
-    let width = 0;
-    const data = [];
-
-    const newElement = {
-      element,
-      resizer: async () => {
-        const desiredWidth = getParentWidth(element, compress);
-
-        for (let i = 0; i < 4; i++) {
-          const { value } = this.getFittedSize(element, fontString, desiredWidth).next();
-          ({ fontString, fontSize, width } = value);
-          data.push({ x: width, y: fontSize });
-        }
-
-        const model = PolynomialRegression.read(data, 2);
-        const terms = model.getTerms();
-        const predictedSize = model.predictY(terms, desiredWidth * 0.95);
-        const maxSize = Math.min(maxFontSize, predictedSize);
-        const finalSize = Math.max(minFontSize, maxSize);
-        element.style.fontSize = `${finalSize}px`;
-        element.style.lineHeight = `${finalSize}px`;
-      },
-    };
-
-    newElement.resizer();
-    this.elements.push(newElement);
-    window.addEventListener('resize', newElement.resizer, false);
-    window.addEventListener('orientationchange', newElement.resizer, false);
+    return samples;
   }
 
   removeAllEventListeners() {
     this.elements.forEach((element) => {
-      window.removeEventListener('resize', element.resizer, false);
-      window.removeEventListener('orientationchange', element.resizer, false);
+      window.removeEventListener('resize', element.resizeHandler, false);
+      window.removeEventListener('orientationchange', element.resizeHandler, false);
     });
   }
 }
