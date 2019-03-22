@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-21T09:29:46+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Fit Text</title><link href="https://chpmnrssll.github.io/advanced-static-site/demo/fittext/" rel="alternate" type="text/html" title="Fit Text" /><published>2019-03-17T03:00:00+00:00</published><updated>2019-03-17T03:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/demo/FitText</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/demo/fittext/">&lt;div class=&quot;fitTextDemo&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-22T06:57:42+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Fit Text</title><link href="https://chpmnrssll.github.io/advanced-static-site/demo/fittext/" rel="alternate" type="text/html" title="Fit Text" /><published>2019-03-17T03:00:00+00:00</published><updated>2019-03-17T03:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/demo/FitText</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/demo/fittext/">&lt;div class=&quot;fitTextDemo&quot;&gt;
   &lt;h2 class=&quot;fit__text&quot; style=&quot;color: #ea6; font-style: italic;&quot;&gt;Font size&lt;/h2&gt;
   &lt;p class=&quot;fit__text&quot;&gt;adjusts to the width of the&lt;/p&gt;
   &lt;h3 class=&quot;fit__text&quot; style=&quot;color: #6ae;&quot;&gt;parent&lt;/h3&gt;
@@ -883,7 +883,7 @@
   &lt;li&gt;&lt;a href=&quot;http://pipes.js.org/&quot;&gt;Pipes.js&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;Article&quot;]" /><category term="Javascript" /><category term="Async" /><category term="WhatWG" /><category term="Streams" /><summary type="html">A browser based multi-threaded downloader implemented in vanilla JavaScript. Fetches parts of a file using the HTTP Range header and downloads those pieces in parallel. When the pieces have all been downloaded, the original file is re-assembled and saved in the browser’s Downloads folder.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/servers.svg" /></entry><entry><title type="html">Articles</title><link href="https://chpmnrssll.github.io/advanced-static-site/article/" rel="alternate" type="text/html" title="Articles" /><published>2018-06-25T00:00:00+00:00</published><updated>2018-06-25T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/Articles</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/article/">&lt;p&gt;#Articles&lt;/p&gt;</content><author><name>Russell Chapman</name></author><summary type="html">#Articles</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/spaceCapsule.svg" /></entry><entry><title type="html">About</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2018/03/28/Russell-Chapman.html" rel="alternate" type="text/html" title="About" /><published>2018-03-28T00:00:00+00:00</published><updated>2018-03-28T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2018/03/28/Russell-Chapman</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2018/03/28/Russell-Chapman.html">&lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/about/primitiveAvatar.gif&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/about/primitiveAvatar.gif&quot; alt=&quot;Russell Chapman&quot;&gt;
     &lt;h3&gt;Russell Chapman&lt;/h3&gt;
     &lt;h4&gt;Full Stack Developer&lt;/h4&gt;
   &lt;/header&gt;
@@ -899,7 +899,7 @@
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/speedometer.svg&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/speedometer.svg&quot; alt=&quot;Speedometer&quot;&gt;
     &lt;h3&gt;About&lt;/h3&gt;
     &lt;h4&gt;History&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
@@ -918,7 +918,7 @@
 
 &lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/technician.svg&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/technician.svg&quot; alt=&quot;Technician&quot;&gt;
     &lt;h3&gt;Skills&lt;/h3&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
@@ -941,40 +941,40 @@
   &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMongoDB.png&quot; alt=&quot;MongoDB&quot;/&gt;
   &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJavascript.png&quot; alt=&quot;JavaScript&quot;/&gt;
   &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPHP.png&quot; alt=&quot;PHP&quot;/&gt;
-  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMySQL.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMySQL.png&quot; alt=&quot;MySQL&quot;/&gt;
   &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJava.png&quot; alt=&quot;Java&quot;/&gt;
-  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPython.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJQuery.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPython.png&quot; alt=&quot;Python&quot;/&gt;
+  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJQuery.png&quot; alt=&quot;jQuery&quot;/&gt;
   &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPerl.png&quot; alt=&quot;Perl&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWebComponents.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPolymer.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoAMP.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoBackbone.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMarionette.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWebGL.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWebComponents.png&quot; alt=&quot;Web Components&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPolymer.png&quot; alt=&quot;Polymer&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoAMP.png&quot; alt=&quot;AMP&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoBackbone.png&quot; alt=&quot;Backbone&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMarionette.png&quot; alt=&quot;Marionette&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWebGL.png&quot; alt=&quot;WebGL&quot;/&gt;
   &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoLua.png&quot; alt=&quot;Lua&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJekyll.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJoomla.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWordpress.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoRubyOnRails.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoBower.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGrunt.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGulp.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGithub.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJekyll.png&quot; alt=&quot;Jekyll&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJoomla.png&quot; alt=&quot;Joomla&quot;/&gt;
+  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWordpress.png&quot; alt=&quot;Wordpress&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoRubyOnRails.png&quot; alt=&quot;Ruby on Rails&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoBower.png&quot; alt=&quot;Bower&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGrunt.png&quot; alt=&quot;Grunt&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGulp.png&quot; alt=&quot;Gulp&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGithub.png&quot; alt=&quot;GitHub&quot;/&gt;
   &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/linuxArch.png&quot; alt=&quot;Arch Linux&quot;/&gt;
   &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/linuxDebian.png&quot; alt=&quot;Debian Linux&quot;/&gt;
   &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/linuxGnome.png&quot; alt=&quot;Gnome&quot;/&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;image__list&quot;&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoUpWork.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoElance.png&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoODesk.png&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoUpWork.png&quot; alt=&quot;upWork&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoElance.png&quot; alt=&quot;Elance&quot;/&gt;
+  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoODesk.png&quot; alt=&quot;oDesk&quot;/&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/professional/saasCert.png&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/professional/saasCert.png&quot; alt=&quot;edX certification&quot;&gt;
     &lt;h3&gt;Education&lt;/h3&gt;
     &lt;h4&gt;Computer Science&lt;/h4&gt;
   &lt;/header&gt;
@@ -995,7 +995,7 @@
 
 &lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/professional/AICert.png&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/professional/AICert.png&quot; alt=&quot;edX certification&quot;&gt;
     &lt;h3&gt;Education&lt;/h3&gt;
     &lt;h4&gt;Computer Science&lt;/h4&gt;
   &lt;/header&gt;
@@ -1016,13 +1016,13 @@
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPPCC.svg&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPPCC.svg&quot; alt=&quot;PPCC&quot;&gt;
     &lt;h3&gt;Education&lt;/h3&gt;
     &lt;h4&gt;Computer Science&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/books/C++ProgrammingProgramDesignIncludingDataStructures4thEdition.jpg&quot;/&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/books/C++ProgrammingProgramDesignIncludingDataStructures4thEdition.jpg&quot; alt=&quot;C++ Programming Program Design Including Data Structures 4th Edition&quot;/&gt;
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoNASA.png&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/books/TheIllustrated3DStudioQuickReferenceR4.jpg&quot;/&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/books/TheIllustrated3DStudioQuickReferenceR4.jpg&quot; alt=&quot;The Illustrated 3D Studio Quick Reference R4&quot;/&gt;
     &lt;/section&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
@@ -1037,20 +1037,20 @@
       &lt;li&gt;CSC 161 - Computer Science II,‭ C++&lt;/li&gt;
       &lt;li&gt;DRT 201 - Intro to Computer Animation&lt;/li&gt;
       &lt;li&gt;DRT 283 - Advanced Animation&lt;/li&gt;
-      &lt;small&gt;* NASA Scholorship program&lt;/small&gt;
     &lt;/ul&gt;
+    &lt;small&gt;* NASA Scholorship program&lt;/small&gt;
   &lt;/section&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/logo/logoASE.svg&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/logo/logoASE.svg&quot; alt=&quot;ASE&quot;&gt;
     &lt;h3&gt;ASE Certifications&lt;/h3&gt;
     &lt;h4&gt;HD-Truck&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/aseT6.jpg&quot;/&gt;
-      &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/automotive/freightliner.gif&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/aseT7.jpg&quot;/&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/aseT6.jpg&quot; alt=&quot;ASE T6&quot;/&gt;
+      &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/automotive/freightliner.gif&quot; alt=&quot;Freightliner&quot;/&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/aseT7.jpg&quot; alt=&quot;ASE T7&quot;/&gt;
     &lt;/section&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
@@ -1065,17 +1065,13 @@
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/about/purple_tentacle.gif&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/about/purple_tentacle.gif&quot; alt=&quot;Purple Tentacle&quot;&gt;
     &lt;h3&gt;Demoscene&lt;/h3&gt;
     &lt;h4&gt;Purple Tentacle&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/pcVGAPalette.jpg&quot; alt=&quot;VGA Palette&quot;/&gt;
-      &lt;a href=&quot;https://en.wikipedia.org/wiki/FastTracker_2&quot;&gt;
-        &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/pcFastTracker2.jpg&quot; alt=&quot;FastTracker 2&quot;/&gt;
-      &lt;/a&gt;
-      &lt;a href=&quot;https://en.wikipedia.org/wiki/Cakewalk_(sequencer)&quot;&gt;
-        &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/cakewalkSequencer.jpg&quot; alt=&quot;Cakewalk&quot;/&gt;
-      &lt;/a&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/pcFastTracker2.jpg&quot; alt=&quot;FastTracker 2&quot;/&gt;
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/cakewalkSequencer.jpg&quot; alt=&quot;Cakewalk&quot;/&gt;
     &lt;/section&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
