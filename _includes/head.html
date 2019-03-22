@@ -11,7 +11,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="{{ site.theme_color }}">
 <meta property="og:image" content="{{ site.url }}/{{ site.logo }}" />
 <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-
+<link rel="preconnect" href="https://www.google-analytics.com">
 {% seo %}
 
 {% if ((jekyll.environment == 'production' or jekyll.environment == 'pwa') and site.google_analytics) %}
