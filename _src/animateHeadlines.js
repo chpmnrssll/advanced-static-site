@@ -27,12 +27,13 @@ export default function () {
   if (headlines) {
     headlines.forEach((headline, headlineIndex) => {
       if (headline && headline.innerText !== '') {
-        const fontSize = parseFloat(headline.style.fontSize, 10);
+        const style = window.getComputedStyle(headline);
+        const fontSize = parseFloat(style.fontSize, 10);
         const letters = splitter(headline, {
           delimeter: 'word',
           each: (node) => {
             // magic number to play with for word spacing
-            node.getRootNode().style.marginRight = `${fontSize / 5}px`;
+            node.getRootNode().style.marginRight = `${fontSize / 4}px`;
           },
         });
         // const letters = splitter(headline);

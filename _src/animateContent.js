@@ -2,7 +2,7 @@ import { easing, styler, tween } from 'popmotion';
 
 const animationSpeed = 256;
 
-function animateContentIn(newContent) {
+export function animateContentIn(newContent) {
   const oldContent = document.querySelector('.content');
 
   oldContent.parentNode.replaceChild(newContent, oldContent);
@@ -11,9 +11,9 @@ function animateContentIn(newContent) {
   const elementAnimation = tween({
     from: {
       opacity: 0,
-      rotateX: 30,
+      rotateX: 15,
       scaleY: 0,
-      z: -1024,
+      z: -128,
     },
     to: {
       opacity: 1,
@@ -28,8 +28,7 @@ function animateContentIn(newContent) {
   elementAnimation.start(v => elementStyler.set(v));
 }
 
-
-function animateContentOut() {
+export function animateContentOut() {
   const content = document.querySelector('.content');
 
   return new Promise((resolve) => {
@@ -43,9 +42,9 @@ function animateContentOut() {
       },
       to: {
         opacity: 0,
-        rotateX: 30,
+        rotateX: 15,
         scaleY: 0,
-        z: -1024,
+        z: -512,
       },
       ease: easing.easeInOut,
       duration: animationSpeed,
@@ -60,8 +59,3 @@ function animateContentOut() {
     });
   });
 }
-
-export {
-  animateContentIn,
-  animateContentOut,
-};
