@@ -1,343 +1,156 @@
 import * as Matter from 'matter-js';
+import { circles, rectangles } from './dummyAssets';
 
-// create 4 rectangles just outside the width & height
-function createBounds(width, height, thickness) {
-  const halfW = width / 2;
-  const halfH = height / 2;
-  const halfT = thickness / 2;
-  const doubleW = width * 2;
-  const doubleH = height * 2;
-
-  return [
-    Matter.Bodies.rectangle(
-      halfW, -halfT,
-      doubleW, thickness, {
-        render: {
-          fillStyle: '#224466',
-        },
-        isStatic: true,
-      },
-    ),
-    Matter.Bodies.rectangle(
-      width + halfT, halfH,
-      thickness, doubleH, {
-        render: {
-          fillStyle: '#224466',
-        },
-        isStatic: true,
-      },
-    ),
-    Matter.Bodies.rectangle(
-      halfW, height + halfT,
-      doubleW, thickness, {
-        render: {
-          fillStyle: '#224466',
-        },
-        isStatic: true,
-      },
-    ),
-    Matter.Bodies.rectangle(
-      -halfT, halfH,
-      thickness, doubleH, {
-        render: {
-          fillStyle: '#224466',
-        },
-        isStatic: true,
-      },
-    ),
-  ];
-}
-
-// ie: Donkey Kong
-function createPlatforms() {
-  return [
-    Matter.Bodies.rectangle(
-      1000 / 3, 1000 / 5,
-      900, 50, {
-        isStatic: true,
-        angle: 0.075,
-        render: {
-          fillStyle: '#224466',
-        },
-      },
-    ),
-    Matter.Bodies.rectangle(
-      1000 / 1.5, 1000 / 2,
-      900, 50, {
-        isStatic: true,
-        angle: -0.075,
-        render: {
-          fillStyle: '#224466',
-        },
-      },
-    ),
-    Matter.Bodies.rectangle(
-      1000 / 3, 1000 / 1.25,
-      900, 50, {
-        isStatic: true,
-        angle: 0.075,
-        render: {
-          fillStyle: '#224466',
-        },
-      },
-    ),
-  ];
-}
-
-
-const logos = [];
-let lastShape = {};
-
-function randomRectLogo(x, y, scale, baseurl) {
-  const rectangles = [
-    {
-      type: 'rectangle',
-      density: 0.7,
-      width: 55,
-      height: 64,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoGrunt.png`,
-    },
-    {
-      type: 'rectangle',
-      density: 0.8,
-      width: 29,
-      height: 64,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoGulp.png`,
-    },
-    {
-      type: 'rectangle',
-      density: 0.8,
-      width: 38,
-      height: 64,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoHTML5.png`,
-    },
-    {
-      type: 'rectangle',
-      density: 0.4,
-      width: 50,
-      height: 50,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoJavascript.png`,
-    },
-    {
-      type: 'rectangle',
-      density: 0.5,
-      width: 60,
-      height: 22,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoJekyll.png`,
-    },
-    {
-      type: 'rectangle',
-      density: 0.6,
-      width: 50,
-      height: 52,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoMarionette.png`,
-    },
-    {
-      type: 'rectangle',
-      density: 0.7,
-      width: 64,
-      height: 18,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoMongoDB.png`,
-    },
-    {
-      type: 'rectangle',
-      density: 0.8,
-      width: 62,
-      height: 32,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoMySQL.png`,
-    },
-    {
-      type: 'rectangle',
-      density: 0.6,
-      width: 52,
-      height: 32,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoNodeJS.png`,
-    },
-    {
-      type: 'rectangle',
-      density: 0.8,
-      width: 60,
-      height: 21,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoNpm.png`,
-    },
-    {
-      type: 'rectangle',
-      density: 0.7,
-      width: 60,
-      height: 32,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoPHP.png`,
-    },
-    {
-      type: 'rectangle',
-      density: 0.7,
-      width: 49,
-      height: 62,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoRubyOnRails.png`,
-    },
-    {
-      type: 'rectangle',
-      density: 0.6,
-      width: 62,
-      height: 48,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoSass.png`,
-    },
-  ];
-
-  let shape = rectangles[parseInt(Matter.Common.random(0, rectangles.length), 10)];
-  while (shape === lastShape) {
-    shape = rectangles[parseInt(Matter.Common.random(0, rectangles.length), 10)];
+export default class DummyLevel {
+  constructor(world, baseurl = '') {
+    this.world = world;
+    this.baseurl = baseurl;
+    this.logos = [];
+    this.lastShape = {};
+    this.createBounds(1000, 1000, 1000);
+    this.createPlatforms();
+    setInterval(this.spawnLogos.bind(this), 1000);
   }
-  lastShape = shape;
 
-  return Matter.Bodies.rectangle(x, y, shape.width * scale, shape.height * scale, {
-    density: shape.density * scale,
-    friction: 0.5,
-    render: {
-      sprite: {
-        texture: shape.url,
-        xScale: shape.xScale * scale,
-        yScale: shape.yScale * scale,
+  // create 4 rectangles just outside the width & height
+  createBounds(width, height, thickness) {
+    const halfW = width / 2;
+    const halfH = height / 2;
+    const halfT = thickness / 2;
+    const doubleW = width * 2;
+    const doubleH = height * 2;
+
+    const options = {
+      render: {
+        fillStyle: '#224466',
       },
-    },
-  });
-}
+      isStatic: true,
+    };
 
-function randomCircleLogo(x, y, scale, baseurl) {
-  const circles = [
-    {
-      type: 'circle',
-      density: 0.025,
-      radius: 30,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoAMP.png`,
-    },
-    {
-      type: 'circle',
-      density: 0.05,
-      radius: 30,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoAtom.png`,
-    },
-    {
-      type: 'circle',
-      density: 0.015,
-      radius: 31,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoBower.png`,
-    },
-    {
-      type: 'circle',
-      density: 0.05,
-      radius: 29,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoChrome.png`,
-    },
-    {
-      type: 'circle',
-      density: 0.015,
-      radius: 24,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoWordpress.png`,
-    },
-    {
-      type: 'circle',
-      density: 0.05,
-      radius: 28,
-      xScale: 0.25,
-      yScale: 0.25,
-      url: `${baseurl}/assets/images/logo/logoYeoman.png`,
-    },
-  ];
+    const bounds = [
+      Matter.Bodies.rectangle(halfW, -halfT, doubleW, thickness, options),
+      Matter.Bodies.rectangle(width + halfT, halfH, thickness, doubleH, options),
+      Matter.Bodies.rectangle(halfW, height + halfT, doubleW, thickness, options),
+      Matter.Bodies.rectangle(-halfT, halfH, thickness, doubleH, options),
+    ];
 
-  let shape = circles[parseInt(Matter.Common.random(0, circles.length), 10)];
-  while (shape === lastShape) {
-    shape = circles[parseInt(Matter.Common.random(0, circles.length), 10)];
+    Matter.World.add(this.world, bounds);
   }
-  lastShape = shape;
 
-  return Matter.Bodies.circle(x, y, shape.radius * scale, {
-    density: shape.density * scale,
-    friction: 0.5,
-    render: {
-      sprite: {
-        texture: shape.url,
-        xScale: shape.xScale * scale,
-        yScale: shape.yScale * scale,
-      },
-    },
-  });
-}
+  // ie: Donkey Kong
+  createPlatforms() {
+    const platforms = [
+      Matter.Bodies.rectangle(
+        1000 / 3, 1000 / 5,
+        900, 50, {
+          isStatic: true,
+          angle: 0.075,
+          render: {
+            fillStyle: '#224466',
+          },
+        },
+      ),
+      Matter.Bodies.rectangle(
+        1000 / 1.5, 1000 / 2,
+        900, 50, {
+          isStatic: true,
+          angle: -0.075,
+          render: {
+            fillStyle: '#224466',
+          },
+        },
+      ),
+      Matter.Bodies.rectangle(
+        1000 / 3, 1000 / 1.25,
+        900, 50, {
+          isStatic: true,
+          angle: 0.075,
+          render: {
+            fillStyle: '#224466',
+          },
+        },
+      ),
+    ];
 
-function randomLogo(x, y, baseurl) {
-  if (lastShape.type === 'circle') {
+    Matter.World.add(this.world, platforms);
+  }
+
+  spawnLogos() {
+    const positions = [
+      { x: 750, y: 600 },
+      { x: 600, y: 256 },
+      { x: 60, y: 127 },
+      { x: 600, y: 96 },
+    ];
+
+    if (this.logos.length < 20) {
+      const randomPosition = parseInt(Math.random() * positions.length, 10);
+      const { randomX, randomY } = positions[randomPosition];
+      const logo = this.randomLogo(randomX, randomY);
+      const randomForce = Math.random() - 0.5;
+      const randomStrength = Math.random() * 2;
+      this.logos.push(logo);
+      Matter.World.add(this.world, logo);
+      Matter.Body.applyForce(logo, logo.position, {
+        x: randomForce * randomStrength,
+        y: 0.05,
+      });
+      Matter.Body.setAngularVelocity(logo, randomForce * randomStrength);
+    } else {
+      Matter.World.remove(this.world, this.logos.shift());
+    }
+  }
+
+  randomLogo(x, y) {
+    if (this.lastShape.type === 'circle') {
+      const scale = Matter.Common.random(0.5, 1.5);
+      return this.randomRectLogo(x, y, scale);
+    }
+
     const scale = Matter.Common.random(0.5, 1.5);
-    return randomRectLogo(x, y, scale, baseurl);
+    return this.randomCircleLogo(x, y, scale);
   }
 
-  const scale = Matter.Common.random(0.5, 1.5);
-  return randomCircleLogo(x, y, scale, baseurl);
-}
-
-function spawnLogos(world, baseurl) {
-  const positions = [
-    { x: 750, y: 600 },
-    { x: 600, y: 256 },
-    { x: 60, y: 127 },
-    { x: 600, y: 96 },
-  ];
-  const url = baseurl === undefined ? '' : baseurl;
-  if (logos.length < 20) {
-    const randomPosition = parseInt(Math.random() * positions.length, 10);
-    const logo = randomLogo(positions[randomPosition].x, positions[randomPosition].y, url);
-    console.log(logo.render.sprite.texture);
-    const r = Math.random() - 0.5;
-    logos.push(logo);
-    Matter.World.add(world, logo);
-    Matter.Body.applyForce(logo, logo.position, {
-      x: r * 2,
-      y: 0.05,
+  randomRectLogo(x, y, scale) {
+    let randomIndex = parseInt(Matter.Common.random(0, rectangles.length), 10);
+    let shape = rectangles[randomIndex];
+    while (shape === this.lastShape) {
+      randomIndex = parseInt(Matter.Common.random(0, rectangles.length), 10);
+      shape = rectangles[randomIndex];
+    }
+    this.lastShape = shape;
+    return Matter.Bodies.rectangle(x, y, shape.width * scale, shape.height * scale, {
+      density: shape.density * scale,
+      friction: 0.5,
+      render: {
+        sprite: {
+          texture: this.baseurl + shape.url,
+          xScale: shape.xScale * scale,
+          yScale: shape.yScale * scale,
+        },
+      },
     });
-    Matter.Body.setAngularVelocity(logo, r * 2);
-  } else {
-    Matter.World.remove(world, logos.shift());
   }
 
-  setTimeout(spawnLogos, 1000, world);
-}
+  randomCircleLogo(x, y, scale) {
+    let randomIndex = parseInt(Matter.Common.random(0, circles.length), 10);
+    let shape = circles[randomIndex];
+    while (shape === this.lastShape) {
+      randomIndex = parseInt(Matter.Common.random(0, circles.length), 10);
+      shape = circles[randomIndex];
+    }
+    this.lastShape = shape;
 
-export default function startLevel(world, baseurl) {
-  Matter.World.add(world, createBounds(1000, 1000, 1000));
-  Matter.World.add(world, createPlatforms());
-  spawnLogos(world, baseurl);
+    return Matter.Bodies.circle(x, y, shape.radius * scale, {
+      density: shape.density * scale,
+      friction: 0.5,
+      render: {
+        sprite: {
+          texture: this.baseurl + shape.url,
+          xScale: shape.xScale * scale,
+          yScale: shape.yScale * scale,
+        },
+      },
+    });
+  }
 }

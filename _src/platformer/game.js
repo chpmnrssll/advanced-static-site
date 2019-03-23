@@ -4,11 +4,11 @@ import * as Matter from 'matter-js';
 import Keyboard from './Keyboard';
 import Player from './Player';
 import Viewport from './Viewport';
-import startLevel from './dummyLevel';
+import DummyLevel from './dummyLevel';
 import controls from './controls';
 
 export default class Game {
-  constructor(width, height, canvas, resolution, baseurl) {
+  constructor(width, height, canvas, resolution, baseurl = '') {
     this.engine = Matter.Engine.create();
     this.world = this.engine.world;
     this.canvas = canvas;
@@ -32,12 +32,27 @@ export default class Game {
         wireframes: false,
       },
     });
-
     Matter.Render.run(this.render);
+
     this.runner = Matter.Runner.create();
     Matter.Runner.run(this.runner, this.engine);
 
-    startLevel(this.world, baseurl);
+    this.render.mouse = Matter.Mouse.create(this.render.canvas);
+    Matter.World.add(this.world, Matter.MouseConstraint.create(this.engine, {
+      mouse: this.render.mouse,
+      constraint: {
+        stiffness: 0.001,
+        render: {
+          visible: true,
+        },
+      },
+    }));
+
+    this.keyboard = new Keyboard();
+
+    window.addEventListener('resize', this.resizeViewport.bind(this));
+    Matter.Events.on(this.render, 'beforeRender', this.beforeRender.bind(this));
+    Matter.Engine.run(this.engine);
 
     // window.fetch('/assets/images/level.svg')
     //   .then(response => response.text())
@@ -65,23 +80,7 @@ export default class Game {
     //     Matter.Engine.run(this.engine)
     //   })
 
-    this.keyboard = new Keyboard();
-
-    this.render.mouse = Matter.Mouse.create(this.render.canvas);
-    Matter.World.add(this.world, Matter.MouseConstraint.create(this.engine, {
-      mouse: this.render.mouse,
-      constraint: {
-        stiffness: 0.001,
-        render: {
-          visible: true,
-        },
-      },
-    }));
-
-    window.addEventListener('resize', this.resizeViewport.bind(this));
-    Matter.Events.on(this.render, 'beforeRender', this.beforeRender.bind(this));
-    Matter.Engine.run(this.engine);
-
+    this.level = new DummyLevel(this.world, baseurl);
     this.player = new Player(this.engine, 25, 850);
   }
 

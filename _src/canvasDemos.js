@@ -9,7 +9,7 @@ export default function runDemos() {
       case 'Platformer':
       import(/* webpackChunkName: "Game" */ './platformer/game')
         .then(({ default: Game }) => {
-          const baseurl = canvasDemo.getAttribute('baseurl');
+          const baseurl = canvasDemo.getAttribute('baseurl') || '';
           window.demo = new Game(1000, 1000, canvasDemo, { width: 640, height: 480 }, baseurl);
         });
         break;

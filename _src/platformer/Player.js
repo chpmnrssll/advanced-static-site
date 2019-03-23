@@ -1,7 +1,7 @@
 import * as Matter from 'matter-js';
 
 export default class Player {
-  constructor(engine, x, y) {
+  constructor(engine, x, y, baseurl = '') {
     this.engine = engine;
     const width = 40;
     const height = 64;
@@ -58,7 +58,7 @@ export default class Player {
       density: 1.0,
       render: {
         sprite: {
-          texture: '/advanced-static-site/assets/images/sprite.png',
+          texture: `${baseurl}/assets/images/sprite.png`,
         },
       },
     });
