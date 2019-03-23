@@ -1,14 +1,23 @@
 import page from 'page';
 import mediumZoom from 'medium-zoom';
-import animateHeadlines from './animateHeadlines';
 import animateFooter from './animateFooter';
+import animateHeadlines from './animateHeadlines';
 import { animateContentIn, animateContentOut } from './animateContent';
-import { fitTextElements, fitTextFatElements, stopFitting } from './featured';
 import runDemos from './canvasDemos';
+import FitText from './fittext';
 
-const zoom = mediumZoom({
-  background: '#000000aa',
-});
+const fitText = new FitText();
+const zoom = mediumZoom({ background: '#000000aa' });
+
+function fitTextElements() {
+  const elements = document.querySelectorAll('.fit__text');
+  elements.forEach((element) => {
+    const compress = element.getAttribute('compress') || 1.0;
+    const minFontSize = element.getAttribute('minFontSize') || 16;
+    const maxFontSize = element.getAttribute('maxFontSize') || 1024;
+    fitText.fit(element, compress, minFontSize, maxFontSize);
+  });
+}
 
 // Lazy load and animate in new content
 page('*', (context) => {
@@ -16,7 +25,6 @@ page('*', (context) => {
   if (context.init) {
     zoom.attach('.image__thumb, .image__thumb--alt');
     fitTextElements();
-    fitTextFatElements();
     animateHeadlines();
     animateFooter();
     runDemos();
@@ -35,7 +43,6 @@ page('*', (context) => {
 
     animateContentIn(newContent);
     fitTextElements();
-    fitTextFatElements();
     animateHeadlines();
     animateFooter();
     runDemos();
@@ -48,11 +55,10 @@ page('*', (context) => {
 
 page.exit('*', (context, next) => {
   animateContentOut().then(() => {
-    stopFitting();
+    zoom.detach();
     if (window.demo && window.demo.stop) {
       window.demo.stop();
     }
-    zoom.detach();
   }).then(next);
 });
 
