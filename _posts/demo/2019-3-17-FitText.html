@@ -16,14 +16,20 @@ comments: true
   <h3 class="fit__text" style="color: #6ae;">parent</h3>
   <p class="fit__text"> element regardless of existing</p>
   <p class="fit__text" style="color: #ea6; font-style: italic;">style or width</p>
-  <p class="fit__text" style="font-style: italic;">* Some restrictions may apply, see documentation for details. Russell Chapman is not liable for any damages due to implementing this in a production environment.</p>
+  <p class="fit__text" minFontSize="4" style="font-style: italic;">* Some restrictions may apply, see documentation for details. Russell Chapman is not liable for any damages due to implementing this in a production environment.</p>
 </div>
-
+<h2>My fit text method</h2>
 <p>
-  Samples several text width / font-size pairs on a hidden Canvas with measureText.
-  Uses <a href="https://github.com/RobertMenke/JS-Polynomial-Regression">JS-Polynomial-Regression</a> to predict the font size for a specified width.
+  There are many ways to fix text to the width of the parent. The first option from this CSS Tricks article <a href="https://css-tricks.com/fitting-text-to-a-container/">fitting text to a container</a> recommends using viewport units and a magic number to fit text in a container.
+  The problem is, finding this magic number. My solution involves measuring the text width at a few font sizes on a hidden HTML5 canvas.
+  Those sample measurements are fed into a <a href="https://github.com/RobertMenke/JS-Polynomial-Regression">JS-Polynomial-Regression</a> model which can then predict the font-size for any width container.
+  After getting the predicted font-size; it is clamped to min/max sizes, converted to vw viewport units, and applied to the elements' style.
 </p>
 <p>
   Font size can be predicted with as few as 3 sample measurements which is insanely fast compared to my first approach of measuring text widths while recursively increasing the font-size until they fit.
-  To avoid stack overflow issues, I had to use a generator function and <a href="https://github.com/corbt/next-frame">next-frame</a> to avoid locking up the browser.
+  It's not exact (especially on resize), but the fluid vw units are close enough. It’s a trade-off of simplicity vs. accuracy.
+  I've not found any JS library that implements this method, so I may build an NPM package out of it to share with the world.
+</p>
+<p>
+  <a href="https://medium.com/@jakobud/css-polyfluidsizing-using-calc-vw-breakpoints-and-linear-equations-8e15505d21ab">CSS Poly Fluid Sizing using calc(), vw, breakpoints and linear equations</a>
 </p>
