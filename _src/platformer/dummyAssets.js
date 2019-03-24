@@ -2,6 +2,24 @@ export const rectangles = [
   {
     type: 'rectangle',
     density: 0.7,
+    width: 32,
+    height: 40,
+    xScale: 0.25,
+    yScale: 0.25,
+    url: '/assets/images/logo/archlinux.svg',
+  },
+  {
+    type: 'rectangle',
+    density: 0.7,
+    width: 55,
+    height: 45,
+    xScale: 0.25,
+    yScale: 0.25,
+    url: '/assets/images/logo/kickAOL.png',
+  },
+  {
+    type: 'rectangle',
+    density: 0.7,
     width: 55,
     height: 64,
     xScale: 0.25,
@@ -120,6 +138,15 @@ export const rectangles = [
 
 
 export const circles = [
+  {
+    type: 'circle',
+    density: 0.025,
+    radius: 30,
+    xScale: 0.25,
+    yScale: 0.25,
+    url: '/assets/images/logo/logoC.png',
+  },
+
   {
     type: 'circle',
     density: 0.025,

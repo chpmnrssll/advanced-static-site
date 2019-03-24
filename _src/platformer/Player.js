@@ -54,11 +54,20 @@ export default class Player {
       ),
     };
 
+    this.mass = Matter.Bodies.rectangle(x, y, width, height, {
+      density: 1.0,
+      render: {
+        visible: false,
+      },
+    });
+
     this.body = Matter.Bodies.rectangle(x, y, width, height, {
       density: 1.0,
       render: {
         sprite: {
           texture: `${baseurl}/assets/images/sprite.png`,
+          xOffset: 0,
+          yOffset: 0,
         },
       },
     });
@@ -69,6 +78,7 @@ export default class Player {
       friction: 0.25,
       frictionStatic: 0.25,
       parts: [
+        this.mass,
         this.body,
         this.sensors.top,
         this.sensors.right,

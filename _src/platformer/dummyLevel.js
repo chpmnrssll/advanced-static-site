@@ -85,8 +85,7 @@ export default class DummyLevel {
 
     if (this.logos.length < 20) {
       const randomPosition = parseInt(Math.random() * positions.length, 10);
-      const { randomX, randomY } = positions[randomPosition];
-      const logo = this.randomLogo(randomX, randomY);
+      const logo = this.randomLogo(positions[randomPosition].x, positions[randomPosition].y);
       const randomForce = Math.random() - 0.5;
       const randomStrength = Math.random() * 2;
       this.logos.push(logo);
@@ -104,11 +103,13 @@ export default class DummyLevel {
   randomLogo(x, y) {
     if (this.lastShape.type === 'circle') {
       const scale = Matter.Common.random(0.5, 1.5);
-      return this.randomRectLogo(x, y, scale);
+      const logo = this.randomRectLogo(x, y, scale);
+      return logo;
     }
 
     const scale = Matter.Common.random(0.5, 1.5);
-    return this.randomCircleLogo(x, y, scale);
+    const logo = this.randomCircleLogo(x, y, scale);
+    return logo;
   }
 
   randomRectLogo(x, y, scale) {
@@ -119,14 +120,19 @@ export default class DummyLevel {
       shape = rectangles[randomIndex];
     }
     this.lastShape = shape;
+
     return Matter.Bodies.rectangle(x, y, shape.width * scale, shape.height * scale, {
       density: shape.density * scale,
       friction: 0.5,
       render: {
+        strokeStyle: '#fc4',
+        wireframe: true,
         sprite: {
-          texture: this.baseurl + shape.url,
+          texture: `${this.baseurl}${shape.url}`,
           xScale: shape.xScale * scale,
           yScale: shape.yScale * scale,
+          xOffset: 0,
+          yOffset: 0,
         },
       },
     });
@@ -146,9 +152,11 @@ export default class DummyLevel {
       friction: 0.5,
       render: {
         sprite: {
-          texture: this.baseurl + shape.url,
+          texture: `${this.baseurl}${shape.url}`,
           xScale: shape.xScale * scale,
           yScale: shape.yScale * scale,
+          xOffset: 0,
+          yOffset: 0,
         },
       },
     });

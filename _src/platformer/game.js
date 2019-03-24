@@ -81,7 +81,7 @@ export default class Game {
     //   })
 
     this.level = new DummyLevel(this.world, baseurl);
-    this.player = new Player(this.engine, 25, 850);
+    this.player = new Player(this.engine, 25, 850, baseurl);
   }
 
   stop() {
