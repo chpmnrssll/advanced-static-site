@@ -1,0 +1,13 @@
+---
+layout: post
+image: /assets/images/backgrounds/roadMountainsCloudy.svg
+header-image: /assets/images/backgrounds/roadMountainsCloudy.svg
+title: Open Source
+subtitle: Contributions
+date: 2019-3-26T00:00:00.000Z
+tags: Featured Programming Open Source Portfolio
+category: [ About ]
+---
+{% for work in site.data.openSource %}
+  {% include work-item.html data=work%}
+{% endfor %}

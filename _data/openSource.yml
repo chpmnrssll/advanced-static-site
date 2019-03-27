@@ -1,0 +1,69 @@
+- title: "Headline Creation Tool"
+  description: "A full stack application built using the MEVN stack (MongoDB, Express, Vue.js, and Node.js). The main goal was to have a GUI tool for creating/editing headline images based on multiple layers of images and text with HTML5 Canvas. The back-end API was meant to automate server side rendering of the saved headlines with variable text. Most of the front-end is complete and I was working on the API/DB connections when it was cancelled."
+  tags: ["Vuetify", "Vuex", "Axios", "GitHub"]
+  date: "Feb, 2019"
+  links:
+    - name: "GitHub Project"
+      url: "https://github.com/chpmnrssll/headline-creation-tool"
+    - name: "mevn-stack"
+      url: "https://github.com/aturingmachine/mevn-stack"
+    - name: "Demo"
+      url: "https://chpmnrssll.github.io/headline-creation-tool/"
+  images:
+    - src: "/assets/images/professional/headline-creation-tool.png"
+      alt: "Headline Creation Tool"
+    - src: "/assets/images/professional/headline-creation-tool-old.png"
+      alt: "Headline Creation Tool old preview"
+
+
+- title: "VENoM-Docker"
+  description: "A Docker development environment based on Vue, Express, Node, and MongoDB. This was meant to be my original starting point for the Headline Creation Tool app and required a few bug fixes to address issues with the MongoDB/Mongoose connections. After switching to a plain MEVN stack, I gave the original author my fixes as a PR so it would still be useful to someone in the future. The author also has an interesting tutorial/article on medium.com about the project."
+  tags: ["Docker", "MongoDB", "Node.js", "Vue.js", "GitHub"]
+  date: "Feb, 2019"
+  links:
+    - name: "GitHub Project"
+      url: "https://github.com/jamesaud/VENoM-Docker"
+    - name: "Article"
+      url: "https://medium.com/@audretschjames/venom-stack-docker-setup-for-local-development-457093761ad1"
+  images:
+    - src: "/assets/images/backgrounds/rattlesnake.svg"
+      alt: "Rattlesnake"
+
+
+- title: "Google Scholar Citation Scraper"
+  description: "A CLI app to scrape citation data from Google Scholar for the Berkeley Existential Risk Initiative. Uses Node.js, oAuth2, and Google Sheets."
+  tags: ["Node.js", "oAuth2", "Google Sheets", "Data Scraping"]
+  date: "Sep, 2018"
+  links:
+    - name: "GitHub Project"
+      url: "https://github.com/chpmnrssll/scraper"
+  images:
+    - src: "/assets/images/backgrounds/ideaLightBulb.svg"
+      alt: "Bright Idea"
+
+
+- title: "Berkeley Existential Risk Initiative"
+  description: "Jekyll/GitHub Pages development & management for the Berkeley Existential Risk Initiative."
+  tags: ["Jekyll", "Sass", "CSS", "Responsive Design", "Static Site Generator"]
+  date: "Jul, 2018"
+  links:
+    # - name: "GitHub Project"
+    #   url: "https://github.com/joshjacobson/beri-site"
+    - name: "existence.org"
+      url: "http://existence.org/"
+  images:
+    - src: "/assets/images/backgrounds/beriBanner.svg"
+      alt: "BERI Banner"
+
+
+# - title: ""
+#   description: ""
+#   quote: ""
+#   tags: [""]
+#   date: ""
+#   links:
+#     - name: ""
+#       url: ""
+#   images:
+#     - src: ""
+#       alt: ""

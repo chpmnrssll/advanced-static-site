@@ -8,8 +8,7 @@ layout: default
   </div>
   {% endif %}
   <header class="article__header{%- if page.header == 'plain' -%}--plain{%- endif -%}">
-    <h1 class="article__title animated-headline fit__text"
-      itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="article__title animated-headline fit__text" itemprop="name headline">{{ page.title | escape }}</h1>
     <div class="article__meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default: "%b %d, %Y" %}
