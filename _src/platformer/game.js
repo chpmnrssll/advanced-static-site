@@ -1,11 +1,13 @@
-import 'pathseg';
-import 'poly-decomp';
+import decomp from 'poly-decomp';
 import * as Matter from 'matter-js';
 import Keyboard from './Keyboard';
 import Player from './Player';
 import Viewport from './Viewport';
-import DummyLevel from './dummyLevel';
+import SVGLevel from './svgLevel';
 import controls from './controls';
+// import DummyLevel from './dummyLevel';
+
+global.decomp = decomp;
 
 export default class Game {
   constructor(width, height, canvas, resolution, baseurl = '') {
@@ -54,34 +56,9 @@ export default class Game {
     Matter.Events.on(this.render, 'beforeRender', this.beforeRender.bind(this));
     Matter.Engine.run(this.engine);
 
-    // window.fetch('/assets/images/level.svg')
-    //   .then(response => response.text())
-    //   .then(data => {
-    //     let parser = new window.DOMParser()
-    //     let doc = parser.parseFromString(data, 'image/svg+xml')
-    //     let paths = doc.querySelectorAll('path')
-    //     let vertexSets = []
-    //     let color = Matter.Common.choose(['#556270', '#4ECDC4', '#C7F464', '#FF6B6B', '#C44D58'])
-    //     paths.forEach(path => {
-    //       vertexSets.push(Matter.Svg.pathToVertices(path, 10))
-    //     })
-    //     let level = Matter.Bodies.fromVertices(0, 0, vertexSets, {
-    //       isStatic: true,
-    //       render: {
-    //         fillStyle: color,
-    //         strokeStyle: color,
-    //         lineWidth: 1
-    //       }
-    //     }, true)
-    //     // Matter.Body.scale(level, 10, 10)
-    //     // Matter.Body.translate(level, { x: 50, y: 200 })
-    //     Matter.World.add(this.world, level)
-    //
-    //     Matter.Engine.run(this.engine)
-    //   })
-
-    this.level = new DummyLevel(this.world, baseurl);
-    this.player = new Player(this.engine, 25, 850, baseurl);
+    // this.level = new DummyLevel(this.world, baseurl);
+    this.level = new SVGLevel(this.world, baseurl, '/assets/images/level.svg');
+    this.player = new Player(this.engine, 25, 2200, baseurl);
   }
 
   stop() {

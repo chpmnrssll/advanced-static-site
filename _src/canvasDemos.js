@@ -1,6 +1,3 @@
-// const baseurl = 'https://chpmnrssll.github.io/advanced-static-site';
-// const baseurl = '';
-
 export default function runDemos() {
   const canvasDemos = document.querySelectorAll('.canvasDemo');
 

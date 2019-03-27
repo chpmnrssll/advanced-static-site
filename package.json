@@ -66,6 +66,7 @@
     "pathseg": "^1.2.0",
     "poly-decomp": "^0.3.0",
     "popmotion": "^8.6.3",
+    "svg-pathdata": "^5.0.2",
     "text-split": "0.0.1"
   }
 }
