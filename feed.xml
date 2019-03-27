@@ -1,4 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-24T07:31:34+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Fit Text</title><link href="https://chpmnrssll.github.io/advanced-static-site/demo/fittext/" rel="alternate" type="text/html" title="Fit Text" /><published>2019-03-17T03:00:00+00:00</published><updated>2019-03-17T03:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/demo/FitText</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/demo/fittext/">&lt;div class=&quot;fitTextDemo&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-27T06:40:14+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Open Source</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source.html" rel="alternate" type="text/html" title="Open Source" /><published>2019-03-26T00:00:00+00:00</published><updated>2019-03-26T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/headline-creation-tool.png&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Headline Creation Tool&lt;/h3&gt;
+    &lt;h4&gt;Feb, 2019&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/headline-creation-tool.png&quot; alt=&quot;Headline Creation Tool&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/headline-creation-tool-old.png&quot; alt=&quot;Headline Creation Tool old preview&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;A full stack application built using the MEVN stack (MongoDB, Express, Vue.js, and Node.js). The main goal was to have a GUI tool for creating/editing headline images based on multiple layers of images and text with HTML5 Canvas. The back-end API was meant to automate server side rendering of the saved headlines with variable text. Most of the front-end is complete and I was working on the API/DB connections when it was cancelled.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;Vuetify&lt;/li&gt;
+      
+        &lt;li&gt;Vuex&lt;/li&gt;
+      
+        &lt;li&gt;Axios&lt;/li&gt;
+      
+        &lt;li&gt;GitHub&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://github.com/chpmnrssll/headline-creation-tool&quot;&gt;GitHub Project&lt;/a&gt;
+      &lt;/div&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://github.com/aturingmachine/mevn-stack&quot;&gt;mevn-stack&lt;/a&gt;
+      &lt;/div&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://chpmnrssll.github.io/headline-creation-tool/&quot;&gt;Demo&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/rattlesnake.svg&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;VENoM-Docker&lt;/h3&gt;
+    &lt;h4&gt;Feb, 2019&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/rattlesnake.svg&quot; alt=&quot;Rattlesnake&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;A Docker development environment based on Vue, Express, Node, and MongoDB. This was meant to be my original starting point for the Headline Creation Tool app and required a few bug fixes to address issues with the MongoDB/Mongoose connections. After switching to a plain MEVN stack, I gave the original author my fixes as a PR so it would still be useful to someone in the future. The author also has an interesting tutorial/article on medium.com about the project.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;Docker&lt;/li&gt;
+      
+        &lt;li&gt;MongoDB&lt;/li&gt;
+      
+        &lt;li&gt;Node.js&lt;/li&gt;
+      
+        &lt;li&gt;Vue.js&lt;/li&gt;
+      
+        &lt;li&gt;GitHub&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://github.com/jamesaud/VENoM-Docker&quot;&gt;GitHub Project&lt;/a&gt;
+      &lt;/div&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://medium.com/@audretschjames/venom-stack-docker-setup-for-local-development-457093761ad1&quot;&gt;Article&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+
+  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/ideaLightBulb.svg&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Google Scholar Citation Scraper&lt;/h3&gt;
+    &lt;h4&gt;Sep, 2018&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/ideaLightBulb.svg&quot; alt=&quot;Bright Idea&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;A CLI app to scrape citation data from Google Scholar for the Berkeley Existential Risk Initiative. Uses Node.js, oAuth2, and Google Sheets.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;Node.js&lt;/li&gt;
+      
+        &lt;li&gt;oAuth2&lt;/li&gt;
+      
+        &lt;li&gt;Google Sheets&lt;/li&gt;
+      
+        &lt;li&gt;Data Scraping&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://github.com/chpmnrssll/scraper&quot;&gt;GitHub Project&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/beriBanner.svg&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Berkeley Existential Risk Initiative&lt;/h3&gt;
+    &lt;h4&gt;Jul, 2018&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/beriBanner.svg&quot; alt=&quot;BERI Banner&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Jekyll/GitHub Pages development &amp; management for the Berkeley Existential Risk Initiative.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;Jekyll&lt;/li&gt;
+      
+        &lt;li&gt;Sass&lt;/li&gt;
+      
+        &lt;li&gt;CSS&lt;/li&gt;
+      
+        &lt;li&gt;Responsive Design&lt;/li&gt;
+      
+        &lt;li&gt;Static Site Generator&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;http://existence.org/&quot;&gt;existence.org&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="Programming" /><category term="Open" /><category term="Source" /><category term="Portfolio" /><summary type="html">Headline Creation Tool Feb, 2019 A full stack application built using the MEVN stack (MongoDB, Express, Vue.js, and Node.js). The main goal was to have a GUI tool for creating/editing headline images based on multiple layers of images and text with HTML5 Canvas. The back-end API was meant to automate server side rendering of the saved headlines with variable text. Most of the front-end is complete and I was working on the API/DB connections when it was cancelled. Vuetify Vuex Axios GitHub GitHub Project mevn-stack Demo VENoM-Docker Feb, 2019 A Docker development environment based on Vue, Express, Node, and MongoDB. This was meant to be my original starting point for the Headline Creation Tool app and required a few bug fixes to address issues with the MongoDB/Mongoose connections. After switching to a plain MEVN stack, I gave the original author my fixes as a PR so it would still be useful to someone in the future. The author also has an interesting tutorial/article on medium.com about the project. Docker MongoDB Node.js Vue.js GitHub GitHub Project Article Google Scholar Citation Scraper Sep, 2018 A CLI app to scrape citation data from Google Scholar for the Berkeley Existential Risk Initiative. Uses Node.js, oAuth2, and Google Sheets. Node.js oAuth2 Google Sheets Data Scraping GitHub Project Berkeley Existential Risk Initiative Jul, 2018 Jekyll/GitHub Pages development &amp; management for the Berkeley Existential Risk Initiative. Jekyll Sass CSS Responsive Design Static Site Generator existence.org</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/roadMountainsCloudy.svg" /></entry><entry><title type="html">Fit Text</title><link href="https://chpmnrssll.github.io/advanced-static-site/demo/fittext/" rel="alternate" type="text/html" title="Fit Text" /><published>2019-03-17T03:00:00+00:00</published><updated>2019-03-17T03:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/demo/FitText</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/demo/fittext/">&lt;div class=&quot;fitTextDemo&quot;&gt;
   &lt;h2 class=&quot;fit__text&quot; style=&quot;color: #ea6; font-style: italic;&quot;&gt;Font size&lt;/h2&gt;
   &lt;p class=&quot;fit__text&quot;&gt;adjusts to the width of the&lt;/p&gt;
   &lt;h3 class=&quot;fit__text&quot; style=&quot;color: #6ae;&quot;&gt;parent&lt;/h3&gt;
@@ -22,10 +176,149 @@
   &lt;a href=&quot;https://medium.com/@jakobud/css-polyfluidsizing-using-calc-vw-breakpoints-and-linear-equations-8e15505d21ab&quot;&gt;CSS Poly Fluid Sizing using calc(), vw, breakpoints and linear equations&lt;/a&gt;
 &lt;/p&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;Demo&quot;]" /><category term="ES6" /><category term="Javascript" /><category term="HTML5" /><category term="Canvas" /><category term="Fit" /><category term="Text" /><summary type="html">Font size adjusts to the width of the parent element regardless of existing style or width * Some restrictions may apply, see documentation for details. Russell Chapman is not liable for any damages due to implementing this in a production environment. My fit text method There are many ways to fix text to the width of the parent. The first option from this CSS Tricks article fitting text to a container recommends using viewport units and a magic number to fit text in a container. The problem is, finding this magic number. My solution involves measuring the text width at a few font sizes on a hidden HTML5 canvas. Those sample measurements are fed into a JS-Polynomial-Regression model which can then predict the font-size for any width container. After getting the predicted font-size; it is clamped to min/max sizes, converted to vw viewport units, and applied to the elements' style. Font size can be predicted with as few as 3 sample measurements which is insanely fast compared to my first approach of measuring text widths while recursively increasing the font-size until they fit. It's not exact (especially on resize), but the fluid vw units are close enough. It’s a trade-off of simplicity vs. accuracy. I've not found any JS library that implements this method, so I may build an NPM package out of it to share with the world. CSS Poly Fluid Sizing using calc(), vw, breakpoints and linear equations</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/measurement.jpg" /></entry><entry><title type="html">Development Portfolio</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html" rel="alternate" type="text/html" title="Development Portfolio" /><published>2019-03-15T00:00:00+00:00</published><updated>2019-03-15T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/responsive_home.png&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Google site to Gatsby conversion&lt;/h3&gt;
+    &lt;h4&gt;Jan, 2019&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/responsive_home.png&quot; alt=&quot;Responsive Layout&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/responsive_netlify.png&quot; alt=&quot;Responsive Netlify-CMS UI&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/dentalcarearvada_admin_collections.png&quot; alt=&quot;Netlify-CMS patient reviews&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/dentalcarearvada_admin_review.png&quot; alt=&quot;Netlify-CMS patient review editor&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Converted a 10 year old Google Site to React/Gatsby.js while retaining all of the original meta data, tags, and page routes for search engine ratings. It uses Netlify-CMS for managing patient reviews.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;Gatbsy&lt;/li&gt;
+      
+        &lt;li&gt;React&lt;/li&gt;
+      
+        &lt;li&gt;Netlify CMS&lt;/li&gt;
+      
+        &lt;li&gt;Responsive Design&lt;/li&gt;
+      
+        &lt;li&gt;Static Site Generator&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://dentalcarearvada.netlify.com/&quot;&gt;Demo site&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;blockquote class=&quot;card__quote&quot;&gt;
+  Russell advised using Gatsby instead and Netlify CMS for a SSG project. Fantastic experience working with Russell and look forward to future projects.
+&lt;/blockquote&gt;
+
+
+
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/crowdox.com.png&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;CrowdOx SEM Optimizations&lt;/h3&gt;
+    &lt;h4&gt;Dec, 2018&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/crowdox.com.png&quot; alt=&quot;CrowdOx&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/crowdox.com-blog.png&quot; alt=&quot;CrowdOx Blog&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/crowdox.com-help.png&quot; alt=&quot;CrowdOx Help&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Implemented SEO fixes based on a SEMRUSH Audit Report on several subdomains that include a static Jekyll based marketing site, a Ruby on Rails site, and a blog based on the Ghost publishing platform. Refactored and simplified all Sass and JavaScript assets for future-proofing. Updated meta tags, remove duplicates, fix dead and non https links, enabled GZIP compression, and minified assets.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;Jekyll&lt;/li&gt;
+      
+        &lt;li&gt;Ruby on Rails&lt;/li&gt;
+      
+        &lt;li&gt;Ghost-Blog&lt;/li&gt;
+      
+        &lt;li&gt;JavaScript&lt;/li&gt;
+      
+        &lt;li&gt;Handlebars&lt;/li&gt;
+      
+        &lt;li&gt;Sass&lt;/li&gt;
+      
+        &lt;li&gt;SEO&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://crowdox.com/&quot;&gt;crowdox.com&lt;/a&gt;
+      &lt;/div&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://www.semrush.com/&quot;&gt;SEMRush&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+
+  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/magnafire.png&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Magnafire Media&lt;/h3&gt;
+    &lt;h4&gt;Nov, 2018&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/magnafire.png&quot; alt=&quot;Nuxt site for Magnafire Media&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Developed site using Nuxt.js and Netlify-CMS based on a Sketch/Webflow design. This mostly involved setting up Nuxt layouts to display JSON based content, modifying the theme to work with Bootstrap-Vue, and integrating Netlify for editing content.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;Nuxt.js&lt;/li&gt;
+      
+        &lt;li&gt;Vue.js&lt;/li&gt;
+      
+        &lt;li&gt;Netlify CMS&lt;/li&gt;
+      
+        &lt;li&gt;Bootstrap-Vue&lt;/li&gt;
+      
+        &lt;li&gt;Responsive Design&lt;/li&gt;
+      
+        &lt;li&gt;Static Site Generator&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://magnafiremedia.com/&quot;&gt;Magnafire Media&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;blockquote class=&quot;card__quote&quot;&gt;
+  Russell did an excellent job. His work was passed on to a larger team who had nothing but great things to say about his work. Will hire again.
+&lt;/blockquote&gt;
+
+
+
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/paulhershey.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Jekyll Portfolio Site&lt;/h3&gt;
     &lt;h4&gt;Oct, 2018&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/paulhershey.png&quot; alt=&quot;www.paulhershey.com&quot;&gt;
       
@@ -50,6 +343,10 @@
       
         &lt;li&gt;Cloudinary&lt;/li&gt;
       
+        &lt;li&gt;Responsive Design&lt;/li&gt;
+      
+        &lt;li&gt;Static Site Generator&lt;/li&gt;
+      
     &lt;/ul&gt;
     
       &lt;div&gt;
@@ -65,12 +362,12 @@
 
 
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/g-widgets.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;WordPress to Jekyll Conversion&lt;/h3&gt;
     &lt;h4&gt;Oct, 2018&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/g-widgets.png&quot; alt=&quot;G-Widgets&quot;&gt;
       
@@ -81,9 +378,11 @@
     &lt;br/&gt;
     &lt;ul&gt;
       
+        &lt;li&gt;Jekyll&lt;/li&gt;
+      
         &lt;li&gt;WordPress&lt;/li&gt;
       
-        &lt;li&gt;Jekyll&lt;/li&gt;
+        &lt;li&gt;Static Site Generator&lt;/li&gt;
       
     &lt;/ul&gt;
     
@@ -91,21 +390,17 @@
         &lt;a href=&quot;http://www.g-widgets.com/&quot;&gt;www.g-widgets.com&lt;/a&gt;
       &lt;/div&gt;
     
-      &lt;div&gt;
-        &lt;a href=&quot;https://github.com/gwidgets/gwidgets.github.io&quot;&gt;GitHub&lt;/a&gt;
-      &lt;/div&gt;
-    
   &lt;/section&gt;
 &lt;/section&gt;
 
 
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/multiThreadedDownloaderB2.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Multithreaded Downloader&lt;/h3&gt;
     &lt;h4&gt;Jul, 2018&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/multiThreadedDownloaderB2.png&quot; alt=&quot;Multithreaded Downloader Backblaze B2&quot;&gt;
       
@@ -122,16 +417,22 @@
       
         &lt;li&gt;HTML5 Filesystem&lt;/li&gt;
       
-        &lt;li&gt;Web Streams&lt;/li&gt;
+        &lt;li&gt;Web Streams API&lt;/li&gt;
+      
+        &lt;li&gt;Google Drive&lt;/li&gt;
+      
+        &lt;li&gt;Backblaze B2&lt;/li&gt;
+      
+        &lt;li&gt;RxJS&lt;/li&gt;
       
     &lt;/ul&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://chpmnrssll.github.io/advanced-static-site/article/2018/08/27/Multithread.html&quot;&gt;More Info&lt;/a&gt;
+        &lt;a href=&quot;https://github.com/Backblaze-B2-Samples/multithreaded-downloader-js&quot;&gt;GitHub Project&lt;/a&gt;
       &lt;/div&gt;
     
       &lt;div&gt;
-        &lt;a href=&quot;https://github.com/Backblaze-B2-Samples/multithreaded-downloader-js&quot;&gt;GitHub&lt;/a&gt;
+        &lt;a href=&quot;https://chpmnrssll.github.io/advanced-static-site/article/2018/08/27/Multithread.html&quot;&gt;More Info&lt;/a&gt;
       &lt;/div&gt;
     
   &lt;/section&gt;
@@ -143,12 +444,12 @@
 
 
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/afterDawnShowcase.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Taboola/Outbrain recommended content clone&lt;/h3&gt;
     &lt;h4&gt;Jun, 2018&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/afterDawnShowcase.png&quot; alt=&quot;Taboola/Outbrain Clone Showcase&quot;&gt;
       
@@ -161,7 +462,7 @@
     &lt;br/&gt;
     &lt;ul&gt;
       
-        &lt;li&gt;Responsive&lt;/li&gt;
+        &lt;li&gt;Responsive Design&lt;/li&gt;
       
         &lt;li&gt;Javascript&lt;/li&gt;
       
@@ -184,12 +485,12 @@
 
 
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/identity-jekyll-theme-updates.jpg&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Identity Jekyll Theme&lt;/h3&gt;
     &lt;h4&gt;Apr, 2018&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/identity-jekyll-theme-updates.jpg&quot; alt=&quot;Identity Jekyll Theme&quot;&gt;
       
@@ -204,9 +505,11 @@
       
         &lt;li&gt;Liquid&lt;/li&gt;
       
+        &lt;li&gt;Sass&lt;/li&gt;
+      
         &lt;li&gt;CSS&lt;/li&gt;
       
-        &lt;li&gt;YML&lt;/li&gt;
+        &lt;li&gt;Static Site Generator&lt;/li&gt;
       
     &lt;/ul&gt;
     
@@ -223,12 +526,12 @@
 
 
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/MCRA/MCRAHome.jpg&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Membership Directory Plugin&lt;/h3&gt;
     &lt;h4&gt;Jun, 2013&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/MCRA/MCRAHome.jpg&quot; alt=&quot;MCRA Home&quot;&gt;
       
@@ -245,13 +548,13 @@
       
         &lt;li&gt;SQL&lt;/li&gt;
       
-        &lt;li&gt;HTML5&lt;/li&gt;
-      
-        &lt;li&gt;CSS3&lt;/li&gt;
+        &lt;li&gt;WordPress&lt;/li&gt;
       
         &lt;li&gt;JavaScript&lt;/li&gt;
       
         &lt;li&gt;jQuery&lt;/li&gt;
+      
+        &lt;li&gt;CSS&lt;/li&gt;
       
     &lt;/ul&gt;
     
@@ -268,12 +571,12 @@
 
 
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/JoomlaExtFilters.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Joomla Extension&lt;/h3&gt;
     &lt;h4&gt;Mar, 2013&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/JoomlaExtFilters.png&quot; alt=&quot;Joomla Extension&quot;&gt;
       
@@ -307,12 +610,12 @@
 
 
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/HoneyStinger.hive.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;HoneyStinger&lt;/h3&gt;
     &lt;h4&gt;Nov, 2012&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/HoneyStinger.hive.png&quot; alt=&quot;Honey Stinger Hive&quot;&gt;
       
@@ -346,12 +649,12 @@
 
 
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/wizzardForm.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;RevClaims&lt;/h3&gt;
     &lt;h4&gt;Oct, 2012&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/wizzardForm.png&quot; alt=&quot;Wizzard Form&quot;&gt;
       
@@ -393,12 +696,12 @@
 
 
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/starmazy.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Star Mazy Games&lt;/h3&gt;
     &lt;h4&gt;Oct, 2012&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/starmazy.png&quot; alt=&quot;StarMazy&quot;&gt;
       
@@ -432,7 +735,7 @@
 
 &lt;blockquote class=&quot;card__quote&quot;&gt;
   Russell was the perfect person for this job. He was very responsive to my queries, completed the project in record time, and the code was also very clean.
-&lt;/blockquote&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Jekyll Portfolio Site Oct, 2018 Improved page speed scores, implemented lazy loading, background videos, and CSS/Design updates on a Jekyll based site. Jekyll Sass CSS Bootstrap 4 Cloudinary www.paulhershey.com Russell is excellent to work with. He always had a positive attitude and was a great communicator. I would highly suggest working with him, he will certainly be one of my go-to people for development needs. WordPress to Jekyll Conversion Oct, 2018 Converted an existing WordPress/PHP site to a Jekyll static site. Makes use of the Jekyll Archives plugin. WordPress Jekyll www.g-widgets.com GitHub Multithreaded Downloader Jul, 2018 A browser based multithreaded downloader implemented in Javascript. Uses HTTP range requests, HTML5 Filesystem API, and Web Streams API to download multiple chunks of a file in parallel. Works with Backblaze-B2 and Google Drive. JavaScript HTML5 Filesystem Web Streams More Info GitHub Russell did an incredible job of taking a very lightly defined project and building it exactly to my expectations. It was a challenging project where it wasn't obvious whether it was even possible. Russell did tons of research and experimented with many different technical approaches. In the end, he solved the problem and did a great job with the solution. Taboola/Outbrain recommended content clone Jun, 2018 Lightweight Taboola/Outbrain recommended content clone for embedding in several sites. Uses CSS Grid and vanilla JavaScript for responsive layout, small file size, and compatibility. Responsive Javascript Ajax CSS afterdawn.com Excellent professional. Exceeded my expectations for quality of work and adherence to the deadlines. Identity Jekyll Theme Apr, 2018 Updated Font-Awesome from v4 to v5 and added more social links to _config.yml Jekyll Liquid CSS YML GitHub Absolutely fantastic experience. Went above and beyond when I forgot to include a request in original statement of work and happily completed the request. Will certainly shortlist for future efforts! Membership Directory Plugin Jun, 2013 WordPress plug-in to replace the default user system. Member accounts, profile management, public member directory. PHP SQL HTML5 CSS3 JavaScript jQuery mscra.com More Info Joomla Extension Mar, 2013 Joomla extension development, UI PHP Joomla Javascript MooTools HTML5 CSS3 Blue Bridge Development HoneyStinger Nov, 2012 Tables to HTML5 layout conversion. HTML5 CSS3 Internet Archive Link Smithwood Drive RevClaims Oct, 2012 Long patient form conversion to semantic HTML5, multi-page, wizard-type form. E-Mail notifications on submission, monthly CSV reports, client-side form validation, image captcha. PHP JavaScript jQuery HTML5 CSS3 Internet Archive Link Like Minds Design Russell is knowledgeable, friendly, gives updates on progress, and meets deadlines. Highly recommended!!! Star Mazy Games Oct, 2012 Adobe Flash to HTML5/JavaScript user interface conversion. JavaScript jQuery HTML5 CSS3 StarMazy Games Russell was the perfect person for this job. He was very responsive to my queries, completed the project in record time, and the code was also very clean.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/filesOnAShelf.svg" /></entry><entry><title type="html">Development History</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History.html" rel="alternate" type="text/html" title="Development History" /><published>2019-03-14T00:00:00+00:00</published><updated>2019-03-14T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+&lt;/blockquote&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Google site to Gatsby conversion Jan, 2019 Converted a 10 year old Google Site to React/Gatsby.js while retaining all of the original meta data, tags, and page routes for search engine ratings. It uses Netlify-CMS for managing patient reviews. Gatbsy React Netlify CMS Responsive Design Static Site Generator Demo site Russell advised using Gatsby instead and Netlify CMS for a SSG project. Fantastic experience working with Russell and look forward to future projects. CrowdOx SEM Optimizations Dec, 2018 Implemented SEO fixes based on a SEMRUSH Audit Report on several subdomains that include a static Jekyll based marketing site, a Ruby on Rails site, and a blog based on the Ghost publishing platform. Refactored and simplified all Sass and JavaScript assets for future-proofing. Updated meta tags, remove duplicates, fix dead and non https links, enabled GZIP compression, and minified assets. Jekyll Ruby on Rails Ghost-Blog JavaScript Handlebars Sass SEO crowdox.com SEMRush Magnafire Media Nov, 2018 Developed site using Nuxt.js and Netlify-CMS based on a Sketch/Webflow design. This mostly involved setting up Nuxt layouts to display JSON based content, modifying the theme to work with Bootstrap-Vue, and integrating Netlify for editing content. Nuxt.js Vue.js Netlify CMS Bootstrap-Vue Responsive Design Static Site Generator Magnafire Media Russell did an excellent job. His work was passed on to a larger team who had nothing but great things to say about his work. Will hire again. Jekyll Portfolio Site Oct, 2018 Improved page speed scores, implemented lazy loading, background videos, and CSS/Design updates on a Jekyll based site. Jekyll Sass CSS Bootstrap 4 Cloudinary Responsive Design Static Site Generator www.paulhershey.com Russell is excellent to work with. He always had a positive attitude and was a great communicator. I would highly suggest working with him, he will certainly be one of my go-to people for development needs. WordPress to Jekyll Conversion Oct, 2018 Converted an existing WordPress/PHP site to a Jekyll static site. Makes use of the Jekyll Archives plugin. Jekyll WordPress Static Site Generator www.g-widgets.com Multithreaded Downloader Jul, 2018 A browser based multithreaded downloader implemented in Javascript. Uses HTTP range requests, HTML5 Filesystem API, and Web Streams API to download multiple chunks of a file in parallel. Works with Backblaze-B2 and Google Drive. JavaScript HTML5 Filesystem Web Streams API Google Drive Backblaze B2 RxJS GitHub Project More Info Russell did an incredible job of taking a very lightly defined project and building it exactly to my expectations. It was a challenging project where it wasn't obvious whether it was even possible. Russell did tons of research and experimented with many different technical approaches. In the end, he solved the problem and did a great job with the solution. Taboola/Outbrain recommended content clone Jun, 2018 Lightweight Taboola/Outbrain recommended content clone for embedding in several sites. Uses CSS Grid and vanilla JavaScript for responsive layout, small file size, and compatibility. Responsive Design Javascript Ajax CSS afterdawn.com Excellent professional. Exceeded my expectations for quality of work and adherence to the deadlines. Identity Jekyll Theme Apr, 2018 Updated Font-Awesome from v4 to v5 and added more social links to _config.yml Jekyll Liquid Sass CSS Static Site Generator GitHub Absolutely fantastic experience. Went above and beyond when I forgot to include a request in original statement of work and happily completed the request. Will certainly shortlist for future efforts! Membership Directory Plugin Jun, 2013 WordPress plug-in to replace the default user system. Member accounts, profile management, public member directory. PHP SQL WordPress JavaScript jQuery CSS mscra.com More Info Joomla Extension Mar, 2013 Joomla extension development, UI PHP Joomla Javascript MooTools HTML5 CSS3 Blue Bridge Development HoneyStinger Nov, 2012 Tables to HTML5 layout conversion. HTML5 CSS3 Internet Archive Link Smithwood Drive RevClaims Oct, 2012 Long patient form conversion to semantic HTML5, multi-page, wizard-type form. E-Mail notifications on submission, monthly CSV reports, client-side form validation, image captcha. PHP JavaScript jQuery HTML5 CSS3 Internet Archive Link Like Minds Design Russell is knowledgeable, friendly, gives updates on progress, and meets deadlines. Highly recommended!!! Star Mazy Games Oct, 2012 Adobe Flash to HTML5/JavaScript user interface conversion. JavaScript jQuery HTML5 CSS3 StarMazy Games Russell was the perfect person for this job. He was very responsive to my queries, completed the project in record time, and the code was also very clean.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/filesOnAShelf.svg" /></entry><entry><title type="html">Development History</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History.html" rel="alternate" type="text/html" title="Development History" /><published>2019-03-14T00:00:00+00:00</published><updated>2019-03-14T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/MVC1.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Multi-user content management system&lt;/h3&gt;
@@ -701,7 +1004,7 @@
       &lt;/div&gt;
     
   &lt;/section&gt;
-&lt;/section&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Multi-user content management system Sep, 2012 A Multi-user content management system. Client app made with RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API using PHP/Slim/MongoDB and hosted on OpenShift. PHP/SLIM MongoDB JavaScript HTML5 CSS3 More info GitHub Content Management System Sep, 2013 Custom content management system built with PHP using vanilla MVC architecture. PHP SQL Activerecord JavaScript jQuery HTML5 CSS3 GitHub Colorado Casket Company Jun 20, 2012 Advertising, product, and info site. Content management system, product catalog db, image resizing and caching on the server. PHP SQL ImageMagic HTML5 CSS3 Internet Archive link Mr. Tom&amp;#39;s Critters Oct 2, 2012 Content management system and design for animal resuce and adoption site. PHP SQL HTML5 CSS3 Photo Gallery Aug 14, 2012 Content management system and design for a photography portfolio. PHP SQL HTML5 CSS3 JavaScript jQuery GrowMall 2000 One of my first clients. Organic and hydropodic growing supply site, forums, and chat (Java applet). SHTML (Server side includes) JavaScript CSS Java Applets Internet Archive link Static Design 1999-2000 My first web development consulting site. SHTML (Server side includes!) JavaScript CSS Java Applets Internet Archive link</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/roadBlueSky.svg" /></entry><entry><title type="html">About</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html" rel="alternate" type="text/html" title="About" /><published>2019-03-13T00:00:00+00:00</published><updated>2019-03-13T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html">&lt;section class=&quot;code-stats&quot;&gt;
+&lt;/section&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Multi-user content management system Sep, 2012 A Multi-user content management system. Client app made with RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API using PHP/Slim/MongoDB and hosted on OpenShift. PHP/SLIM MongoDB JavaScript HTML5 CSS3 More info GitHub Content Management System Sep, 2013 Custom content management system built with PHP using vanilla MVC architecture. PHP SQL Activerecord JavaScript jQuery HTML5 CSS3 GitHub Colorado Casket Company Jun 20, 2012 Advertising, product, and info site. Content management system, product catalog db, image resizing and caching on the server. PHP SQL ImageMagic HTML5 CSS3 Internet Archive link Mr. Tom&amp;#39;s Critters Oct 2, 2012 Content management system and design for animal resuce and adoption site. PHP SQL HTML5 CSS3 Photo Gallery Aug 14, 2012 Content management system and design for a photography portfolio. PHP SQL HTML5 CSS3 JavaScript jQuery GrowMall 2000 One of my first clients. Organic and hydropodic growing supply site, forums, and chat (Java applet). SHTML (Server side includes) JavaScript CSS Java Applets Internet Archive link Static Design 1999-2000 My first web development consulting site. SHTML (Server side includes!) JavaScript CSS Java Applets Internet Archive link</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/roadSunsetMountains.svg" /></entry><entry><title type="html">About</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html" rel="alternate" type="text/html" title="About" /><published>2019-03-13T00:00:00+00:00</published><updated>2019-03-13T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html">&lt;section class=&quot;code-stats&quot;&gt;
   &lt;table&gt;
     &lt;thead&gt;
       &lt;tr&gt;
@@ -778,7 +1081,7 @@
   &lt;li&gt;&lt;a href=&quot;http://fontjoy.com/&quot;&gt;Fontjoy Machine Learning Font Combinations&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://paletton.com&quot;&gt;Paletton&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/fundamentals/architecture/app-shell&quot;&gt;App Shell Model&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;News&quot;]" /><category term="Featured" /><category term="News" /><category term="Jekyll" /><category term="Markdown" /><summary type="html">Powered by Jekyll Webpack 4 Popmotion Staticman</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/rocketLaunch1.svg" /></entry><entry><title type="html">Multithreaded Downloader</title><link href="https://chpmnrssll.github.io/advanced-static-site/article/2018/08/27/Multithread.html" rel="alternate" type="text/html" title="Multithreaded Downloader" /><published>2018-08-27T00:00:00+00:00</published><updated>2018-08-27T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/article/2018/08/27/Multithread</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/article/2018/08/27/Multithread.html">&lt;p&gt;A browser based multi-threaded downloader implemented in vanilla JavaScript. &lt;!-- more --&gt; Fetches parts of a file using the HTTP Range header and downloads those pieces in parallel. When the pieces have all been downloaded, the original file is re-assembled and saved in the browser’s Downloads folder.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;News&quot;]" /><category term="News" /><category term="Jekyll" /><category term="Markdown" /><summary type="html">Powered by Jekyll Webpack 4 Popmotion Staticman</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/rocketLaunch1.svg" /></entry><entry><title type="html">Multithreaded Downloader</title><link href="https://chpmnrssll.github.io/advanced-static-site/article/2018/08/27/Multithread.html" rel="alternate" type="text/html" title="Multithreaded Downloader" /><published>2018-08-27T00:00:00+00:00</published><updated>2018-08-27T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/article/2018/08/27/Multithread</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/article/2018/08/27/Multithread.html">&lt;p&gt;A browser based multi-threaded downloader implemented in vanilla JavaScript. &lt;!-- more --&gt; Fetches parts of a file using the HTTP Range header and downloads those pieces in parallel. When the pieces have all been downloaded, the original file is re-assembled and saved in the browser’s Downloads folder.&lt;/p&gt;
 
 &lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
 
@@ -889,14 +1192,14 @@
   &lt;li&gt;&lt;a href=&quot;http://pipes.js.org/&quot;&gt;Pipes.js&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;Article&quot;]" /><category term="Javascript" /><category term="Async" /><category term="WhatWG" /><category term="Streams" /><summary type="html">A browser based multi-threaded downloader implemented in vanilla JavaScript. Fetches parts of a file using the HTTP Range header and downloads those pieces in parallel. When the pieces have all been downloaded, the original file is re-assembled and saved in the browser’s Downloads folder.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/servers.svg" /></entry><entry><title type="html">Articles</title><link href="https://chpmnrssll.github.io/advanced-static-site/article/" rel="alternate" type="text/html" title="Articles" /><published>2018-06-25T00:00:00+00:00</published><updated>2018-06-25T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/Articles</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/article/">&lt;p&gt;#Articles&lt;/p&gt;</content><author><name>Russell Chapman</name></author><summary type="html">#Articles</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/spaceCapsule.svg" /></entry><entry><title type="html">About</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2018/03/28/Russell-Chapman.html" rel="alternate" type="text/html" title="About" /><published>2018-03-28T00:00:00+00:00</published><updated>2018-03-28T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2018/03/28/Russell-Chapman</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2018/03/28/Russell-Chapman.html">&lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/about/primitiveAvatar.gif&quot; alt=&quot;Russell Chapman&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/about/manInGuitar.jpg&quot; alt=&quot;Russell Chapman&quot;&gt;
     &lt;h3&gt;Russell Chapman&lt;/h3&gt;
     &lt;h4&gt;Full Stack Developer&lt;/h4&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
     &lt;p&gt;
-      Russell has been involved with the internet and programming since the mid
-      90's. He has studied a wide variety of programming languages and built
+      I've been involved with the internet and programming since the mid
+      90's. I've studied a wide variety of programming languages and built
       everything from REST APIs, content management systems, single page apps,
       and more.
     &lt;/p&gt;
@@ -905,7 +1208,7 @@
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/speedometer.svg&quot; alt=&quot;Speedometer&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/about/marcus.svg&quot; alt=&quot;In an engine compartment&quot;&gt;
     &lt;h3&gt;About&lt;/h3&gt;
     &lt;h4&gt;History&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
@@ -916,8 +1219,10 @@
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
     &lt;p&gt;
-      When not writing code you'll often find Russell working on a farm truck,
-      taking apart an engine, or playing guitar.
+      I went down a different path from my programming roots that led me into auto mechanics.
+      That is until I wore out my back pre-maturely and needed spinal fusion surgery.
+      Now I've found my way back to continue the search for the master code!
+      When not writing code you'll often find me working on a truck, taking apart an engine, or playing guitar.
     &lt;/p&gt;
   &lt;/section&gt;
 &lt;/section&gt;
@@ -1035,14 +1340,14 @@
     &lt;h3&gt;PPCC &amp;#8212; 1997~2011&lt;/h3&gt;
     &lt;br/&gt;
     &lt;ul&gt;
-      &lt;li&gt;AST 101 - Astronomy I*&lt;/li&gt;
-      &lt;li&gt;AST 102 - Astronomy II*&lt;/li&gt;
-      &lt;li&gt;SPS 101 - Spaceflight*&lt;/li&gt;
-      &lt;li&gt;MAT 075 - Pre-Algebra&lt;/li&gt;
       &lt;li&gt;CSC 160 - Computer Science I, C++&lt;/li&gt;
       &lt;li&gt;CSC 161 - Computer Science II,‭ C++&lt;/li&gt;
       &lt;li&gt;DRT 201 - Intro to Computer Animation&lt;/li&gt;
       &lt;li&gt;DRT 283 - Advanced Animation&lt;/li&gt;
+      &lt;li&gt;AST 101 - Astronomy I*&lt;/li&gt;
+      &lt;li&gt;AST 102 - Astronomy II*&lt;/li&gt;
+      &lt;li&gt;SPS 101 - Spaceflight*&lt;/li&gt;
+      &lt;li&gt;MAT 075 - Algebra&lt;/li&gt;
     &lt;/ul&gt;
     &lt;small&gt;* NASA Scholorship program&lt;/small&gt;
   &lt;/section&gt;
@@ -1052,7 +1357,7 @@
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/logo/logoASE.svg&quot; alt=&quot;ASE&quot;&gt;
     &lt;h3&gt;ASE Certifications&lt;/h3&gt;
-    &lt;h4&gt;HD-Truck&lt;/h4&gt;
+    &lt;h4&gt;Medium-Heavy Truck&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/aseT6.jpg&quot; alt=&quot;ASE T6&quot;/&gt;
       &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/automotive/freightliner.gif&quot; alt=&quot;Freightliner&quot;/&gt;
@@ -1063,8 +1368,8 @@
     &lt;h3&gt;Travel Centers of America &amp;mdash; 2007&lt;/h3&gt;
     &lt;br/&gt;
     &lt;ul&gt;
-      &lt;li&gt;Electrical Systems&lt;/li&gt;
-      &lt;li&gt;HVAC Systems&lt;/li&gt;
+      &lt;li&gt;T6 - Electrical/ Electronic Systems&lt;/li&gt;
+      &lt;li&gt;T7 – Heating, Ventilation &amp; Air Conditioning (HVAC)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/section&gt;
 &lt;/section&gt;
@@ -1086,6 +1391,10 @@
         &lt;li&gt;VGA Mode 13h &amp;amp; ModeX (0xA0000)&lt;/li&gt;
         &lt;li&gt;3D software rendering&lt;/li&gt;
         &lt;li&gt;x86 Assembly&lt;/li&gt;
+        &lt;li&gt;Python&lt;/li&gt;
+        &lt;li&gt;Lua&lt;/li&gt;
+        &lt;li&gt;C++&lt;/li&gt;
+        &lt;li&gt;C&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
   &lt;/section&gt;
@@ -1164,7 +1473,7 @@
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
---&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="About" /><category term="Programming" /><summary type="html">Russell Chapman Full Stack Developer Russell has been involved with the internet and programming since the mid 90's. He has studied a wide variety of programming languages and built everything from REST APIs, content management systems, single page apps, and more.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/about/primitiveAvatar.gif" /></entry><entry><title type="html">2D Physics Platformer</title><link href="https://chpmnrssll.github.io/advanced-static-site/demo/platformer/" rel="alternate" type="text/html" title="2D Physics Platformer" /><published>2018-03-27T03:00:00+00:00</published><updated>2018-03-27T03:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/demo/Platformer</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/demo/platformer/">&lt;p&gt;
+--&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="About" /><category term="Programming" /><summary type="html">Russell Chapman Full Stack Developer I've been involved with the internet and programming since the mid 90's. I've studied a wide variety of programming languages and built everything from REST APIs, content management systems, single page apps, and more.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/about/primitiveAvatar.gif" /></entry><entry><title type="html">2D Physics Platformer</title><link href="https://chpmnrssll.github.io/advanced-static-site/demo/platformer/" rel="alternate" type="text/html" title="2D Physics Platformer" /><published>2018-03-27T03:00:00+00:00</published><updated>2018-03-27T03:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/demo/Platformer</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/demo/platformer/">&lt;p&gt;
   &lt;canvas class=&quot;canvasDemo mid&quot; demo=&quot;Platformer&quot; baseurl=&quot;/advanced-static-site&quot;&gt;&lt;/canvas&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -1208,6 +1517,4 @@
     &lt;li&gt;Try wall-run &amp; wall-jump&lt;/li&gt;
     &lt;li&gt;Touch or click &amp; drag to throw&lt;/li&gt;
   &lt;/ul&gt;
-&lt;/p&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;Demo&quot;]" /><category term="HTML5" /><category term="Javascript" /><category term="Canvas" /><category term="Game" /><summary type="html">Controls Keys Jump w Pound s Move Left a Move Right d Zoom In + Zoom Out - Try wall-run &amp; wall-jump Touch or click &amp; drag to throw</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/about/Platformer.png" /></entry><entry><title type="html">Normal Mapping</title><link href="https://chpmnrssll.github.io/advanced-static-site/demo/normalmap/" rel="alternate" type="text/html" title="Normal Mapping" /><published>2018-03-26T03:00:00+00:00</published><updated>2018-03-26T03:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/demo/NormalMapping</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/demo/normalmap/">&lt;p&gt;
-  &lt;canvas class=&quot;canvasDemo mid&quot; demo=&quot;NormalMapping&quot; image=&quot;/advanced-static-site/assets/images/route-66.png&quot; normal-map=&quot;/advanced-static-site/assets/images/route-66_normals.png&quot;&gt;&lt;/canvas&gt;
-&lt;/p&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;Demo&quot;]" /><category term="HTML5" /><category term="Javascript" /><category term="Canvas" /><category term="Game" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/about/NormalMapping.png" /></entry></feed>
+&lt;/p&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;Demo&quot;]" /><category term="HTML5" /><category term="Javascript" /><category term="Canvas" /><category term="Game" /><summary type="html">Controls Keys Jump w Pound s Move Left a Move Right d Zoom In + Zoom Out - Try wall-run &amp; wall-jump Touch or click &amp; drag to throw</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/about/Platformer.png" /></entry></feed>
