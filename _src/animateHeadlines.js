@@ -44,13 +44,13 @@ export default function () {
           const stagger = (i * letterStagger) + preCalc;
           animateLetters(thisStyler, stagger);
 
-          const interval = setInterval(() => {
-            try {
-              animateLetters(thisStyler, stagger);
-            } catch (e) {
-              clearInterval(interval);
-            }
-          }, 15000);
+          // const interval = setInterval(() => {
+          //   try {
+          //     animateLetters(thisStyler, stagger);
+          //   } catch (e) {
+          //     clearInterval(interval);
+          //   }
+          // }, 15000);
         });
       }
     });
