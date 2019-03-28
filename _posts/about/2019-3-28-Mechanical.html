@@ -1,0 +1,13 @@
+---
+layout: post
+image: /assets/images/backgrounds/gears.svg
+header-image: /assets/images/backgrounds/gears.svg
+title: Mechanical
+subtitle: Stories
+date: 2019-3-28T00:00:00.000Z
+tags: Featured
+category: [ About ]
+---
+{% for work in site.data.mechanical %}
+  {% include work-item.html data=work%}
+{% endfor %}
