@@ -1,4 +1,459 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-27T06:40:14+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Open Source</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source.html" rel="alternate" type="text/html" title="Open Source" /><published>2019-03-26T00:00:00+00:00</published><updated>2019-03-26T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-28T23:41:10+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Mechanical</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/28/Mechanical.html" rel="alternate" type="text/html" title="Mechanical" /><published>2019-03-28T00:00:00+00:00</published><updated>2019-03-28T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/28/Mechanical</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/28/Mechanical.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0009.JPG&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;2000 Subaru Outback Sedan&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0009.JPG&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0013.JPG&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0017.JPG&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0015.JPG&quot; alt=&quot;&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Fancy leather interior with seat warmers and good on gas, but small.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;2.5L 4cyl&lt;/li&gt;
+      
+        &lt;li&gt;Automatic&lt;/li&gt;
+      
+        &lt;li&gt;AWD&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;blockquote class=&quot;card__quote&quot;&gt;
+  
+&lt;/blockquote&gt;
+
+
+
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114032.jpg&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1997 Ford F150 Lariat&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114032.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114117.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114456.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114214.jpg&quot; alt=&quot;&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;R&amp;R tons of badly done stero and remote start wiring. Wired dual electric cooling fans with relays and temperature controller.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+
+  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993HondaCivic/CivicSide.jpg&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1993 Honda Civic&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993HondaCivic/CivicSide.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993HondaCivic/CivicInterior3.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993HondaCivic/CivicEngine.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/lemons.jpg&quot; alt=&quot;&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;This was a junkyard automatic to manual conversion.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5spd Manual&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;blockquote class=&quot;card__quote&quot;&gt;
+  Good on gas, not much else.
+&lt;/blockquote&gt;
+
+
+
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CleanCamaro.jpg&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1993 Chevy Camaro&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CleanCamaro.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CamaroRear2.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CamaroDrivers.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CCamaroV6.jpg&quot; alt=&quot;&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;3.4L V6&lt;/li&gt;
+      
+        &lt;li&gt;4sp Automatic&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;blockquote class=&quot;card__quote&quot;&gt;
+  
+&lt;/blockquote&gt;
+
+
+
+  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/IMG_20140428_142130.jpg&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1997 Ford F250&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/IMG_20140428_142130.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/F250Rear.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/F250Interior1.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/F250Engine2.jpg&quot; alt=&quot;&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Required minimal fixes for the amount of miles it had. Parked then sold after transmission shift fork bent.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5.4L Triton V8&lt;/li&gt;
+      
+        &lt;li&gt;5sp Manual&lt;/li&gt;
+      
+        &lt;li&gt;4x4&lt;/li&gt;
+      
+        &lt;li&gt;HD-Towing package&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;blockquote class=&quot;card__quote&quot;&gt;
+  
+&lt;/blockquote&gt;
+
+
+
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/DSCI0041.JPG&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;2000 Chevy Blazer&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/DSCI0041.JPG&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/DSCI0042.JPG&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/DSCI0038.JPG&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/IMG_20140425_134301.jpg&quot; alt=&quot;&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;4.3L Vortech V6&lt;/li&gt;
+      
+        &lt;li&gt;Automatic&lt;/li&gt;
+      
+        &lt;li&gt;4x4&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;blockquote class=&quot;card__quote&quot;&gt;
+  Like a rock, it just sat there.
+&lt;/blockquote&gt;
+
+
+
+  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/1999SuperDutyFront.jpg&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1999 Ford F250&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/1999SuperDutyFront.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/1999SuperDuty.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/ResurfacedHeads.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/TritonRebuild3.jpg&quot; alt=&quot;&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Bad head gaskets. Rebuilt top-end, machined &amp; pressure tested cylinder heads, complete gasket set. Traded for 1997 F150 Lariat.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5.4L Triton V8&lt;/li&gt;
+      
+        &lt;li&gt;5sp Manual&lt;/li&gt;
+      
+        &lt;li&gt;RWD&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;blockquote class=&quot;card__quote&quot;&gt;
+  
+&lt;/blockquote&gt;
+
+
+
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/TransAm.jpg&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1986 Pontiac Trans Am&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/TransAm.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/TransAmRat.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/IMG_20121102_171216.jpg&quot; alt=&quot;&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/FirebirdRims.JPG&quot; alt=&quot;&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Previous owner swapped out the original computer controlled carburetor but left original distributor and ecu. Removed useless wiring and replaced distributor with a vacuum advanced one and wired a toggle switch to controll the torque converter lock-up. Traded for 1993 Chevy Camaro.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5.0L Holley 650&lt;/li&gt;
+      
+        &lt;li&gt;4spd Automatic&lt;/li&gt;
+      
+        &lt;li&gt;T-Tops&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;blockquote class=&quot;card__quote&quot;&gt;
+  
+&lt;/blockquote&gt;
+
+
+
+  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/lemons.jpg&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1995 Chrysler LeBaron&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/lemons.jpg&quot; alt=&quot;1995 Chrysler LeBaron&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/LeBaron/DSCI0001.JPG&quot; alt=&quot;1995 Chrysler LeBaron side&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/LeBaron/InsideLeBaron.JPG&quot; alt=&quot;1995 Chrysler LeBaron interior&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/LeBaron/Engine.JPG&quot; alt=&quot;1995 Chrysler LeBaron engine&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Flimsy body and convertible top, bad cooling system, overheats easily...&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;Junk&lt;/li&gt;
+      
+        &lt;li&gt;Useless&lt;/li&gt;
+      
+        &lt;li&gt;Uncomfortable&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;blockquote class=&quot;card__quote&quot;&gt;
+  Don't even recycle one, drop it in the ocean.
+&lt;/blockquote&gt;
+
+
+
+  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepFront.jpg&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1995 Jeep Grand Cherokee Limited&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepFront.jpg&quot; alt=&quot;1995 Jeep Grand Cherokee Limited front&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepBack.jpg&quot; alt=&quot;1995 Jeep Grand Cherokee Limited back&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepInt.jpg&quot; alt=&quot;1995 Jeep Grand Cherokee Limited interior&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepInt2.jpg&quot; alt=&quot;1995 Jeep Grand Cherokee Limited interior&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Swapped transfer case to a custom hybrid selectrac for RWD mode.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5.2L Magnum V8&lt;/li&gt;
+      
+        &lt;li&gt;Automatic&lt;/li&gt;
+      
+        &lt;li&gt;AWD&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;blockquote class=&quot;card__quote&quot;&gt;
+  
+&lt;/blockquote&gt;
+
+
+
+  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/IMG_20121102_171139.jpg&quot;&gt;
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1988 Pontiac Trans Am GTA&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/IMG_20121102_171139.jpg&quot; alt=&quot;1988 Pontiac Trans Am GTA front&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/IMG_20121102_171118.jpg&quot; alt=&quot;1988 Pontiac Trans Am GTA side&quot;&gt;
+      
+      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/tpiV8.JPG&quot; alt=&quot;1988 Pontiac Trans Am GTA engine&quot;&gt;
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5.0L Tuned Port Injection&lt;/li&gt;
+      
+        &lt;li&gt;5spd Manual&lt;/li&gt;
+      
+        &lt;li&gt;WS6 suspension package&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+&lt;blockquote class=&quot;card__quote&quot;&gt;
+  Burnout machine
+&lt;/blockquote&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><summary type="html">2000 Subaru Outback Sedan Fancy leather interior with seat warmers and good on gas, but small. 2.5L 4cyl Automatic AWD 1997 Ford F150 Lariat R&amp;R tons of badly done stero and remote start wiring. Wired dual electric cooling fans with relays and temperature controller. 1993 Honda Civic This was a junkyard automatic to manual conversion. 5spd Manual Good on gas, not much else. 1993 Chevy Camaro 3.4L V6 4sp Automatic 1997 Ford F250 Required minimal fixes for the amount of miles it had. Parked then sold after transmission shift fork bent. 5.4L Triton V8 5sp Manual 4x4 HD-Towing package 2000 Chevy Blazer 4.3L Vortech V6 Automatic 4x4 Like a rock, it just sat there. 1999 Ford F250 Bad head gaskets. Rebuilt top-end, machined &amp; pressure tested cylinder heads, complete gasket set. Traded for 1997 F150 Lariat. 5.4L Triton V8 5sp Manual RWD 1986 Pontiac Trans Am Previous owner swapped out the original computer controlled carburetor but left original distributor and ecu. Removed useless wiring and replaced distributor with a vacuum advanced one and wired a toggle switch to controll the torque converter lock-up. Traded for 1993 Chevy Camaro. 5.0L Holley 650 4spd Automatic T-Tops 1995 Chrysler LeBaron Flimsy body and convertible top, bad cooling system, overheats easily... Junk Useless Uncomfortable Don't even recycle one, drop it in the ocean. 1995 Jeep Grand Cherokee Limited Swapped transfer case to a custom hybrid selectrac for RWD mode. 5.2L Magnum V8 Automatic AWD 1988 Pontiac Trans Am GTA 5.0L Tuned Port Injection 5spd Manual WS6 suspension package Burnout machine</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/gears.svg" /></entry><entry><title type="html">Open Source</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source.html" rel="alternate" type="text/html" title="Open Source" /><published>2019-03-26T00:00:00+00:00</published><updated>2019-03-26T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
     &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/headline-creation-tool.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Headline Creation Tool&lt;/h3&gt;
@@ -1473,48 +1928,4 @@
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
---&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="About" /><category term="Programming" /><summary type="html">Russell Chapman Full Stack Developer I've been involved with the internet and programming since the mid 90's. I've studied a wide variety of programming languages and built everything from REST APIs, content management systems, single page apps, and more.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/about/primitiveAvatar.gif" /></entry><entry><title type="html">2D Physics Platformer</title><link href="https://chpmnrssll.github.io/advanced-static-site/demo/platformer/" rel="alternate" type="text/html" title="2D Physics Platformer" /><published>2018-03-27T03:00:00+00:00</published><updated>2018-03-27T03:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/demo/Platformer</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/demo/platformer/">&lt;p&gt;
-  &lt;canvas class=&quot;canvasDemo mid&quot; demo=&quot;Platformer&quot; baseurl=&quot;/advanced-static-site&quot;&gt;&lt;/canvas&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;table class=&quot;controls&quot;&gt;
-    &lt;thead&gt;
-      &lt;tr&gt;
-        &lt;th&gt;Controls&lt;/th&gt;
-        &lt;td&gt;Keys&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;th&gt;Jump&lt;/th&gt;
-        &lt;td&gt;w&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;th&gt;Pound&lt;/th&gt;
-        &lt;td&gt;s&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;th&gt;Move Left&lt;/th&gt;
-        &lt;td&gt;a&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;th&gt;Move Right&lt;/th&gt;
-        &lt;td&gt;d&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;th&gt;Zoom In&lt;/th&gt;
-        &lt;td&gt;+&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;th&gt;Zoom Out&lt;/th&gt;
-        &lt;td&gt;-&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Try wall-run &amp; wall-jump&lt;/li&gt;
-    &lt;li&gt;Touch or click &amp; drag to throw&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/p&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;Demo&quot;]" /><category term="HTML5" /><category term="Javascript" /><category term="Canvas" /><category term="Game" /><summary type="html">Controls Keys Jump w Pound s Move Left a Move Right d Zoom In + Zoom Out - Try wall-run &amp; wall-jump Touch or click &amp; drag to throw</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/about/Platformer.png" /></entry></feed>
+--&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="About" /><category term="Programming" /><summary type="html">Russell Chapman Full Stack Developer I've been involved with the internet and programming since the mid 90's. I've studied a wide variety of programming languages and built everything from REST APIs, content management systems, single page apps, and more.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/about/primitiveAvatar.gif" /></entry></feed>
