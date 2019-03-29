@@ -1,6 +1,6 @@
 export default class ImageLoader {
   constructor(options = {
-    rootMargin: '50% 50% 50% 50%',
+    rootMargin: '0% 0% 0% 0%',
     threshold: 0,
     imageClass: '.image--lazyload',
     imageVisibleClass: 'image--visible',
@@ -18,8 +18,7 @@ export default class ImageLoader {
       });
     };
 
-    const { rootMargin, threshold } = this.options;
-    this.observer = new window.IntersectionObserver(handler, { rootMargin, threshold });
+    this.observer = new window.IntersectionObserver(handler, this.options);
   }
 
   lazyLoad() {
