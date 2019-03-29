@@ -1,18 +1,3 @@
-- title: "Multi-user content management system"
-  description: "A Multi-user content management system. Client app made with RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API using PHP/Slim/MongoDB and hosted on OpenShift."
-  tags: ["PHP/SLIM", "MongoDB", "JavaScript", "HTML5", "CSS3"]
-  date: "Sep, 2012"
-  links:
-    - name: "More info"
-      url: "https://chpmnrssll.github.io/advanced-static-site/about/2018/01/20/MVC.html"
-    - name: "GitHub"
-      url: "https://github.com/chpmnrssll/multi-CMS"
-  images:
-    - src: "/assets/images/professional/MVC1.png"
-      alt: "MVC CMS"
-    - src: "/assets/images/professional/MVC2.png"
-      alt: "MVC CMS"
-
 - title: "Content Management System"
   description: "Custom content management system built with PHP using vanilla MVC architecture."
   tags: ["PHP", "SQL", "Activerecord", "JavaScript", "jQuery", "HTML5", "CSS3"]
@@ -28,6 +13,21 @@
     - src: "/assets/images/professional/MVCCode.png"
       alt: "Content Management System"
 
+- title: "Multi-user content management system"
+  description: "A Multi-user content management system. Client app made with RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API using PHP/Slim/MongoDB and hosted on OpenShift."
+  tags: ["PHP/SLIM", "MongoDB", "JavaScript", "HTML5", "CSS3"]
+  date: "Sep, 2012"
+  links:
+    - name: "More info"
+      url: "https://chpmnrssll.github.io/advanced-static-site/about/2018/01/20/MVC.html"
+    - name: "GitHub"
+      url: "https://github.com/chpmnrssll/multi-CMS"
+  images:
+    - src: "/assets/images/professional/MVC1.png"
+      alt: "MVC CMS"
+    - src: "/assets/images/professional/MVC2.png"
+      alt: "MVC CMS"
+
 - title: "Colorado Casket Company"
   description: "Advertising, product, and info site. Content management system, product catalog db, image resizing and caching on the server."
   tags: ["PHP", "SQL", "ImageMagic", "HTML5", "CSS3"]
@@ -38,6 +38,25 @@
   images:
     - src: "/assets/images/professional/casket.png"
       alt: "CCC"
+
+- title: "Multi Theft Auto"
+  description: "Lua server and client game resources for Multi Theft Auto"
+  tags: ["Muliplayer", "Gameplay", "Lua"]
+  date: "2010 ~ 2012"
+  links:
+    - name: "GitHub"
+      url: "https://github.com/chpmnrssll/MTA-Resources"
+    - name: "Multi Theft Auto"
+      url: "https://mtasa.com/"
+  images:
+    - src: "/assets/images/about/recoil.svg"
+      alt: "Gun recoil"
+    - src: "/assets/images/about/warp.svg"
+      alt: "Warp"
+    - src: "/assets/images/about/radar.jpg"
+      alt: "Radar map"
+    - src: "/assets/images/about/kDST.png"
+      alt: "K-DST"
 
 - title: "Mr. Tom's Critters"
   description: "Content management system and design for animal resuce and adoption site."
