@@ -24,7 +24,7 @@ layout: amp
       <span>
       {{ page.date }} - {{ page.author }}
       </span>
-      {{ content | markdownify | amp_images }}
+      {{ content | markdownify }}
       {% capture footer %}{% endcapture %}
       {{ footer | amp_images: false, 24, 24 }}
   </body>
