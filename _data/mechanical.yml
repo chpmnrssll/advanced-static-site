@@ -1,167 +1,127 @@
-# - title: "1999 Ford Expedition XLT"
-#   description: "A beast. Great for towing or hauling around lots of people."
-#   quote: ""
-#   tags: ["5.4L Triton V8", "Automatic", "4x4"]
-#   date: ""
-#   links:
-#     - name: ""
-#       url: ""
-#   images:
-#     - src: "/assets/images/automotive/"
-#       alt: ""
+- title: "1999 Ford Expedition XLT"
+  description: "A beast. Great for towing or hauling around lots of people."
+  tags: ["5.4L Triton V8", "Automatic", "4x4"]
+  date: ""
+  images:
+    - src: "/assets/images/automotive/Acme-auto_1906_ad.jpg"
+      alt: "1999 Ford Expedition XLT"
 
 - title: "2000 Subaru Outback Sedan"
   description: "Fancy leather interior with seat warmers and good on gas, but small."
-  quote: ""
   tags: ["2.5L 4cyl", "Automatic", "AWD"]
   date: ""
-  links:
-    - name: ""
-      url: ""
   images:
     - src: "/assets/images/automotive/2000SubaruOutback/DSCI0009.JPG"
-      alt: ""
+      alt: "2000 Subaru Outback Sedan side"
     - src: "/assets/images/automotive/2000SubaruOutback/DSCI0013.JPG"
-      alt: ""
+      alt: "2000 Subaru Outback Sedan front"
     - src: "/assets/images/automotive/2000SubaruOutback/DSCI0017.JPG"
-      alt: ""
+      alt: "2000 Subaru Outback Sedan interior"
     - src: "/assets/images/automotive/2000SubaruOutback/DSCI0015.JPG"
-      alt: ""
+      alt: "2000 Subaru Outback Sedan engine"
 
 - title: "1997 Ford F150 Lariat"
   description: "R&R tons of badly done stero and remote start wiring. Wired dual electric cooling fans with relays and temperature controller."
-  tags: ["4.6L Triton V8", "Automatic", "4x4", "Lifted"]
-  tags: [""]
+  tags: ["4.6L Triton V8", "Automatic", "Lifted", "4x4"]
   date: ""
-  links:
-    - name: ""
-      url: ""
   images:
     - src: "/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114032.jpg"
-      alt: ""
+      alt: "1997 Ford F150 Lariat side"
     - src: "/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114117.jpg"
-      alt: ""
+      alt: "1997 Ford F150 Lariat wheels"
     - src: "/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114456.jpg"
-      alt: ""
+      alt: "1997 Ford F150 Lariat interior"
     - src: "/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114214.jpg"
-      alt: ""
+      alt: "1997 Ford F150 Lariat dash"
 
 - title: "1993 Honda Civic"
-  description: "This was a junkyard automatic to manual conversion."
-  quote: "Good on gas, not much else."
+  description: "This was a junkyard automatic to manual conversion. Good on gas, not much else."
   tags: ["5spd Manual"]
   date: ""
-  links:
-    - name: ""
-      url: ""
   images:
     - src: "/assets/images/automotive/1993HondaCivic/CivicSide.jpg"
-      alt: ""
+      alt: "1993 Honda Civic side"
     - src: "/assets/images/automotive/1993HondaCivic/CivicInterior3.jpg"
-      alt: ""
+      alt: "1993 Honda Civic interior"
     - src: "/assets/images/automotive/1993HondaCivic/CivicEngine.jpg"
-      alt: ""
+      alt: "1993 Honda Civic engine"
     - src: "/assets/images/automotive/lemons.jpg"
-      alt: ""
+      alt: "1993 Honda Civic"
 
 - title: "1993 Chevy Camaro"
   description: ""
-  quote: ""
   tags: ["3.4L V6", "4sp Automatic"]
   date: ""
-  links:
-    - name: ""
-      url: ""
   images:
     - src: "/assets/images/automotive/1993ChevyCamaro/CleanCamaro.jpg"
-      alt: ""
+      alt: "1993 Chevy Camaro"
     - src: "/assets/images/automotive/1993ChevyCamaro/CamaroRear2.jpg"
-      alt: ""
+      alt: "1993 Chevy Camaro rear"
     - src: "/assets/images/automotive/1993ChevyCamaro/CamaroDrivers.jpg"
-      alt: ""
+      alt: "1993 Chevy Camaro interior"
     - src: "/assets/images/automotive/1993ChevyCamaro/CCamaroV6.jpg"
-      alt: ""
+      alt: "1993 Chevy Camaro engine"
+
+- title: "2000 Chevy Blazer"
+  description: "Modified steering shaft with a u-joint one from a Jeep Cherokee."
+  tags: ["4.3L Vortech V6", "Automatic", "4x4"]
+  date: ""
+  images:
+    - src: "/assets/images/automotive/2000ChevyBlazer/DSCI0041.JPG"
+      alt: "2000 Chevy Blazer front"
+    - src: "/assets/images/automotive/2000ChevyBlazer/DSCI0042.JPG"
+      alt: "2000 Chevy Blazer rear"
+    - src: "/assets/images/automotive/2000ChevyBlazer/DSCI0038.JPG"
+      alt: "2000 Chevy Blazer engine"
+    - src: "/assets/images/automotive/2000ChevyBlazer/IMG_20140425_134301.jpg"
+      alt: "2000 Chevy Blazer steering shaft u-joint mod"
 
 - title: "1997 Ford F250"
   description: "Required minimal fixes for the amount of miles it had. Parked then sold after transmission shift fork bent."
-  quote: ""
-  tags: ["5.4L Triton V8", "5sp Manual", "4x4", "HD-Towing package"]
+  tags: ["5.4L Triton V8", "5sp Manual", "HD-Towing package", "4x4"]
   date: ""
-  links:
-    - name: ""
-      url: ""
   images:
     - src: "/assets/images/automotive/1997FordF250/IMG_20140428_142130.jpg"
-      alt: ""
+      alt: "1997 Ford F250 side"
     - src: "/assets/images/automotive/1997FordF250/F250Rear.jpg"
-      alt: ""
+      alt: "1997 Ford F250 rear"
     - src: "/assets/images/automotive/1997FordF250/F250Interior1.jpg"
-      alt: ""
+      alt: "1997 Ford F250 interior"
     - src: "/assets/images/automotive/1997FordF250/F250Engine2.jpg"
-      alt: ""
-
-- title: "2000 Chevy Blazer"
-  description: ""
-  quote: "Like a rock, it just sat there."
-  tags: ["4.3L Vortech V6", "Automatic", "4x4"]
-  date: ""
-  links:
-    - name: ""
-      url: ""
-  images:
-    - src: "/assets/images/automotive/2000ChevyBlazer/DSCI0041.JPG"
-      alt: ""
-    - src: "/assets/images/automotive/2000ChevyBlazer/DSCI0042.JPG"
-      alt: ""
-    - src: "/assets/images/automotive/2000ChevyBlazer/DSCI0038.JPG"
-      alt: ""
-    - src: "/assets/images/automotive/2000ChevyBlazer/IMG_20140425_134301.jpg"
-      alt: ""
+      alt: "1997 Ford F250 engine"
 
 - title: "1999 Ford F250"
   description: "Bad head gaskets. Rebuilt top-end, machined & pressure tested cylinder heads, complete gasket set. Traded for 1997 F150 Lariat."
-  quote: ""
   tags: ["5.4L Triton V8", "5sp Manual", "RWD"]
   date: ""
-  links:
-    - name: ""
-      url: ""
   images:
     - src: "/assets/images/automotive/1999FordF250/1999SuperDutyFront.jpg"
-      alt: ""
+      alt: "1999 Ford F250 front"
     - src: "/assets/images/automotive/1999FordF250/1999SuperDuty.jpg"
-      alt: ""
+      alt: "1999 Ford F250"
     - src: "/assets/images/automotive/1999FordF250/ResurfacedHeads.jpg"
-      alt: ""
+      alt: "1999 Ford F250 cylinder heads"
     - src: "/assets/images/automotive/1999FordF250/TritonRebuild3.jpg"
-      alt: ""
+      alt: "1999 Ford F250 engine"
 
 - title: "1986 Pontiac Trans Am"
   description: "Previous owner swapped out the original computer controlled carburetor but left original distributor and ecu. Removed useless wiring and replaced distributor with a vacuum advanced one and wired a toggle switch to controll the torque converter lock-up. Traded for 1993 Chevy Camaro."
-  quote: ""
   tags: ["5.0L Holley 650", "4spd Automatic", "T-Tops"]
   date: ""
-  links:
-    - name: ""
-      url: ""
   images:
     - src: "/assets/images/automotive/PontiacFirebird/TransAm.jpg"
-      alt: ""
+      alt: "1986 Pontiac Trans Am front"
     - src: "/assets/images/automotive/PontiacFirebird/TransAmRat.jpg"
-      alt: ""
+      alt: "1986 Pontiac Trans Am engine"
     - src: "/assets/images/automotive/PontiacFirebird/IMG_20121102_171216.jpg"
-      alt: ""
+      alt: "1986 Pontiac Trans Am interior"
     - src: "/assets/images/automotive/PontiacFirebird/FirebirdRims.JPG"
-      alt: ""
+      alt: "1986 Pontiac Trans Am rims"
 
 - title: "1995 Chrysler LeBaron"
   description: "Flimsy body and convertible top, bad cooling system, overheats easily..."
-  quote: "Don't even recycle one, drop it in the ocean."
   tags: ["Junk", "Useless", "Uncomfortable"]
   date: ""
-  links:
-    - name: ""
-      url: ""
   images:
     - src: "/assets/images/automotive/lemons.jpg"
       alt: "1995 Chrysler LeBaron"
@@ -174,14 +134,10 @@
 
 - title: "1995 Jeep Grand Cherokee Limited"
   description: "Swapped transfer case to a custom hybrid selectrac for RWD mode."
-  quote: ""
   tags: ["5.2L Magnum V8", "Automatic", "AWD"]
   date: ""
-  links:
-    - name: ""
-      url: ""
   images:
-    - src: "/assets/images/automotive/1995JeepGrandCherokee/JeepFront.jpg"
+    - src: "/assets/images/automotive/1995JeepGrandCherokee/Jeep.jpg"
       alt: "1995 Jeep Grand Cherokee Limited front"
     - src: "/assets/images/automotive/1995JeepGrandCherokee/JeepBack.jpg"
       alt: "1995 Jeep Grand Cherokee Limited back"
@@ -190,15 +146,10 @@
     - src: "/assets/images/automotive/1995JeepGrandCherokee/JeepInt2.jpg"
       alt: "1995 Jeep Grand Cherokee Limited interior"
 
-
 - title: "1988 Pontiac Trans Am GTA"
-  description: ""
-  quote: "Burnout machine"
-  tags: ["5.0L Tuned Port Injection", "5spd Manual", "WS6 suspension package"]
+  description: "Burnout machine"
+  tags: ["5.0L Tuned Port Injection", "WS6 suspension package", "5spd Manual"]
   date: ""
-  links:
-    - name: ""
-      url: ""
   images:
     - src: "/assets/images/automotive/PontiacFirebird/IMG_20121102_171139.jpg"
       alt: "1988 Pontiac Trans Am GTA front"
