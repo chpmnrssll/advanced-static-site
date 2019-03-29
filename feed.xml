@@ -1,468 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-28T23:41:10+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Mechanical</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/28/Mechanical.html" rel="alternate" type="text/html" title="Mechanical" /><published>2019-03-28T00:00:00+00:00</published><updated>2019-03-28T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/28/Mechanical</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/28/Mechanical.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://chpmnrssll.github.io/advanced-static-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chpmnrssll.github.io/advanced-static-site/" rel="alternate" type="text/html" /><updated>2019-03-29T08:44:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/feed.xml</id><title type="html">Russell Chapman</title><subtitle>Advanced static site made with Jekyll and Webpack</subtitle><author><name>Russell Chapman</name></author><entry><title type="html">Open Source</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source.html" rel="alternate" type="text/html" title="Open Source" /><published>2019-03-26T00:00:00+00:00</published><updated>2019-03-26T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0009.JPG&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;2000 Subaru Outback Sedan&lt;/h3&gt;
-    &lt;h4&gt;&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0009.JPG&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0013.JPG&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0017.JPG&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0015.JPG&quot; alt=&quot;&quot;&gt;
-      
-    &lt;/section&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;Fancy leather interior with seat warmers and good on gas, but small.&lt;/p&gt;
-    &lt;br/&gt;
-    &lt;ul&gt;
-      
-        &lt;li&gt;2.5L 4cyl&lt;/li&gt;
-      
-        &lt;li&gt;Automatic&lt;/li&gt;
-      
-        &lt;li&gt;AWD&lt;/li&gt;
-      
-    &lt;/ul&gt;
     
-      &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
+      &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/headline-creation-tool.png&quot;&gt;
     
-  &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;blockquote class=&quot;card__quote&quot;&gt;
-  
-&lt;/blockquote&gt;
-
-
-
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
-  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114032.jpg&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1997 Ford F150 Lariat&lt;/h3&gt;
-    &lt;h4&gt;&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114032.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114117.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114456.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114214.jpg&quot; alt=&quot;&quot;&gt;
-      
-    &lt;/section&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;R&amp;R tons of badly done stero and remote start wiring. Wired dual electric cooling fans with relays and temperature controller.&lt;/p&gt;
-    &lt;br/&gt;
-    &lt;ul&gt;
-      
-        &lt;li&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-    
-      &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    
-  &lt;/section&gt;
-&lt;/section&gt;
-
-
-
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
-  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993HondaCivic/CivicSide.jpg&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1993 Honda Civic&lt;/h3&gt;
-    &lt;h4&gt;&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993HondaCivic/CivicSide.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993HondaCivic/CivicInterior3.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993HondaCivic/CivicEngine.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/lemons.jpg&quot; alt=&quot;&quot;&gt;
-      
-    &lt;/section&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;This was a junkyard automatic to manual conversion.&lt;/p&gt;
-    &lt;br/&gt;
-    &lt;ul&gt;
-      
-        &lt;li&gt;5spd Manual&lt;/li&gt;
-      
-    &lt;/ul&gt;
-    
-      &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    
-  &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;blockquote class=&quot;card__quote&quot;&gt;
-  Good on gas, not much else.
-&lt;/blockquote&gt;
-
-
-
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
-  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CleanCamaro.jpg&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1993 Chevy Camaro&lt;/h3&gt;
-    &lt;h4&gt;&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CleanCamaro.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CamaroRear2.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CamaroDrivers.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CCamaroV6.jpg&quot; alt=&quot;&quot;&gt;
-      
-    &lt;/section&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;br/&gt;
-    &lt;ul&gt;
-      
-        &lt;li&gt;3.4L V6&lt;/li&gt;
-      
-        &lt;li&gt;4sp Automatic&lt;/li&gt;
-      
-    &lt;/ul&gt;
-    
-      &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    
-  &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;blockquote class=&quot;card__quote&quot;&gt;
-  
-&lt;/blockquote&gt;
-
-
-
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
-  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/IMG_20140428_142130.jpg&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1997 Ford F250&lt;/h3&gt;
-    &lt;h4&gt;&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/IMG_20140428_142130.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/F250Rear.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/F250Interior1.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/F250Engine2.jpg&quot; alt=&quot;&quot;&gt;
-      
-    &lt;/section&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;Required minimal fixes for the amount of miles it had. Parked then sold after transmission shift fork bent.&lt;/p&gt;
-    &lt;br/&gt;
-    &lt;ul&gt;
-      
-        &lt;li&gt;5.4L Triton V8&lt;/li&gt;
-      
-        &lt;li&gt;5sp Manual&lt;/li&gt;
-      
-        &lt;li&gt;4x4&lt;/li&gt;
-      
-        &lt;li&gt;HD-Towing package&lt;/li&gt;
-      
-    &lt;/ul&gt;
-    
-      &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    
-  &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;blockquote class=&quot;card__quote&quot;&gt;
-  
-&lt;/blockquote&gt;
-
-
-
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
-  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/DSCI0041.JPG&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;2000 Chevy Blazer&lt;/h3&gt;
-    &lt;h4&gt;&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/DSCI0041.JPG&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/DSCI0042.JPG&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/DSCI0038.JPG&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/IMG_20140425_134301.jpg&quot; alt=&quot;&quot;&gt;
-      
-    &lt;/section&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;br/&gt;
-    &lt;ul&gt;
-      
-        &lt;li&gt;4.3L Vortech V6&lt;/li&gt;
-      
-        &lt;li&gt;Automatic&lt;/li&gt;
-      
-        &lt;li&gt;4x4&lt;/li&gt;
-      
-    &lt;/ul&gt;
-    
-      &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    
-  &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;blockquote class=&quot;card__quote&quot;&gt;
-  Like a rock, it just sat there.
-&lt;/blockquote&gt;
-
-
-
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
-  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/1999SuperDutyFront.jpg&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1999 Ford F250&lt;/h3&gt;
-    &lt;h4&gt;&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/1999SuperDutyFront.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/1999SuperDuty.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/ResurfacedHeads.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/TritonRebuild3.jpg&quot; alt=&quot;&quot;&gt;
-      
-    &lt;/section&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;Bad head gaskets. Rebuilt top-end, machined &amp; pressure tested cylinder heads, complete gasket set. Traded for 1997 F150 Lariat.&lt;/p&gt;
-    &lt;br/&gt;
-    &lt;ul&gt;
-      
-        &lt;li&gt;5.4L Triton V8&lt;/li&gt;
-      
-        &lt;li&gt;5sp Manual&lt;/li&gt;
-      
-        &lt;li&gt;RWD&lt;/li&gt;
-      
-    &lt;/ul&gt;
-    
-      &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    
-  &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;blockquote class=&quot;card__quote&quot;&gt;
-  
-&lt;/blockquote&gt;
-
-
-
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
-  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/TransAm.jpg&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1986 Pontiac Trans Am&lt;/h3&gt;
-    &lt;h4&gt;&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/TransAm.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/TransAmRat.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/IMG_20121102_171216.jpg&quot; alt=&quot;&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/FirebirdRims.JPG&quot; alt=&quot;&quot;&gt;
-      
-    &lt;/section&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;Previous owner swapped out the original computer controlled carburetor but left original distributor and ecu. Removed useless wiring and replaced distributor with a vacuum advanced one and wired a toggle switch to controll the torque converter lock-up. Traded for 1993 Chevy Camaro.&lt;/p&gt;
-    &lt;br/&gt;
-    &lt;ul&gt;
-      
-        &lt;li&gt;5.0L Holley 650&lt;/li&gt;
-      
-        &lt;li&gt;4spd Automatic&lt;/li&gt;
-      
-        &lt;li&gt;T-Tops&lt;/li&gt;
-      
-    &lt;/ul&gt;
-    
-      &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    
-  &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;blockquote class=&quot;card__quote&quot;&gt;
-  
-&lt;/blockquote&gt;
-
-
-
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
-  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/lemons.jpg&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1995 Chrysler LeBaron&lt;/h3&gt;
-    &lt;h4&gt;&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/lemons.jpg&quot; alt=&quot;1995 Chrysler LeBaron&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/LeBaron/DSCI0001.JPG&quot; alt=&quot;1995 Chrysler LeBaron side&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/LeBaron/InsideLeBaron.JPG&quot; alt=&quot;1995 Chrysler LeBaron interior&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/LeBaron/Engine.JPG&quot; alt=&quot;1995 Chrysler LeBaron engine&quot;&gt;
-      
-    &lt;/section&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;Flimsy body and convertible top, bad cooling system, overheats easily...&lt;/p&gt;
-    &lt;br/&gt;
-    &lt;ul&gt;
-      
-        &lt;li&gt;Junk&lt;/li&gt;
-      
-        &lt;li&gt;Useless&lt;/li&gt;
-      
-        &lt;li&gt;Uncomfortable&lt;/li&gt;
-      
-    &lt;/ul&gt;
-    
-      &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    
-  &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;blockquote class=&quot;card__quote&quot;&gt;
-  Don't even recycle one, drop it in the ocean.
-&lt;/blockquote&gt;
-
-
-
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
-  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepFront.jpg&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1995 Jeep Grand Cherokee Limited&lt;/h3&gt;
-    &lt;h4&gt;&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepFront.jpg&quot; alt=&quot;1995 Jeep Grand Cherokee Limited front&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepBack.jpg&quot; alt=&quot;1995 Jeep Grand Cherokee Limited back&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepInt.jpg&quot; alt=&quot;1995 Jeep Grand Cherokee Limited interior&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepInt2.jpg&quot; alt=&quot;1995 Jeep Grand Cherokee Limited interior&quot;&gt;
-      
-    &lt;/section&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;Swapped transfer case to a custom hybrid selectrac for RWD mode.&lt;/p&gt;
-    &lt;br/&gt;
-    &lt;ul&gt;
-      
-        &lt;li&gt;5.2L Magnum V8&lt;/li&gt;
-      
-        &lt;li&gt;Automatic&lt;/li&gt;
-      
-        &lt;li&gt;AWD&lt;/li&gt;
-      
-    &lt;/ul&gt;
-    
-      &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    
-  &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;blockquote class=&quot;card__quote&quot;&gt;
-  
-&lt;/blockquote&gt;
-
-
-
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
-  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/IMG_20121102_171139.jpg&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1988 Pontiac Trans Am GTA&lt;/h3&gt;
-    &lt;h4&gt;&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/IMG_20121102_171139.jpg&quot; alt=&quot;1988 Pontiac Trans Am GTA front&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/IMG_20121102_171118.jpg&quot; alt=&quot;1988 Pontiac Trans Am GTA side&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/tpiV8.JPG&quot; alt=&quot;1988 Pontiac Trans Am GTA engine&quot;&gt;
-      
-    &lt;/section&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;br/&gt;
-    &lt;ul&gt;
-      
-        &lt;li&gt;5.0L Tuned Port Injection&lt;/li&gt;
-      
-        &lt;li&gt;5spd Manual&lt;/li&gt;
-      
-        &lt;li&gt;WS6 suspension package&lt;/li&gt;
-      
-    &lt;/ul&gt;
-    
-      &lt;div&gt;
-        &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
-      &lt;/div&gt;
-    
-  &lt;/section&gt;
-&lt;/section&gt;
-
-&lt;blockquote class=&quot;card__quote&quot;&gt;
-  Burnout machine
-&lt;/blockquote&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><summary type="html">2000 Subaru Outback Sedan Fancy leather interior with seat warmers and good on gas, but small. 2.5L 4cyl Automatic AWD 1997 Ford F150 Lariat R&amp;R tons of badly done stero and remote start wiring. Wired dual electric cooling fans with relays and temperature controller. 1993 Honda Civic This was a junkyard automatic to manual conversion. 5spd Manual Good on gas, not much else. 1993 Chevy Camaro 3.4L V6 4sp Automatic 1997 Ford F250 Required minimal fixes for the amount of miles it had. Parked then sold after transmission shift fork bent. 5.4L Triton V8 5sp Manual 4x4 HD-Towing package 2000 Chevy Blazer 4.3L Vortech V6 Automatic 4x4 Like a rock, it just sat there. 1999 Ford F250 Bad head gaskets. Rebuilt top-end, machined &amp; pressure tested cylinder heads, complete gasket set. Traded for 1997 F150 Lariat. 5.4L Triton V8 5sp Manual RWD 1986 Pontiac Trans Am Previous owner swapped out the original computer controlled carburetor but left original distributor and ecu. Removed useless wiring and replaced distributor with a vacuum advanced one and wired a toggle switch to controll the torque converter lock-up. Traded for 1993 Chevy Camaro. 5.0L Holley 650 4spd Automatic T-Tops 1995 Chrysler LeBaron Flimsy body and convertible top, bad cooling system, overheats easily... Junk Useless Uncomfortable Don't even recycle one, drop it in the ocean. 1995 Jeep Grand Cherokee Limited Swapped transfer case to a custom hybrid selectrac for RWD mode. 5.2L Magnum V8 Automatic AWD 1988 Pontiac Trans Am GTA 5.0L Tuned Port Injection 5spd Manual WS6 suspension package Burnout machine</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/gears.svg" /></entry><entry><title type="html">Open Source</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source.html" rel="alternate" type="text/html" title="Open Source" /><published>2019-03-26T00:00:00+00:00</published><updated>2019-03-26T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/26/Open-Source.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
-  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/headline-creation-tool.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Headline Creation Tool&lt;/h3&gt;
     &lt;h4&gt;Feb, 2019&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/headline-creation-tool.png&quot; alt=&quot;Headline Creation Tool&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/headline-creation-tool-old.png&quot; alt=&quot;Headline Creation Tool old preview&quot;&gt;
+        &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/headline-creation-tool.png&quot; alt=&quot;Headline Creation Tool&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/headline-creation-tool-old.png&quot; alt=&quot;Headline Creation Tool old preview&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -497,15 +48,21 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/rattlesnake.svg&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/backgrounds/rattlesnake.svg&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;VENoM-Docker&lt;/h3&gt;
     &lt;h4&gt;Feb, 2019&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/rattlesnake.svg&quot; alt=&quot;Rattlesnake&quot;&gt;
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/backgrounds/rattlesnake.svg&quot; alt=&quot;Rattlesnake&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -538,15 +95,21 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/ideaLightBulb.svg&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/backgrounds/ideaLightBulb.svg&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Google Scholar Citation Scraper&lt;/h3&gt;
     &lt;h4&gt;Sep, 2018&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/ideaLightBulb.svg&quot; alt=&quot;Bright Idea&quot;&gt;
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/backgrounds/ideaLightBulb.svg&quot; alt=&quot;Bright Idea&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -573,15 +136,21 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/beriBanner.svg&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/backgrounds/beriBanner.svg&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Berkeley Existential Risk Initiative&lt;/h3&gt;
     &lt;h4&gt;Jul, 2018&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/beriBanner.svg&quot; alt=&quot;BERI Banner&quot;&gt;
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/backgrounds/beriBanner.svg&quot; alt=&quot;BERI Banner&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -631,18 +200,28 @@
   &lt;a href=&quot;https://medium.com/@jakobud/css-polyfluidsizing-using-calc-vw-breakpoints-and-linear-equations-8e15505d21ab&quot;&gt;CSS Poly Fluid Sizing using calc(), vw, breakpoints and linear equations&lt;/a&gt;
 &lt;/p&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;Demo&quot;]" /><category term="ES6" /><category term="Javascript" /><category term="HTML5" /><category term="Canvas" /><category term="Fit" /><category term="Text" /><summary type="html">Font size adjusts to the width of the parent element regardless of existing style or width * Some restrictions may apply, see documentation for details. Russell Chapman is not liable for any damages due to implementing this in a production environment. My fit text method There are many ways to fix text to the width of the parent. The first option from this CSS Tricks article fitting text to a container recommends using viewport units and a magic number to fit text in a container. The problem is, finding this magic number. My solution involves measuring the text width at a few font sizes on a hidden HTML5 canvas. Those sample measurements are fed into a JS-Polynomial-Regression model which can then predict the font-size for any width container. After getting the predicted font-size; it is clamped to min/max sizes, converted to vw viewport units, and applied to the elements' style. Font size can be predicted with as few as 3 sample measurements which is insanely fast compared to my first approach of measuring text widths while recursively increasing the font-size until they fit. It's not exact (especially on resize), but the fluid vw units are close enough. It’s a trade-off of simplicity vs. accuracy. I've not found any JS library that implements this method, so I may build an NPM package out of it to share with the world. CSS Poly Fluid Sizing using calc(), vw, breakpoints and linear equations</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/measurement.jpg" /></entry><entry><title type="html">Development Portfolio</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html" rel="alternate" type="text/html" title="Development Portfolio" /><published>2019-03-15T00:00:00+00:00</published><updated>2019-03-15T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/15/Portfolio.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/responsive_home.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/responsive_home.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Google site to Gatsby conversion&lt;/h3&gt;
     &lt;h4&gt;Jan, 2019&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/responsive_home.png&quot; alt=&quot;Responsive Layout&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/responsive_netlify.png&quot; alt=&quot;Responsive Netlify-CMS UI&quot;&gt;
+        &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/responsive_home.png&quot; alt=&quot;Responsive Layout&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/dentalcarearvada_admin_collections.png&quot; alt=&quot;Netlify-CMS patient reviews&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/dentalcarearvada_admin_review.png&quot; alt=&quot;Netlify-CMS patient review editor&quot;&gt;
+      
+        &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/responsive_netlify.png&quot; alt=&quot;Responsive Netlify-CMS UI&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/dentalcarearvada_admin_collections.png&quot; alt=&quot;Netlify-CMS patient reviews&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/dentalcarearvada/dentalcarearvada_admin_review.png&quot; alt=&quot;Netlify-CMS patient review editor&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -675,19 +254,29 @@
 &lt;/blockquote&gt;
 
 
+  
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/crowdox.com.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/crowdox.com.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;CrowdOx SEM Optimizations&lt;/h3&gt;
     &lt;h4&gt;Dec, 2018&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/crowdox.com.png&quot; alt=&quot;CrowdOx&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/crowdox.com-blog.png&quot; alt=&quot;CrowdOx Blog&quot;&gt;
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/crowdox.com.png&quot; alt=&quot;CrowdOx&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/crowdox.com-help.png&quot; alt=&quot;CrowdOx Help&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/crowdox.com-blog.png&quot; alt=&quot;CrowdOx Blog&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/crowdox.com-help.png&quot; alt=&quot;CrowdOx Help&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -724,15 +313,21 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/magnafire.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/magnafire.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Magnafire Media&lt;/h3&gt;
     &lt;h4&gt;Nov, 2018&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/magnafire.png&quot; alt=&quot;Nuxt site for Magnafire Media&quot;&gt;
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/magnafire.png&quot; alt=&quot;Nuxt site for Magnafire Media&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -767,19 +362,29 @@
 &lt;/blockquote&gt;
 
 
+  
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/paulhershey.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/paulhershey.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Jekyll Portfolio Site&lt;/h3&gt;
     &lt;h4&gt;Oct, 2018&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/paulhershey.png&quot; alt=&quot;www.paulhershey.com&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/Persona.png&quot; alt=&quot;Persona Element&quot;&gt;
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/paulhershey.png&quot; alt=&quot;www.paulhershey.com&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/Quote.png&quot; alt=&quot;Quote Element&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/Persona.png&quot; alt=&quot;Persona Element&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/Quote.png&quot; alt=&quot;Quote Element&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -816,15 +421,21 @@
 &lt;/blockquote&gt;
 
 
+  
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/g-widgets.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/g-widgets.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;WordPress to Jekyll Conversion&lt;/h3&gt;
     &lt;h4&gt;Oct, 2018&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/g-widgets.png&quot; alt=&quot;G-Widgets&quot;&gt;
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/g-widgets.png&quot; alt=&quot;G-Widgets&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -849,17 +460,25 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/multiThreadedDownloaderB2.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/multiThreadedDownloaderB2.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Multithreaded Downloader&lt;/h3&gt;
     &lt;h4&gt;Jul, 2018&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/multiThreadedDownloaderB2.png&quot; alt=&quot;Multithreaded Downloader Backblaze B2&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/multiThreadedDownloaderGD.png&quot; alt=&quot;Multithreaded Downloader Google Drive&quot;&gt;
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/multiThreadedDownloaderB2.png&quot; alt=&quot;Multithreaded Downloader Backblaze B2&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/multiThreadedDownloaderGD.png&quot; alt=&quot;Multithreaded Downloader Google Drive&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -898,17 +517,25 @@
 &lt;/blockquote&gt;
 
 
+  
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/afterDawnShowcase.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/afterDawnShowcase.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Taboola/Outbrain recommended content clone&lt;/h3&gt;
     &lt;h4&gt;Jun, 2018&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/afterDawnShowcase.png&quot; alt=&quot;Taboola/Outbrain Clone Showcase&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/afterDawnDesktop.png&quot; alt=&quot;Taboola/Outbrain Clone Desktop&quot;&gt;
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/afterDawnShowcase.png&quot; alt=&quot;Taboola/Outbrain Clone Showcase&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/afterDawnDesktop.png&quot; alt=&quot;Taboola/Outbrain Clone Desktop&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -939,15 +566,21 @@
 &lt;/blockquote&gt;
 
 
+  
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/identity-jekyll-theme-updates.jpg&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/identity-jekyll-theme-updates.jpg&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Identity Jekyll Theme&lt;/h3&gt;
     &lt;h4&gt;Apr, 2018&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/identity-jekyll-theme-updates.jpg&quot; alt=&quot;Identity Jekyll Theme&quot;&gt;
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/identity-jekyll-theme-updates.jpg&quot; alt=&quot;Identity Jekyll Theme&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -980,17 +613,25 @@
 &lt;/blockquote&gt;
 
 
+  
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/MCRA/MCRAHome.jpg&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/MCRA/MCRAHome.jpg&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Membership Directory Plugin&lt;/h3&gt;
     &lt;h4&gt;Jun, 2013&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/MCRA/MCRAHome.jpg&quot; alt=&quot;MCRA Home&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/MCRA/PublicDirectorySearchChanges.png&quot; alt=&quot;MCRA Public Directory&quot;&gt;
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/MCRA/MCRAHome.jpg&quot; alt=&quot;MCRA Home&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/MCRA/PublicDirectorySearchChanges.png&quot; alt=&quot;MCRA Public Directory&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -1025,15 +666,21 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/JoomlaExtFilters.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/JoomlaExtFilters.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Joomla Extension&lt;/h3&gt;
     &lt;h4&gt;Mar, 2013&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/JoomlaExtFilters.png&quot; alt=&quot;Joomla Extension&quot;&gt;
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/JoomlaExtFilters.png&quot; alt=&quot;Joomla Extension&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -1064,19 +711,29 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/HoneyStinger.hive.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/HoneyStinger.hive.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;HoneyStinger&lt;/h3&gt;
     &lt;h4&gt;Nov, 2012&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/HoneyStinger.hive.png&quot; alt=&quot;Honey Stinger Hive&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/HoneyStinger.png&quot; alt=&quot;Honey Stinger&quot;&gt;
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/HoneyStinger.hive.png&quot; alt=&quot;Honey Stinger Hive&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/HoneyStingerLogo.png&quot; alt=&quot;Honey Stinger Logo&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/HoneyStinger.png&quot; alt=&quot;Honey Stinger&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/HoneyStingerLogo.png&quot; alt=&quot;Honey Stinger Logo&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -1103,17 +760,25 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/wizzardForm.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/wizzardForm.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;RevClaims&lt;/h3&gt;
     &lt;h4&gt;Oct, 2012&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/wizzardForm.png&quot; alt=&quot;Wizzard Form&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/revClaims.png&quot; alt=&quot;Rev Claims&quot;&gt;
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/wizzardForm.png&quot; alt=&quot;Wizzard Form&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/revClaims.png&quot; alt=&quot;Rev Claims&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -1150,19 +815,29 @@
 &lt;/blockquote&gt;
 
 
+  
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/starmazy.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/starmazy.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Star Mazy Games&lt;/h3&gt;
     &lt;h4&gt;Oct, 2012&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/starmazy.png&quot; alt=&quot;StarMazy&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/StarMazyGames/Image2.png&quot; alt=&quot;StarMazy Games&quot;&gt;
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/starmazy.png&quot; alt=&quot;StarMazy&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/StarMazyGames/starmazy2.png&quot; alt=&quot;StarMazy 2&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/StarMazyGames/Image2.png&quot; alt=&quot;StarMazy Games&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/StarMazyGames/starmazy2.png&quot; alt=&quot;StarMazy 2&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -1192,59 +867,24 @@
   Russell was the perfect person for this job. He was very responsive to my queries, completed the project in record time, and the code was also very clean.
 &lt;/blockquote&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Google site to Gatsby conversion Jan, 2019 Converted a 10 year old Google Site to React/Gatsby.js while retaining all of the original meta data, tags, and page routes for search engine ratings. It uses Netlify-CMS for managing patient reviews. Gatbsy React Netlify CMS Responsive Design Static Site Generator Demo site Russell advised using Gatsby instead and Netlify CMS for a SSG project. Fantastic experience working with Russell and look forward to future projects. CrowdOx SEM Optimizations Dec, 2018 Implemented SEO fixes based on a SEMRUSH Audit Report on several subdomains that include a static Jekyll based marketing site, a Ruby on Rails site, and a blog based on the Ghost publishing platform. Refactored and simplified all Sass and JavaScript assets for future-proofing. Updated meta tags, remove duplicates, fix dead and non https links, enabled GZIP compression, and minified assets. Jekyll Ruby on Rails Ghost-Blog JavaScript Handlebars Sass SEO crowdox.com SEMRush Magnafire Media Nov, 2018 Developed site using Nuxt.js and Netlify-CMS based on a Sketch/Webflow design. This mostly involved setting up Nuxt layouts to display JSON based content, modifying the theme to work with Bootstrap-Vue, and integrating Netlify for editing content. Nuxt.js Vue.js Netlify CMS Bootstrap-Vue Responsive Design Static Site Generator Magnafire Media Russell did an excellent job. His work was passed on to a larger team who had nothing but great things to say about his work. Will hire again. Jekyll Portfolio Site Oct, 2018 Improved page speed scores, implemented lazy loading, background videos, and CSS/Design updates on a Jekyll based site. Jekyll Sass CSS Bootstrap 4 Cloudinary Responsive Design Static Site Generator www.paulhershey.com Russell is excellent to work with. He always had a positive attitude and was a great communicator. I would highly suggest working with him, he will certainly be one of my go-to people for development needs. WordPress to Jekyll Conversion Oct, 2018 Converted an existing WordPress/PHP site to a Jekyll static site. Makes use of the Jekyll Archives plugin. Jekyll WordPress Static Site Generator www.g-widgets.com Multithreaded Downloader Jul, 2018 A browser based multithreaded downloader implemented in Javascript. Uses HTTP range requests, HTML5 Filesystem API, and Web Streams API to download multiple chunks of a file in parallel. Works with Backblaze-B2 and Google Drive. JavaScript HTML5 Filesystem Web Streams API Google Drive Backblaze B2 RxJS GitHub Project More Info Russell did an incredible job of taking a very lightly defined project and building it exactly to my expectations. It was a challenging project where it wasn't obvious whether it was even possible. Russell did tons of research and experimented with many different technical approaches. In the end, he solved the problem and did a great job with the solution. Taboola/Outbrain recommended content clone Jun, 2018 Lightweight Taboola/Outbrain recommended content clone for embedding in several sites. Uses CSS Grid and vanilla JavaScript for responsive layout, small file size, and compatibility. Responsive Design Javascript Ajax CSS afterdawn.com Excellent professional. Exceeded my expectations for quality of work and adherence to the deadlines. Identity Jekyll Theme Apr, 2018 Updated Font-Awesome from v4 to v5 and added more social links to _config.yml Jekyll Liquid Sass CSS Static Site Generator GitHub Absolutely fantastic experience. Went above and beyond when I forgot to include a request in original statement of work and happily completed the request. Will certainly shortlist for future efforts! Membership Directory Plugin Jun, 2013 WordPress plug-in to replace the default user system. Member accounts, profile management, public member directory. PHP SQL WordPress JavaScript jQuery CSS mscra.com More Info Joomla Extension Mar, 2013 Joomla extension development, UI PHP Joomla Javascript MooTools HTML5 CSS3 Blue Bridge Development HoneyStinger Nov, 2012 Tables to HTML5 layout conversion. HTML5 CSS3 Internet Archive Link Smithwood Drive RevClaims Oct, 2012 Long patient form conversion to semantic HTML5, multi-page, wizard-type form. E-Mail notifications on submission, monthly CSV reports, client-side form validation, image captcha. PHP JavaScript jQuery HTML5 CSS3 Internet Archive Link Like Minds Design Russell is knowledgeable, friendly, gives updates on progress, and meets deadlines. Highly recommended!!! Star Mazy Games Oct, 2012 Adobe Flash to HTML5/JavaScript user interface conversion. JavaScript jQuery HTML5 CSS3 StarMazy Games Russell was the perfect person for this job. He was very responsive to my queries, completed the project in record time, and the code was also very clean.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/filesOnAShelf.svg" /></entry><entry><title type="html">Development History</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History.html" rel="alternate" type="text/html" title="Development History" /><published>2019-03-14T00:00:00+00:00</published><updated>2019-03-14T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/14/History.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/MVC1.png&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Multi-user content management system&lt;/h3&gt;
-    &lt;h4&gt;Sep, 2012&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/MVC1.png&quot; alt=&quot;MVC CMS&quot;&gt;
-      
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/MVC2.png&quot; alt=&quot;MVC CMS&quot;&gt;
-      
-    &lt;/section&gt;
-  &lt;/header&gt;
-  &lt;section class=&quot;card__body&quot;&gt;
-    &lt;p&gt;A Multi-user content management system. Client app made with RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API using PHP/Slim/MongoDB and hosted on OpenShift.&lt;/p&gt;
-    &lt;br/&gt;
-    &lt;ul&gt;
-      
-        &lt;li&gt;PHP/SLIM&lt;/li&gt;
-      
-        &lt;li&gt;MongoDB&lt;/li&gt;
-      
-        &lt;li&gt;JavaScript&lt;/li&gt;
-      
-        &lt;li&gt;HTML5&lt;/li&gt;
-      
-        &lt;li&gt;CSS3&lt;/li&gt;
-      
-    &lt;/ul&gt;
     
-      &lt;div&gt;
-        &lt;a href=&quot;https://chpmnrssll.github.io/advanced-static-site/about/2018/01/20/MVC.html&quot;&gt;More info&lt;/a&gt;
-      &lt;/div&gt;
+      &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/MVCSite.png&quot;&gt;
     
-      &lt;div&gt;
-        &lt;a href=&quot;https://github.com/chpmnrssll/multi-CMS&quot;&gt;GitHub&lt;/a&gt;
-      &lt;/div&gt;
-    
-  &lt;/section&gt;
-&lt;/section&gt;
-
-
-
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
-  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/MVCSite.png&quot;&gt;
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Content Management System&lt;/h3&gt;
     &lt;h4&gt;Sep, 2013&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/MVCSite.png&quot; alt=&quot;Content Management System&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/MVCProjects.png&quot; alt=&quot;Content Management System&quot;&gt;
+        &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/MVCSite.png&quot; alt=&quot;Content Management System&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/MVCCode.png&quot; alt=&quot;Content Management System&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/MVCProjects.png&quot; alt=&quot;Content Management System&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/MVCCode.png&quot; alt=&quot;Content Management System&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -1277,15 +917,72 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/casket.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/MVC1.png&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Multi-user content management system&lt;/h3&gt;
+    &lt;h4&gt;Sep, 2012&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/MVC1.png&quot; alt=&quot;MVC CMS&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/MVC2.png&quot; alt=&quot;MVC CMS&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;A Multi-user content management system. Client app made with RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API using PHP/Slim/MongoDB and hosted on OpenShift.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;PHP/SLIM&lt;/li&gt;
+      
+        &lt;li&gt;MongoDB&lt;/li&gt;
+      
+        &lt;li&gt;JavaScript&lt;/li&gt;
+      
+        &lt;li&gt;HTML5&lt;/li&gt;
+      
+        &lt;li&gt;CSS3&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://chpmnrssll.github.io/advanced-static-site/about/2018/01/20/MVC.html&quot;&gt;More info&lt;/a&gt;
+      &lt;/div&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://github.com/chpmnrssll/multi-CMS&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/casket.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Colorado Casket Company&lt;/h3&gt;
     &lt;h4&gt;Jun 20, 2012&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/casket.png&quot; alt=&quot;CCC&quot;&gt;
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/casket.png&quot; alt=&quot;CCC&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -1314,15 +1011,76 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/critter.png&quot;&gt;
-    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Mr. Tom&amp;#39;s Critters&lt;/h3&gt;
-    &lt;h4&gt;Oct 2, 2012&lt;/h4&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/about/recoil.svg&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Multi Theft Auto&lt;/h3&gt;
+    &lt;h4&gt;2010 ~ 2012&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/critter.png&quot; alt=&quot;Critters&quot;&gt;
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/about/recoil.svg&quot; alt=&quot;Gun recoil&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/about/warp.svg&quot; alt=&quot;Warp&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/about/radar.jpg&quot; alt=&quot;Radar map&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/about/kDST.png&quot; alt=&quot;K-DST&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Lua server and client game resources for Multi Theft Auto&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;Muliplayer&lt;/li&gt;
+      
+        &lt;li&gt;Gameplay&lt;/li&gt;
+      
+        &lt;li&gt;Lua&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://github.com/chpmnrssll/MTA-Resources&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    
+      &lt;div&gt;
+        &lt;a href=&quot;https://mtasa.com/&quot;&gt;Multi Theft Auto&lt;/a&gt;
+      &lt;/div&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/critter.png&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Mr. Tom&amp;#39;s Critters&lt;/h3&gt;
+    &lt;h4&gt;Oct 2, 2012&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/critter.png&quot; alt=&quot;Critters&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -1349,15 +1107,21 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/gallery.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/gallery.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Photo Gallery&lt;/h3&gt;
     &lt;h4&gt;Aug 14, 2012&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/gallery.png&quot; alt=&quot;Gallery&quot;&gt;
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/gallery.png&quot; alt=&quot;Gallery&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -1388,17 +1152,25 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/growmall.com.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/growmall.com.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;GrowMall&lt;/h3&gt;
     &lt;h4&gt;2000&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/growmall.com.png&quot; alt=&quot;Growmall&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/growmall.com.forum.png&quot; alt=&quot;Growmall Forum&quot;&gt;
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/growmall.com.png&quot; alt=&quot;Growmall&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/growmall.com.forum.png&quot; alt=&quot;Growmall Forum&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -1425,17 +1197,25 @@
 &lt;/section&gt;
 
 
+  
 
-  &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/professional/static.virtualave.net.index.png&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/static.virtualave.net.index.png&quot;&gt;
+    
     &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;Static Design&lt;/h3&gt;
     &lt;h4&gt;1999-2000&lt;/h4&gt;
-    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/static.virtualave.net.index.png&quot; alt=&quot;Static Design&quot;&gt;
       
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/professional/static.virtualave.net.j3d.png&quot; alt=&quot;Static Design Java 3D applet&quot;&gt;
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/static.virtualave.net.index.png&quot; alt=&quot;Static Design&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/professional/static.virtualave.net.j3d.png&quot; alt=&quot;Static Design Java 3D applet&quot;&gt;
+      
       
     &lt;/section&gt;
   &lt;/header&gt;
@@ -1459,7 +1239,7 @@
       &lt;/div&gt;
     
   &lt;/section&gt;
-&lt;/section&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Multi-user content management system Sep, 2012 A Multi-user content management system. Client app made with RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API using PHP/Slim/MongoDB and hosted on OpenShift. PHP/SLIM MongoDB JavaScript HTML5 CSS3 More info GitHub Content Management System Sep, 2013 Custom content management system built with PHP using vanilla MVC architecture. PHP SQL Activerecord JavaScript jQuery HTML5 CSS3 GitHub Colorado Casket Company Jun 20, 2012 Advertising, product, and info site. Content management system, product catalog db, image resizing and caching on the server. PHP SQL ImageMagic HTML5 CSS3 Internet Archive link Mr. Tom&amp;#39;s Critters Oct 2, 2012 Content management system and design for animal resuce and adoption site. PHP SQL HTML5 CSS3 Photo Gallery Aug 14, 2012 Content management system and design for a photography portfolio. PHP SQL HTML5 CSS3 JavaScript jQuery GrowMall 2000 One of my first clients. Organic and hydropodic growing supply site, forums, and chat (Java applet). SHTML (Server side includes) JavaScript CSS Java Applets Internet Archive link Static Design 1999-2000 My first web development consulting site. SHTML (Server side includes!) JavaScript CSS Java Applets Internet Archive link</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/roadSunsetMountains.svg" /></entry><entry><title type="html">About</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html" rel="alternate" type="text/html" title="About" /><published>2019-03-13T00:00:00+00:00</published><updated>2019-03-13T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html">&lt;section class=&quot;code-stats&quot;&gt;
+&lt;/section&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="Programming" /><category term="Professional" /><category term="Portfolio" /><summary type="html">Content Management System Sep, 2013 Custom content management system built with PHP using vanilla MVC architecture. PHP SQL Activerecord JavaScript jQuery HTML5 CSS3 GitHub Multi-user content management system Sep, 2012 A Multi-user content management system. Client app made with RequireJS, Backbone.js, Marionette.js, Bootstrap and hosted on GitHub pages. Server is a simple REST API using PHP/Slim/MongoDB and hosted on OpenShift. PHP/SLIM MongoDB JavaScript HTML5 CSS3 More info GitHub Colorado Casket Company Jun 20, 2012 Advertising, product, and info site. Content management system, product catalog db, image resizing and caching on the server. PHP SQL ImageMagic HTML5 CSS3 Internet Archive link Multi Theft Auto 2010 ~ 2012 Lua server and client game resources for Multi Theft Auto Muliplayer Gameplay Lua GitHub Multi Theft Auto Mr. Tom&amp;#39;s Critters Oct 2, 2012 Content management system and design for animal resuce and adoption site. PHP SQL HTML5 CSS3 Photo Gallery Aug 14, 2012 Content management system and design for a photography portfolio. PHP SQL HTML5 CSS3 JavaScript jQuery GrowMall 2000 One of my first clients. Organic and hydropodic growing supply site, forums, and chat (Java applet). SHTML (Server side includes) JavaScript CSS Java Applets Internet Archive link Static Design 1999-2000 My first web development consulting site. SHTML (Server side includes!) JavaScript CSS Java Applets Internet Archive link</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/roadSunsetMountains.svg" /></entry><entry><title type="html">About</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html" rel="alternate" type="text/html" title="About" /><published>2019-03-13T00:00:00+00:00</published><updated>2019-03-13T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2019/03/13/Site.html">&lt;section class=&quot;code-stats&quot;&gt;
   &lt;table&gt;
     &lt;thead&gt;
       &lt;tr&gt;
@@ -1663,13 +1443,13 @@
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/about/marcus.svg&quot; alt=&quot;In an engine compartment&quot;&gt;
+    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/about/marcus.svg&quot; alt=&quot;Born in an engine compartment&quot;&gt;
     &lt;h3&gt;About&lt;/h3&gt;
     &lt;h4&gt;History&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/music/guitarNeckPick.jpg&quot; alt=&quot;Guitar&quot;/&gt;
-      &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/automotive/wrenches.jpg&quot; alt=&quot;Wrenches&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/about/tlif.jpg&quot; alt=&quot;TLIF Fusion&quot;/&gt;
+      &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/music/guitarNeckPick.jpg&quot; alt=&quot;Guitar&quot;/&gt;
+      &lt;img class=&quot;image image--lazyload image__thumb--alt&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/wrenches.jpg&quot; alt=&quot;Wrenches&quot;/&gt;
+      &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/about/tlif.svg&quot; alt=&quot;TLIF Fusion&quot;/&gt;
     &lt;/section&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
@@ -1684,7 +1464,7 @@
 
 &lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/backgrounds/technician.svg&quot; alt=&quot;Technician&quot;&gt;
+    &lt;img class=&quot;image image--lazyload image__cover&quot; data-src=&quot;/advanced-static-site/assets/images/backgrounds/technician.svg&quot; alt=&quot;Technician&quot;&gt;
     &lt;h3&gt;Skills&lt;/h3&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
@@ -1699,48 +1479,48 @@
 &lt;/section&gt;
 
 &lt;section class=&quot;image__list&quot;&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoSass.png&quot; alt=&quot;Sass&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/bemCSS.svg&quot; alt=&quot;BEM&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoCSS3.png&quot; alt=&quot;CSS3&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoNodeJS.png&quot; alt=&quot;Node.js&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoHTML5.png&quot; alt=&quot;HTML5&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMongoDB.png&quot; alt=&quot;MongoDB&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJavascript.png&quot; alt=&quot;JavaScript&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPHP.png&quot; alt=&quot;PHP&quot;/&gt;
-  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMySQL.png&quot; alt=&quot;MySQL&quot;/&gt;
-  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJava.png&quot; alt=&quot;Java&quot;/&gt;
-  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPython.png&quot; alt=&quot;Python&quot;/&gt;
-  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJQuery.png&quot; alt=&quot;jQuery&quot;/&gt;
-  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPerl.png&quot; alt=&quot;Perl&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWebComponents.png&quot; alt=&quot;Web Components&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPolymer.png&quot; alt=&quot;Polymer&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoAMP.png&quot; alt=&quot;AMP&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoBackbone.png&quot; alt=&quot;Backbone&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoMarionette.png&quot; alt=&quot;Marionette&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWebGL.png&quot; alt=&quot;WebGL&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoLua.png&quot; alt=&quot;Lua&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJekyll.png&quot; alt=&quot;Jekyll&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoJoomla.png&quot; alt=&quot;Joomla&quot;/&gt;
-  &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/logo/logoWordpress.png&quot; alt=&quot;Wordpress&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoRubyOnRails.png&quot; alt=&quot;Ruby on Rails&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoBower.png&quot; alt=&quot;Bower&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGrunt.png&quot; alt=&quot;Grunt&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGulp.png&quot; alt=&quot;Gulp&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoGithub.png&quot; alt=&quot;GitHub&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/linuxArch.png&quot; alt=&quot;Arch Linux&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/linuxDebian.png&quot; alt=&quot;Debian Linux&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/linuxGnome.png&quot; alt=&quot;Gnome&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoSass.png&quot; alt=&quot;Sass&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/bemCSS.svg&quot; alt=&quot;BEM&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoCSS3.png&quot; alt=&quot;CSS3&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoNodeJS.png&quot; alt=&quot;Node.js&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoHTML5.png&quot; alt=&quot;HTML5&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoMongoDB.png&quot; alt=&quot;MongoDB&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoJavascript.png&quot; alt=&quot;JavaScript&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoPHP.png&quot; alt=&quot;PHP&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb--alt&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoMySQL.png&quot; alt=&quot;MySQL&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb--alt&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoJava.png&quot; alt=&quot;Java&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb--alt&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoPython.png&quot; alt=&quot;Python&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb--alt&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoJQuery.png&quot; alt=&quot;jQuery&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb--alt&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoPerl.png&quot; alt=&quot;Perl&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoWebComponents.png&quot; alt=&quot;Web Components&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoPolymer.png&quot; alt=&quot;Polymer&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoAMP.png&quot; alt=&quot;AMP&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoBackbone.png&quot; alt=&quot;Backbone&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoMarionette.png&quot; alt=&quot;Marionette&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoWebGL.png&quot; alt=&quot;WebGL&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoLua.png&quot; alt=&quot;Lua&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoJekyll.png&quot; alt=&quot;Jekyll&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoJoomla.png&quot; alt=&quot;Joomla&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb--alt&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoWordpress.png&quot; alt=&quot;Wordpress&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoRubyOnRails.png&quot; alt=&quot;Ruby on Rails&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoBower.png&quot; alt=&quot;Bower&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoGrunt.png&quot; alt=&quot;Grunt&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoGulp.png&quot; alt=&quot;Gulp&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoGithub.png&quot; alt=&quot;GitHub&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/software/linuxArch.png&quot; alt=&quot;Arch Linux&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/software/linuxDebian.png&quot; alt=&quot;Debian Linux&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/software/linuxGnome.png&quot; alt=&quot;Gnome&quot;/&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;image__list&quot;&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoUpWork.png&quot; alt=&quot;upWork&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoElance.png&quot; alt=&quot;Elance&quot;/&gt;
-  &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoODesk.png&quot; alt=&quot;oDesk&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoUpWork.png&quot; alt=&quot;upWork&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoElance.png&quot; alt=&quot;Elance&quot;/&gt;
+  &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoODesk.png&quot; alt=&quot;oDesk&quot;/&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/professional/saasCert.png&quot; alt=&quot;edX certification&quot;&gt;
+    &lt;img class=&quot;image image--lazyload image__cover&quot; data-src=&quot;/advanced-static-site/assets/images/professional/saasCert.png&quot; alt=&quot;edX certification&quot;&gt;
     &lt;h3&gt;Education&lt;/h3&gt;
     &lt;h4&gt;Computer Science&lt;/h4&gt;
   &lt;/header&gt;
@@ -1761,7 +1541,7 @@
 
 &lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/professional/AICert.png&quot; alt=&quot;edX certification&quot;&gt;
+    &lt;img class=&quot;image image--lazyload image__cover&quot; data-src=&quot;/advanced-static-site/assets/images/professional/AICert.png&quot; alt=&quot;edX certification&quot;&gt;
     &lt;h3&gt;Education&lt;/h3&gt;
     &lt;h4&gt;Computer Science&lt;/h4&gt;
   &lt;/header&gt;
@@ -1782,13 +1562,13 @@
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/logo/logoPPCC.svg&quot; alt=&quot;PPCC&quot;&gt;
+    &lt;img class=&quot;image image--lazyload image__cover&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoPPCC.svg&quot; alt=&quot;PPCC&quot;&gt;
     &lt;h3&gt;Education&lt;/h3&gt;
     &lt;h4&gt;Computer Science&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/books/C++ProgrammingProgramDesignIncludingDataStructures4thEdition.jpg&quot; alt=&quot;C++ Programming Program Design Including Data Structures 4th Edition&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/logo/logoNASA.png&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/books/TheIllustrated3DStudioQuickReferenceR4.jpg&quot; alt=&quot;The Illustrated 3D Studio Quick Reference R4&quot;/&gt;
+      &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/books/C++ProgrammingProgramDesignIncludingDataStructures4thEdition.jpg&quot; alt=&quot;C++ Programming Program Design Including Data Structures 4th Edition&quot;/&gt;
+      &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoNASA.png&quot;/&gt;
+      &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/books/TheIllustrated3DStudioQuickReferenceR4.jpg&quot; alt=&quot;The Illustrated 3D Studio Quick Reference R4&quot;/&gt;
     &lt;/section&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
@@ -1810,13 +1590,13 @@
 
 &lt;section class=&quot;card&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/logo/logoASE.svg&quot; alt=&quot;ASE&quot;&gt;
+    &lt;img class=&quot;image image--lazyload image__cover&quot; data-src=&quot;/advanced-static-site/assets/images/logo/logoASE.svg&quot; alt=&quot;ASE&quot;&gt;
     &lt;h3&gt;ASE Certifications&lt;/h3&gt;
     &lt;h4&gt;Medium-Heavy Truck&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-right&quot;&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/aseT6.jpg&quot; alt=&quot;ASE T6&quot;/&gt;
-      &lt;img class=&quot;image image__thumb--alt&quot; src=&quot;/advanced-static-site/assets/images/automotive/freightliner.gif&quot; alt=&quot;Freightliner&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/aseT7.jpg&quot; alt=&quot;ASE T7&quot;/&gt;
+      &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/aseT6.jpg&quot; alt=&quot;ASE T6&quot;/&gt;
+      &lt;img class=&quot;image image--lazyload image__thumb--alt&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/freightliner.gif&quot; alt=&quot;Freightliner&quot;/&gt;
+      &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/aseT7.jpg&quot; alt=&quot;ASE T7&quot;/&gt;
     &lt;/section&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
@@ -1831,13 +1611,12 @@
 
 &lt;section class=&quot;card card--alt&quot;&gt;
   &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
-    &lt;img class=&quot;image image__cover&quot; src=&quot;/advanced-static-site/assets/images/about/purple_tentacle.gif&quot; alt=&quot;Purple Tentacle&quot;&gt;
+    &lt;img class=&quot;image image--lazyload image__cover&quot; data-src=&quot;/advanced-static-site/assets/images/about/obamalien.svg&quot; alt=&quot;Obamalien&quot;&gt;
     &lt;h3&gt;Demoscene&lt;/h3&gt;
-    &lt;h4&gt;Purple Tentacle&lt;/h4&gt;
     &lt;section class=&quot;image__list--fixed-left&quot;&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/pcVGAPalette.jpg&quot; alt=&quot;VGA Palette&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/pcFastTracker2.jpg&quot; alt=&quot;FastTracker 2&quot;/&gt;
-      &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/software/cakewalkSequencer.jpg&quot; alt=&quot;Cakewalk&quot;/&gt;
+      &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/software/pcVGAPalette.jpg&quot; alt=&quot;VGA Palette&quot;/&gt;
+      &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/software/pcFastTracker2.jpg&quot; alt=&quot;FastTracker 2&quot;/&gt;
+      &lt;img class=&quot;image image--lazyload image__thumb&quot; data-src=&quot;/advanced-static-site/assets/images/software/cakewalkSequencer.jpg&quot; alt=&quot;Cakewalk&quot;/&gt;
     &lt;/section&gt;
   &lt;/header&gt;
   &lt;section class=&quot;card__body&quot;&gt;
@@ -1928,4 +1707,544 @@
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
---&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="About" /><category term="Programming" /><summary type="html">Russell Chapman Full Stack Developer I've been involved with the internet and programming since the mid 90's. I've studied a wide variety of programming languages and built everything from REST APIs, content management systems, single page apps, and more.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/about/primitiveAvatar.gif" /></entry></feed>
+--&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><category term="About" /><category term="Programming" /><summary type="html">Russell Chapman Full Stack Developer I've been involved with the internet and programming since the mid 90's. I've studied a wide variety of programming languages and built everything from REST APIs, content management systems, single page apps, and more.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/about/primitiveAvatar.gif" /></entry><entry><title type="html">Mechanical</title><link href="https://chpmnrssll.github.io/advanced-static-site/about/2018/03/28/Mechanical.html" rel="alternate" type="text/html" title="Mechanical" /><published>2018-03-28T00:00:00+00:00</published><updated>2018-03-28T00:00:00+00:00</updated><id>https://chpmnrssll.github.io/advanced-static-site/about/2018/03/28/Mechanical</id><content type="html" xml:base="https://chpmnrssll.github.io/advanced-static-site/about/2018/03/28/Mechanical.html">&lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur&quot; src=&quot;/advanced-static-site/assets/images/automotive/Acme-auto_1906_ad.jpg&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1999 Ford Expedition XLT&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb&quot; src=&quot;/advanced-static-site/assets/images/automotive/Acme-auto_1906_ad.jpg&quot; alt=&quot;1999 Ford Expedition XLT&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;A beast. Great for towing or hauling around lots of people.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5.4L Triton V8&lt;/li&gt;
+      
+        &lt;li&gt;Automatic&lt;/li&gt;
+      
+        &lt;li&gt;4x4&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0009.JPG&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;2000 Subaru Outback Sedan&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0009.JPG&quot; alt=&quot;2000 Subaru Outback Sedan side&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0013.JPG&quot; alt=&quot;2000 Subaru Outback Sedan front&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0017.JPG&quot; alt=&quot;2000 Subaru Outback Sedan interior&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/2000SubaruOutback/DSCI0015.JPG&quot; alt=&quot;2000 Subaru Outback Sedan engine&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Fancy leather interior with seat warmers and good on gas, but small.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;2.5L 4cyl&lt;/li&gt;
+      
+        &lt;li&gt;Automatic&lt;/li&gt;
+      
+        &lt;li&gt;AWD&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114032.jpg&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1997 Ford F150 Lariat&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114032.jpg&quot; alt=&quot;1997 Ford F150 Lariat side&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114117.jpg&quot; alt=&quot;1997 Ford F150 Lariat wheels&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114456.jpg&quot; alt=&quot;1997 Ford F150 Lariat interior&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1997FordF150Lariat/IMG_20140508_114214.jpg&quot; alt=&quot;1997 Ford F150 Lariat dash&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;R&amp;R tons of badly done stero and remote start wiring. Wired dual electric cooling fans with relays and temperature controller.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;4.6L Triton V8&lt;/li&gt;
+      
+        &lt;li&gt;Automatic&lt;/li&gt;
+      
+        &lt;li&gt;Lifted&lt;/li&gt;
+      
+        &lt;li&gt;4x4&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1993HondaCivic/CivicSide.jpg&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1993 Honda Civic&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1993HondaCivic/CivicSide.jpg&quot; alt=&quot;1993 Honda Civic side&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1993HondaCivic/CivicInterior3.jpg&quot; alt=&quot;1993 Honda Civic interior&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1993HondaCivic/CivicEngine.jpg&quot; alt=&quot;1993 Honda Civic engine&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/lemons.jpg&quot; alt=&quot;1993 Honda Civic&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;This was a junkyard automatic to manual conversion. Good on gas, not much else.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5spd Manual&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CleanCamaro.jpg&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1993 Chevy Camaro&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CleanCamaro.jpg&quot; alt=&quot;1993 Chevy Camaro&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CamaroRear2.jpg&quot; alt=&quot;1993 Chevy Camaro rear&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CamaroDrivers.jpg&quot; alt=&quot;1993 Chevy Camaro interior&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1993ChevyCamaro/CCamaroV6.jpg&quot; alt=&quot;1993 Chevy Camaro engine&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;3.4L V6&lt;/li&gt;
+      
+        &lt;li&gt;4sp Automatic&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/DSCI0041.JPG&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;2000 Chevy Blazer&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/DSCI0041.JPG&quot; alt=&quot;2000 Chevy Blazer front&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/DSCI0042.JPG&quot; alt=&quot;2000 Chevy Blazer rear&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/DSCI0038.JPG&quot; alt=&quot;2000 Chevy Blazer engine&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/2000ChevyBlazer/IMG_20140425_134301.jpg&quot; alt=&quot;2000 Chevy Blazer steering shaft u-joint mod&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Modified steering shaft with a u-joint one from a Jeep Cherokee.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;4.3L Vortech V6&lt;/li&gt;
+      
+        &lt;li&gt;Automatic&lt;/li&gt;
+      
+        &lt;li&gt;4x4&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/IMG_20140428_142130.jpg&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1997 Ford F250&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/IMG_20140428_142130.jpg&quot; alt=&quot;1997 Ford F250 side&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/F250Rear.jpg&quot; alt=&quot;1997 Ford F250 rear&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/F250Interior1.jpg&quot; alt=&quot;1997 Ford F250 interior&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1997FordF250/F250Engine2.jpg&quot; alt=&quot;1997 Ford F250 engine&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Required minimal fixes for the amount of miles it had. Parked then sold after transmission shift fork bent.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5.4L Triton V8&lt;/li&gt;
+      
+        &lt;li&gt;5sp Manual&lt;/li&gt;
+      
+        &lt;li&gt;HD-Towing package&lt;/li&gt;
+      
+        &lt;li&gt;4x4&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/1999SuperDutyFront.jpg&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1999 Ford F250&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/1999SuperDutyFront.jpg&quot; alt=&quot;1999 Ford F250 front&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/1999SuperDuty.jpg&quot; alt=&quot;1999 Ford F250&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/ResurfacedHeads.jpg&quot; alt=&quot;1999 Ford F250 cylinder heads&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1999FordF250/TritonRebuild3.jpg&quot; alt=&quot;1999 Ford F250 engine&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Bad head gaskets. Rebuilt top-end, machined &amp; pressure tested cylinder heads, complete gasket set. Traded for 1997 F150 Lariat.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5.4L Triton V8&lt;/li&gt;
+      
+        &lt;li&gt;5sp Manual&lt;/li&gt;
+      
+        &lt;li&gt;RWD&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/TransAm.jpg&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1986 Pontiac Trans Am&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/TransAm.jpg&quot; alt=&quot;1986 Pontiac Trans Am front&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/TransAmRat.jpg&quot; alt=&quot;1986 Pontiac Trans Am engine&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/IMG_20121102_171216.jpg&quot; alt=&quot;1986 Pontiac Trans Am interior&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/FirebirdRims.JPG&quot; alt=&quot;1986 Pontiac Trans Am rims&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Previous owner swapped out the original computer controlled carburetor but left original distributor and ecu. Removed useless wiring and replaced distributor with a vacuum advanced one and wired a toggle switch to controll the torque converter lock-up. Traded for 1993 Chevy Camaro.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5.0L Holley 650&lt;/li&gt;
+      
+        &lt;li&gt;4spd Automatic&lt;/li&gt;
+      
+        &lt;li&gt;T-Tops&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/lemons.jpg&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1995 Chrysler LeBaron&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/lemons.jpg&quot; alt=&quot;1995 Chrysler LeBaron&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/LeBaron/DSCI0001.JPG&quot; alt=&quot;1995 Chrysler LeBaron side&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/LeBaron/InsideLeBaron.JPG&quot; alt=&quot;1995 Chrysler LeBaron interior&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/LeBaron/Engine.JPG&quot; alt=&quot;1995 Chrysler LeBaron engine&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Flimsy body and convertible top, bad cooling system, overheats easily...&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;Junk&lt;/li&gt;
+      
+        &lt;li&gt;Useless&lt;/li&gt;
+      
+        &lt;li&gt;Uncomfortable&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card &quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/Jeep.jpg&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1995 Jeep Grand Cherokee Limited&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-right&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/Jeep.jpg&quot; alt=&quot;1995 Jeep Grand Cherokee Limited front&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepBack.jpg&quot; alt=&quot;1995 Jeep Grand Cherokee Limited back&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepInt.jpg&quot; alt=&quot;1995 Jeep Grand Cherokee Limited interior&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/1995JeepGrandCherokee/JeepInt2.jpg&quot; alt=&quot;1995 Jeep Grand Cherokee Limited interior&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Swapped transfer case to a custom hybrid selectrac for RWD mode.&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5.2L Magnum V8&lt;/li&gt;
+      
+        &lt;li&gt;Automatic&lt;/li&gt;
+      
+        &lt;li&gt;AWD&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;
+
+
+  
+
+  
+    &lt;section class=&quot;card card--alt&quot; itemscope itemtype=&quot;http://schema.org/BlogPosting&quot;&gt;
+  &lt;header class=&quot;card__header gradient-overlay&quot;&gt;
+    
+      &lt;img class=&quot;image image__blur image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/IMG_20121102_171139.jpg&quot;&gt;
+    
+    &lt;h3 class=&quot;animated-headline fit__text&quot; itemprop=&quot;name headline&quot;&gt;1988 Pontiac Trans Am GTA&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;section class=&quot;image__list--fixed-left&quot;&gt;
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/IMG_20121102_171139.jpg&quot; alt=&quot;1988 Pontiac Trans Am GTA front&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/IMG_20121102_171118.jpg&quot; alt=&quot;1988 Pontiac Trans Am GTA side&quot;&gt;
+      
+      
+      
+        &lt;img class=&quot;image image__thumb image--lazyload&quot; data-src=&quot;/advanced-static-site/assets/images/automotive/PontiacFirebird/tpiV8.JPG&quot; alt=&quot;1988 Pontiac Trans Am GTA engine&quot;&gt;
+      
+      
+    &lt;/section&gt;
+  &lt;/header&gt;
+  &lt;section class=&quot;card__body&quot;&gt;
+    &lt;p&gt;Burnout machine&lt;/p&gt;
+    &lt;br/&gt;
+    &lt;ul&gt;
+      
+        &lt;li&gt;5.0L Tuned Port Injection&lt;/li&gt;
+      
+        &lt;li&gt;WS6 suspension package&lt;/li&gt;
+      
+        &lt;li&gt;5spd Manual&lt;/li&gt;
+      
+    &lt;/ul&gt;
+    
+  &lt;/section&gt;
+&lt;/section&gt;</content><author><name>Russell Chapman</name></author><category term="[&quot;About&quot;]" /><category term="Featured" /><summary type="html">1999 Ford Expedition XLT A beast. Great for towing or hauling around lots of people. 5.4L Triton V8 Automatic 4x4 2000 Subaru Outback Sedan Fancy leather interior with seat warmers and good on gas, but small. 2.5L 4cyl Automatic AWD 1997 Ford F150 Lariat R&amp;R tons of badly done stero and remote start wiring. Wired dual electric cooling fans with relays and temperature controller. 4.6L Triton V8 Automatic Lifted 4x4 1993 Honda Civic This was a junkyard automatic to manual conversion. Good on gas, not much else. 5spd Manual 1993 Chevy Camaro 3.4L V6 4sp Automatic 2000 Chevy Blazer Modified steering shaft with a u-joint one from a Jeep Cherokee. 4.3L Vortech V6 Automatic 4x4 1997 Ford F250 Required minimal fixes for the amount of miles it had. Parked then sold after transmission shift fork bent. 5.4L Triton V8 5sp Manual HD-Towing package 4x4 1999 Ford F250 Bad head gaskets. Rebuilt top-end, machined &amp; pressure tested cylinder heads, complete gasket set. Traded for 1997 F150 Lariat. 5.4L Triton V8 5sp Manual RWD 1986 Pontiac Trans Am Previous owner swapped out the original computer controlled carburetor but left original distributor and ecu. Removed useless wiring and replaced distributor with a vacuum advanced one and wired a toggle switch to controll the torque converter lock-up. Traded for 1993 Chevy Camaro. 5.0L Holley 650 4spd Automatic T-Tops 1995 Chrysler LeBaron Flimsy body and convertible top, bad cooling system, overheats easily... Junk Useless Uncomfortable 1995 Jeep Grand Cherokee Limited Swapped transfer case to a custom hybrid selectrac for RWD mode. 5.2L Magnum V8 Automatic AWD 1988 Pontiac Trans Am GTA Burnout machine 5.0L Tuned Port Injection WS6 suspension package 5spd Manual</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chpmnrssll.github.io/advanced-static-site/assets/images/backgrounds/gears.svg" /></entry></feed>
