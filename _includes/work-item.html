@@ -1,11 +1,19 @@
 <section class="card {% cycle '', 'card--alt' %}" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="card__header gradient-overlay">
-    <img class="image image__blur" src="{{ site.baseurl }}{{ include.data.images[0].src }}">
+    {% if include.lazy == true %}
+      <img class="image image__blur image--lazyload" data-src="{{ site.baseurl }}{{ include.data.images[0].src }}">
+    {% else %}
+      <img class="image image__blur" src="{{ site.baseurl }}{{ include.data.images[0].src }}">
+    {% endif %}
     <h3 class="animated-headline fit__text" itemprop="name headline">{{ include.data.title | escape }}</h3>
     <h4>{{ include.data.date }}</h4>
     <section class="image__list--fixed{% cycle '-right', '-left' %}">
       {% for image in include.data.images %}
-      <img class="image image__thumb" src="{{ site.baseurl }}{{ image.src }}" alt="{{ image.alt }}">
+      {% if include.lazy == true %}
+        <img class="image image__thumb image--lazyload" data-src="{{ site.baseurl }}{{ image.src }}" alt="{{ image.alt }}">
+      {% else %}
+        <img class="image image__thumb" src="{{ site.baseurl }}{{ image.src }}" alt="{{ image.alt }}">
+      {% endif %}
       {% endfor %}
     </section>
   </header>

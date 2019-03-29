@@ -9,5 +9,9 @@ tags: Featured Programming Open Source Portfolio
 category: [ About ]
 ---
 {% for work in site.data.openSource %}
-  {% include work-item.html data=work%}
+  {% if forloop.first == true %}
+    {% include work-item.html data=work lazy=false %}
+  {% else %}
+    {% include work-item.html data=work lazy=true %}
+  {% endif %}
 {% endfor %}

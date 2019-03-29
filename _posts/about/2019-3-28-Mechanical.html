@@ -4,10 +4,14 @@ image: /assets/images/backgrounds/gears.svg
 header-image: /assets/images/backgrounds/gears.svg
 title: Mechanical
 subtitle: Stories
-date: 2019-3-28T00:00:00.000Z
+date: 2018-3-28T00:00:00.000Z
 tags: Featured
 category: [ About ]
 ---
 {% for work in site.data.mechanical %}
-  {% include work-item.html data=work%}
+  {% if forloop.first == true %}
+    {% include work-item.html data=work lazy=false %}
+  {% else %}
+    {% include work-item.html data=work lazy=true %}
+  {% endif %}
 {% endfor %}

@@ -5,8 +5,10 @@ import animateHeadlines from './animateHeadlines';
 import { animateContentIn, animateContentOut } from './animateContent';
 import runDemos from './canvasDemos';
 import FitText from './fittext';
+import ImageLoader from './imageLoader';
 
 const fitText = new FitText();
+const imageLoader = new ImageLoader();
 const zoom = mediumZoom({ background: '#000000aa' });
 
 function fitTextElements() {
@@ -19,15 +21,20 @@ function fitTextElements() {
   });
 }
 
+function pageSetup() {
+  imageLoader.lazyLoad();
+  zoom.attach('.image__thumb, .image__thumb--alt');
+  fitTextElements();
+  animateHeadlines();
+  animateFooter();
+  runDemos();
+}
+
 // Lazy load and animate in new content
 page('*', (context) => {
   // Initial page load
   if (context.init) {
-    zoom.attach('.image__thumb, .image__thumb--alt');
-    fitTextElements();
-    animateHeadlines();
-    animateFooter();
-    runDemos();
+    pageSetup();
     return;
   }
 
@@ -42,11 +49,7 @@ page('*', (context) => {
     const newContent = newDocument.querySelector('.content');
 
     animateContentIn(newContent);
-    fitTextElements();
-    animateHeadlines();
-    animateFooter();
-    runDemos();
-    zoom.attach('.image__thumb, .image__thumb--alt');
+    pageSetup();
   };
 
   request.open('GET', `${context.path}`, true);
