@@ -1,6 +1,6 @@
 import 'pathseg';
 import * as Matter from 'matter-js';
-import { SVGPathDataParser } from 'svg-pathdata';
+// import { SVGPathDataParser } from 'svg-pathdata';
 import { circles, rectangles } from './dummyAssets';
 
 export default class SVGLevel {
@@ -15,31 +15,71 @@ export default class SVGLevel {
       .then((data) => {
         const parser = new window.DOMParser();
         const doc = parser.parseFromString(data, 'image/svg+xml');
-        const paths = doc.querySelectorAll('path');
+        const rects = doc.querySelectorAll('rect');
+        // const paths = doc.querySelectorAll('path');
+        // const svg = doc.querySelector('svg');
+        // const svgWidth = parseInt(svg.getAttribute('width'), 10);
+        // const svgHeight = parseInt(svg.getAttribute('height'), 10);
 
         const levelObjs = [];
-        const svgParser = new SVGPathDataParser();
-        const colors = ['#556270', '#4ECDC4', '#C7F464', '#FF6B6B', '#C44D58'];
+        // const svgParser = new SVGPathDataParser();
+        const colors = ['#1122ee', '#22ee11', '#ee1122'];
 
-        paths.forEach((path) => {
-          const d = path.getAttribute('d');
-          const pathCommands = svgParser.parse(d);
-          const color = Matter.Common.choose(colors);
-          const vertices = Matter.Svg.pathToVertices(path, 10);
-          const objX = pathCommands[0].x;
-          const objY = pathCommands[0].y;
-          levelObjs.push(Matter.Bodies.fromVertices(objX, objY, vertices, {
+        rects.forEach((rect, index) => {
+          const color = colors[index % colors.length];
+          const x = rect.getAttribute('x');
+          const y = rect.getAttribute('y');
+          const width = rect.getAttribute('width');
+          const height = rect.getAttribute('height');
+          const options = {
             isStatic: true,
             render: {
               fillStyle: color,
-              strokeStyle: color,
-              lineWidth: 1,
             },
-          }, true));
+          };
+          const body = Matter.Bodies.rectangle(x, y, width, height, options);
+          console.log(x, y, width, height);
+          levelObjs.push(body);
         });
+        // paths.forEach((path, index) => {
+        //   // const color = Matter.Common.choose(colors);
+        //   const color = colors[index % colors.length];
+        //
+        //   // const d = path.getAttribute('d');
+        //   // const pathCommands = svgParser.parse(d);
+        //   // const objX = pathCommands[0].x;
+        //   // const objY = pathCommands[0].y;
+        //   const vertices = Matter.Svg.pathToVertices(path, 10);
+        //
+        //   // Matter.Vertices.scale(vertices, 8, 8);
+        //   const body = Matter.Bodies.fromVertices(
+        //     vertices[0].x,
+        //     vertices[0].y,
+        //     vertices,
+        //     {
+        //       isStatic: true,
+        //       render: {
+        //         fillStyle: color,
+        //         // strokeStyle: color,
+        //         // lineWidth: 1,
+        //       },
+        //     },
+        //     true,
+        //   );
+        //   // console.log(pathCommands);
+        //   // console.log(vertices);
+        //   // console.log(objX, objY);
+        //   // console.log(body);
+        //   const { min, max } = body.bounds;
+        //   const hw = (max.x - min.x) / 2;
+        //   const hh = (max.y - min.y) / 2;
+        //   Matter.Body.translate(body, { x: hw, y: hh });
+        //   // Matter.Body.scale(body, 2, 2);
+        //   levelObjs.push(body);
+        // });
 
         Matter.World.add(this.world, levelObjs);
-        setInterval(this.spawnLogos.bind(this), 500);
+        // setInterval(this.spawnLogos.bind(this), 500);
       });
   }
 

@@ -1,5 +1,5 @@
 export default class Viewport {
-  constructor(width = 256, height = 256, scale = 1.0) {
+  constructor(width = 256, height = 256, scale = 2.0) {
     this.x = width / 2;
     this.y = height / 2;
     this.scale = scale;

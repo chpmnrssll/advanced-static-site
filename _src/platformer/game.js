@@ -10,7 +10,7 @@ import controls from './controls';
 global.decomp = decomp;
 
 export default class Game {
-  constructor(width, height, canvas, resolution, baseurl = '') {
+  constructor(canvas, resolution, baseurl = '') {
     this.engine = Matter.Engine.create();
     this.world = this.engine.world;
     this.canvas = canvas;
@@ -28,8 +28,8 @@ export default class Game {
       engine: this.engine,
       options: {
         background: '#112244',
-        width: resolution.width,
-        height: resolution.height,
+        // width: resolution.width,
+        // height: resolution.height,
         showAngleIndicator: false,
         wireframes: false,
       },
@@ -58,7 +58,7 @@ export default class Game {
 
     // this.level = new DummyLevel(this.world, baseurl);
     this.level = new SVGLevel(this.world, baseurl, '/assets/images/level.svg');
-    this.player = new Player(this.engine, 25, 2200, baseurl);
+    this.player = new Player(this.engine, 0, -250, baseurl);
   }
 
   stop() {

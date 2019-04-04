@@ -7,7 +7,7 @@ export default function runDemos() {
       import(/* webpackChunkName: "Game" */ './platformer/game')
         .then(({ default: Game }) => {
           const baseurl = canvasDemo.getAttribute('baseurl') || '';
-          window.demo = new Game(1000, 1000, canvasDemo, { width: 640, height: 480 }, baseurl);
+          window.demo = new Game(canvasDemo, { width: 1280, height: 720 }, baseurl);
         });
         break;
       case 'Ascii':
