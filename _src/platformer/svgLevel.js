@@ -38,7 +38,7 @@ export default class SVGLevel {
             },
           };
           const body = Matter.Bodies.rectangle(x, y, width, height, options);
-          console.log(x, y, width, height);
+          // console.log(x, y, width, height);
           levelObjs.push(body);
         });
         // paths.forEach((path, index) => {

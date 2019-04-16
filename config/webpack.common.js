@@ -42,8 +42,7 @@ module.exports = {
     }]),
   ],
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.js$/,
         exclude: /(node_modules|bower_components)/,
         use: {
@@ -58,7 +57,13 @@ module.exports = {
         test: /\.(css|scss)$/,
         use: [
           MiniCSSExtractPlugin.loader,
-          { loader: 'css-loader', options: { importLoaders: 2, sourceMap: true } },
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 2,
+              sourceMap: true
+            }
+          },
           {
             loader: 'postcss-loader',
             options: {
@@ -67,7 +72,12 @@ module.exports = {
               },
             },
           },
-          { loader: 'sass-loader', options: { sourceMap: true } },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true
+            }
+          },
         ],
       },
       {
