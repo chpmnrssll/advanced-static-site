@@ -13,6 +13,7 @@
   &__container {
     @include container($container-padding);
     color: $link-color;
+    padding: 0;
   }
 
   &__logo-img {
