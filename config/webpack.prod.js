@@ -15,7 +15,10 @@ module.exports = Merge(CommonConfig, {
     publicPath: '/advanced-static-site/assets/', // publicPath must match baseurl in _config.yml
   },
   plugins: [
-    new CleanWebpackPlugin(['assets'], { root: path.resolve(__dirname, '..'), verbose: true }),
+    new CleanWebpackPlugin(['assets'], {
+      root: path.resolve(__dirname, '..'),
+      verbose: true,
+    }),
     new webpack.LoaderOptionsPlugin({
       minimize: true,
       debug: false,
