@@ -48,8 +48,8 @@
     }
 
     @at-root #{&}--update {
-      bottom: 0;
-      left: 0;
+      bottom: 1rem;
+      left: .5rem;
       pointer-events: all;
       position: absolute;
     }
