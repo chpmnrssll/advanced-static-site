@@ -11,13 +11,11 @@ export function animateContentIn(newContent) {
   const elementAnimation = tween({
     from: {
       opacity: 0,
-      rotateX: 15,
       scaleY: 0,
       z: -128,
     },
     to: {
       opacity: 1,
-      rotateX: 0,
       scaleY: 1,
       z: 0,
     },
@@ -36,13 +34,11 @@ export function animateContentOut() {
     const elementAnimation = tween({
       from: {
         opacity: 1,
-        rotateX: 0,
         scaleY: 1,
         z: 0,
       },
       to: {
         opacity: 0,
-        rotateX: 15,
         scaleY: 0,
         z: -512,
       },

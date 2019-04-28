@@ -22,12 +22,12 @@ function fitTextElements() {
 }
 
 function pageSetup() {
-  imageLoader.lazyLoad();
-  zoom.attach('.image__thumb, .image__thumb--alt');
   fitTextElements();
   animateHeadlines();
   animateFooter();
   runDemos();
+  imageLoader.lazyLoad();
+  zoom.attach('.image__thumb, .image__thumb--alt');
 }
 
 // Lazy load and animate in new content
