@@ -6,6 +6,9 @@
 @import 'modules/mixins';
 @import 'modules/variables';
 
+// https://jonsuh.com/hamburgers/
+@import '../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
+
 // Partials
 @import 'partials/animated-headline';
 @import 'partials/article';

@@ -20,6 +20,8 @@ $secondary-color-saturation: 60%;
 $secondary-color-lightness: 40%;
 $secondary-color: hsl($secondary-color-hue, $secondary-color-saturation, $secondary-color-lightness);
 
+$hamburger-layer-color: hsl($primary-color-hue, 65%, 60%);
+
 $text-color: #eee;
 $link-color: #68abde;
 

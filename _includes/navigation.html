@@ -1,20 +1,19 @@
 <nav class="navigation navigation--hidden" role="navigation">
-  <button class="navigation__button navigation__button--close" aria-label="Close Navigation">
-    <i class="fa fa-times">x</i>
-  </button>
   <section class="navigation__categories">
     <h4>Categories</h4>
-    <a class="navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/">Home</a>
-    <a class="navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/article/">Articles</a>
-    <a class="navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/demo/">Demos</a>
-    <!-- <a class="navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/news/">News</a> -->
-    <a class="navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/about/">About</a>
+    <a class="fit__text navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/" tabindex="1">Home</a>
+    <a class="fit__text navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/article/" tabindex="2">Articles</a>
+    <a class="fit__text navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/demo/" tabindex="3">Demos</a>
+    <!-- <a class="fit__text navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/news/">News</a> -->
+    <a class="fit__text navigation__link{% if page.url == site.baseurl %} navigation__link--active{% endif %}" href="{{ site.baseurl }}/about/" tabindex="4">About</a>
   </section>
 </nav>
 
 <nav class="navigation__overlay">
-  <button class="navigation__button navigation__button--open" aria-label="Open Navigation">
-    <i class="fa fa-bars">=</i>
+  <button class="navigation__button navigation__button--open hamburger hamburger--elastic" aria-controls="navigation" aria-label="Navigation Menu" type="button" tabindex="0">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
   </button>
   <button class="navigation__button navigation__button--update navigation--hidden" aria-label="Updates Available">
     <i class="fa fa-refresh"></i>

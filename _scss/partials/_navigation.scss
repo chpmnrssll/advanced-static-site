@@ -19,15 +19,21 @@
 
     background: none;
     border: 0;
-    color: var(--color-primary-light);
+    color: var(--primary-color-light);
     cursor: pointer;
     font-size: 1.7rem;
-    text-shadow: 2px 2px 4px var(--color-primary-darkest);
+    text-shadow: 2px 2px 4px var(--primary-color-darkest);
 
+    * {
+      text-shadow: 2px 2px 2px black;
+      * {
+        text-shadow: 2px 2px 2px black;
+      }
+    }
     &:active,
     &:hover {
-      color: var(--color-primary-lighter);
-      text-shadow: 0 0 8px var(--color-primary-light), 4px 4px 8px var(--color-primary-darkest);
+      color: var(--primary-color-lighter);
+      text-shadow: 0 0 8px var(--primary-color-light), 4px 4px 8px var(--primary-color-darkest);
     }
 
     @at-root #{&}--open {
@@ -79,12 +85,16 @@
     line-height: 2rem;
     margin: .5rem;
     text-decoration: none;
-    text-shadow: 0 0 8px var(--color-primary-darker);
+    text-shadow: 0 0 8px var(--primary-color-darker);
 
     span {
       line-height: 1em;
       padding-left: .2em;
       padding-top: .1em;
+    }
+
+    @at-root #{&}--active {
+      color: var(--primary-color-lighter);
     }
   }
 
@@ -93,16 +103,17 @@
     pointer-events: none;
     position: fixed;
     width: 100%;
-    z-index: 99;
+    z-index: 101;
   }
 
   @at-root #{&}__categories {
     background: linear-gradient(to bottom right, var(--color-gradient-start) 0%, var(--color-gradient-end) 100%);
     border: 1px solid rgba(255, 255, 255, .1);
     margin-left: .5rem;
+    margin-top: 3rem;
     padding: .5rem;
     position: relative;
-    width: 8rem;
+    width: 33%;
 
     a {
       margin-left: .5rem;

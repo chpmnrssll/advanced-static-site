@@ -1,22 +1,26 @@
 export default class Navigation {
   constructor() {
-    this.showButton = document.querySelector('.navigation__button--open');
-    this.hideButton = document.querySelector('.navigation__button--close');
+    // this.showButton = document.querySelector('.navigation__button--open');
+    // this.hideButton = document.querySelector('.navigation__button--close');
+    this.hamburgerButton = document.querySelector('.hamburger');
     this.topButton = document.querySelector('.navigation__button--top');
     this.navigation = document.querySelector('.navigation');
 
+    this.toggle = this.toggle.bind(this);
     this.show = this.show.bind(this);
     this.hide = this.hide.bind(this);
     this.onTouchStart = this.onTouchStart.bind(this);
     this.onTouchMove = this.onTouchMove.bind(this);
     this.onTouchEnd = this.onTouchEnd.bind(this);
 
+    this.showing = false;
     this.touching = false;
     this.currentX = 0;
     this.startX = 0;
 
-    this.showButton.addEventListener('click', this.show);
-    this.hideButton.addEventListener('click', this.hide);
+    // this.showButton.addEventListener('click', this.show);
+    // this.hideButton.addEventListener('click', this.hide);
+    this.hamburgerButton.addEventListener('click', this.toggle);
     this.navigation.addEventListener('click', this.hide);
     this.navigation.addEventListener('touchstart', this.onTouchStart, { passive: true });
     this.navigation.addEventListener('touchmove', this.onTouchMove, { passive: true });
@@ -49,14 +53,26 @@ export default class Navigation {
     }
   }
 
+  toggle() {
+    if (this.showing) {
+      this.hide();
+    } else {
+      this.show();
+    }
+  }
+
   show() {
     this.navigation.classList.remove('navigation--hidden');
     this.navigation.classList.add('navigation--showing');
+    this.hamburgerButton.classList.add('is-active');
+    this.showing = true;
   }
 
   hide() {
     this.navigation.classList.remove('navigation--showing');
     this.navigation.classList.add('navigation--hidden');
+    this.hamburgerButton.classList.remove('is-active');
+    this.showing = false;
   }
 
   // https://pawelgrzybek.com/page-scroll-in-vanilla-javascript/
