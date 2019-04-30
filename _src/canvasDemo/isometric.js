@@ -1,3 +1,5 @@
+import NoiseMap from 'noise-map';
+
 const CONTROLS = {
   up: 'w',
   right: 'd',
@@ -32,10 +34,10 @@ function coordinateToIndex(x, y, width) {
 }
 
 export default class Heightmap {
-  constructor(canvas, width, height, heightmap) {
+  constructor(canvas, width, height) {
     this.viewport = {
       angle: 0,
-      scale: 1.0,
+      scale: 1.25,
       heightScale: 0.25,
       x: 0,
       y: 0,
@@ -57,7 +59,8 @@ export default class Heightmap {
     this.viewport.context2D = this.viewport.canvas.getContext('2d');
     this.viewport.context2D.imageSmoothingEnabled = false;
 
-    // this.canvas.parentElement.appendChild(this.viewport.canvas)
+    // Un-comment to view to viewport canvas
+    // this.canvas.parentElement.appendChild(this.viewport.canvas);
 
     this.buffer = this.context2D.createImageData(width, height);
     this.buffer.size = width * height * 4;
@@ -67,16 +70,60 @@ export default class Heightmap {
     document.addEventListener('keydown', this.keydownHandler.bind(this));
     document.addEventListener('keyup', this.keyupHandler.bind(this));
 
-    this.heightmap = new window.Image();
-    this.heightmap.src = heightmap;
-    this.heightmap.addEventListener('load', this.loadHandler.bind(this));
-  }
+    this.generator = new NoiseMap.MapGenerator();
+    this.noiseMap = this.generator.createMap(400, 200, {
+      type: 'simplex',
+      amplitude: 1,
+      frequency: 0.5,
+      amplitudeCoef: 0.5,
+      frequencyCoef: 0.5,
+      elevation: 0.5,
+      step: false,
+      stepValue: 30,
+    });
 
-  loadHandler() {
-    this.viewport.pattern = this.viewport.context2D.createPattern(this.heightmap, 'repeat');
-    this.updateViewport();
-    this.heightmap.loaded = true;
+    // this.noiseMap.stepValues(30);
+
+    // draw the heights in B&W
+    this.noiseMap.draw(
+      this.viewport.context2D,
+      this.viewport.canvas.width,
+      this.viewport.canvas.height,
+      NoiseMap.STYLE.GRAY,
+    );
+
+    const heightData = this.viewport.context2D.getImageData(
+      0, 0, this.viewport.canvas.width, this.viewport.canvas.height,
+    );
+
+    // draw the colors
+    this.noiseMap.draw(
+      this.viewport.context2D,
+      this.viewport.canvas.width,
+      this.viewport.canvas.height,
+      NoiseMap.STYLE.REALISTIC,
+      true,
+    );
+
+    const colorData = this.viewport.context2D.getImageData(
+      0, 0, this.viewport.canvas.width, this.viewport.canvas.height,
+    );
+
+    // merge the colorData and heightData with height stored in the aplha
+    for (let i = 0; i < heightData.data.length; i += 4) {
+      heightData.data[i + 3] = heightData.data[i];
+      heightData.data[i + 2] = colorData.data[i + 2];
+      heightData.data[i + 1] = colorData.data[i + 1];
+      heightData.data[i] = colorData.data[i];
+    }
+
+    this.viewport.context2D.putImageData(heightData, 0, 0);
+
+    this.heightmap = new window.Image();
+    this.heightmap.src = this.viewport.canvas.toDataURL();
+
     this.running = true;
+    this.updateViewport();
     this.update();
   }
 
@@ -135,6 +182,8 @@ export default class Heightmap {
       this.viewport.angle = (this.viewport.angle + 1) % 360;
     }
 
+    this.viewport.angle = (this.viewport.angle - 0.2) % 360;
+
     this.setViewport(this.viewport.x + xVel, this.viewport.y + yVel);
   }
 
@@ -160,10 +209,7 @@ export default class Heightmap {
     this.viewport.context2D.scale(this.viewport.scale, this.viewport.scale);
     this.viewport.context2D.rotate(this.viewport.angle * Math.PI / 180);
     this.viewport.context2D.translate(-this.viewport.canvas.centerX, -this.viewport.canvas.centerY);
-    // this.viewport.context2D.fillStyle = this.viewport.pattern;
-    // this.viewport.context2D.fillRect(
-    //   0, 0, this.viewport.canvas.width, this.viewport.canvas.height,
-    // );
+
     this.viewport.context2D.drawImage(
       this.heightmap,
       this.viewport.x,
@@ -175,7 +221,7 @@ export default class Heightmap {
       this.viewport.canvas.width,
       this.viewport.canvas.height,
     );
-    this.viewport.context2D.restore();
+
     this.viewport.map = this.viewport.context2D.getImageData(
       0, 0, this.viewport.canvas.width, this.viewport.canvas.height,
     );
@@ -184,6 +230,8 @@ export default class Heightmap {
     for (let i = 0; i < this.viewport.map.data.length; i += 4) {
       this.viewport.map.data[i + 3] *= this.viewport.heightScale;
     }
+
+    this.viewport.context2D.restore();
   }
 
 
@@ -211,9 +259,6 @@ export default class Heightmap {
           isoPos.y - height + this.viewport.canvas.centerY / 4,
           this.buffer.width,
         );
-        // bufferIndex += parseInt(
-        //   this.viewport.canvas.height * this.viewport.heightScale, 10,
-        // ) * this.buffer.lineHeight;
         let fade = 0;
 
         while (height > 0) {
@@ -233,7 +278,7 @@ export default class Heightmap {
           this.buffer.data[bufferIndex] = r - fade;
           this.buffer.data[bufferIndex + 1] = g - fade;
           this.buffer.data[bufferIndex + 2] = b - fade;
-          this.buffer.data[bufferIndex + 3] = 255 - (fade << 2);
+          this.buffer.data[bufferIndex + 3] = 255 - (fade << 1);
 
           bufferIndex += this.buffer.lineHeight;
           height--;
@@ -255,6 +300,7 @@ export default class Heightmap {
       w: w16,
       h: h9,
     };
+
     this.context2D.drawImage(
       this.heightmap,
       overlay.x,
